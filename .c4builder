@@ -1,0 +1,22 @@
+{
+	"projectName": "datagov-compliance",
+	"homepageName": "Overview",
+	"rootFolder": "src",
+	"distFolder": "docs",
+	"generateMD": true,
+	"generatePDF": false,
+	"generateCompleteMD": false,
+	"generateCompletePDF": false,
+	"generateWEB": true,
+	"includeNavigation": false,
+	"includeTableOfContents": true,
+	"webTheme": "//unpkg.com/docsify/lib/themes/vue.css",
+	"repoUrl": "https://github.com/GSA/datagov-compliance",
+	"webPort": "3000",
+	"includeBreadcrumbs": true,
+	"generateLocalImages": false,
+	"includeLinkToDiagram": false,
+	"diagramsOnTop": false,
+	"charset": "UTF-8",
+	"hasRun": true
+}
