@@ -1,0 +1,18 @@
+
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+
+LAYOUT_WITH_LEGEND()
+title data.gov Dashboard Context
+
+Person(public, "Dashboard viewer", "A member of the public or agency personnel")
+
+Boundary(atob, "ATO boundary") {
+    System(dashboard, "data.gov dashboard", "Displays quality check information data from various agencies. Also verifies uploaded files.")
+}
+
+System_Ext(agencysites, "Agency websites", "Main website for the monitored agencies")
+
+Rel(public, dashboard, "view agency reports, use validation forms")
+Rel_Neighbor(dashboard, agencysites, "crawls open data information") 
+@enduml
