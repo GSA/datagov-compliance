@@ -1,0 +1,25 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+title data.gov Dashboard System
+
+Person(public, "Dashboard viewer", "A member of the public or agency personnel")
+
+Boundary(atob, "ATO boundary") {
+    System_Boundary(dashboard, "data.gov dashboard") {
+        Container(dashboard_app, "Web Application", "PHP, CodeIgniter", "Delivers static HTML/CSS and forms")
+    }
+    ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
+    ContainerDb(dashboard_s3, "Blob Store", "AWS S3", "Stores crawled data.json and digitalstrategy.json files")
+}
+
+System_Ext(agencysites, "Agency websites", "Main website for the monitored agencies")
+
+Rel(public, dashboard_app, "views static content, uploads data.json", "https GET/POST (443)")
+Rel_Neighbor(dashboard_app, agencysites, "crawls data.json and digitalstrategy.json files", "https GET/HEAD (443)") 
+Rel(dashboard_app, dashboard_db, "reads agency info, reads/writes reports, ", "postgres (5432)")
+Rel(dashboard_app, dashboard_s3, "stores crawled files", "https GET/POST(443)")
+@enduml
