@@ -11,9 +11,9 @@ Person(public, "Dashboard viewer", "A member of the public or agency personnel")
 Boundary(atob, "ATO boundary") {
     System_Boundary(dashboard, "data.gov dashboard") {
         Container(dashboard_app, "Web Application", "PHP, CodeIgniter", "Delivers static HTML/CSS and forms")
+        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
+        ContainerDb(dashboard_s3, "Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
     }
-    ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
-    ContainerDb(dashboard_s3, "Blob Store", "AWS S3", "Stores crawled data.json and digitalstrategy.json files")
 }
 
 System_Ext(agencysites, "Agency websites", "Main website for the monitored agencies")
