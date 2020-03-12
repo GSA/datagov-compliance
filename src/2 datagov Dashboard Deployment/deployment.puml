@@ -14,51 +14,72 @@ Deployment_Node(aws, "AWS GovCloud", "Amazon Web Services Region") {
                 Deployment_Node(production, "production space") {
                     System_Boundary(dashboard, "data.gov dashboard") {
                         Container(dashboard_app, "Web Application x2", "PHP, CodeIgniter", "Delivers static HTML/CSS and forms")
-                        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
-                        ContainerDb(dashboard_s3, "Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
                     }
                 }
                 Deployment_Node(staging, "staging space") {
                     System_Boundary(dashboard_staging, "data.gov dashboard") {
                         Container(dashboard_app_staging, "Web Application x2", "PHP, CodeIgniter", "Delivers static HTML/CSS and forms")
-                        ContainerDb(dashboard_db_staging, "PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
-                        ContainerDb(dashboard_s3_staging, "Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
                     }
                 }
                 Deployment_Node(management, "management space") {
                     Container(backup_app, "Backup app", "Python", "Makes and restores DB backups across spaces")
+                }
+            }
+            Deployment_Node(cloudgov-services, "cloud.gov-provided services") {
+                ' Logging
+                System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
+                Rel(staging, cloudgov_logdrain, "stdout/stderr")
+                Rel(production, cloudgov_logdrain, "stdout/stderr")
+                Rel(management, cloudgov_logdrain, "stdout/stderr")
+                Rel(team, cloudgov_logdrain, "reviews logs", "https (443)")
+                Boundary(prodservices, "Production services") {
+                    ContainerDb(dashboard_db, "Production PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
+                    ContainerDb(dashboard_s3, "Production Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
+                }
+                Boundary(stagingservices, "Staging services") {
+                    ContainerDb(dashboard_db_staging, "Staging PostgreSQL Database", "AWS RDS", "Stores agency information and reports")
+                    ContainerDb(dashboard_s3_staging, "Staging Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
+                }
+                Boundary(managementservices, "Management services") {
                     ContainerDb(backup_s3, "Blob Store", "AWS S3", "Stores backups")
                 }
             }
+
         }
+
+
+        ' Backups flow
+        Rel(backup_app, backup_s3, "reads/writes DB dumps", "https (443)")
+        Rel(backup_app, dashboard_db, "dumps", "postgres (5432)")
+        Rel(backup_app, dashboard_db_staging, "restores", "postgres (5432)")
     }
 }
 
-Rel(backup_app, backup_s3, "reads/writes DB dumps", "https (443)")
-Rel(backup_app, dashboard_db, "dumps", "postgres (5432)")
-Rel(backup_app, dashboard_db_staging, "restores", "postgres (5432)")
-
-
+' Customer access
 Person_Ext(public, "Dashboard viewer", "A member of the public or agency personnel")
 Deployment_Node(computer, "Computing Device", "MS Windows, OS X, or Linux"){
     System_Ext(browser, "Web Browser", "any modern version")
 }
+Deployment_Node(github, "GitHub", "VCS SaaS"){
+    System_Ext(github_repo, "Code repository", "https://.../GSA/project-open-data-dashboard")
+}
 
 System_Ext(agencysites, "Agency websites", "Main website for the monitored agencies")
+
+' Deployment
 System_Ext(circleci, "CircleCI", "CI/CD SaaS")
-System_Ext(github, "GitHub", "VCS SaaS")
-
-
+System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
 Rel(team, github, "1) commits code to branch and makes pull-request")
 Rel(github, circleci, "2) notifies of changes", "GitHub API")
 Rel(circleci, circleci, "3) runs unit/integration tests on branch")
 Rel_Back(github, circleci, "4) reports test results", "GitHub API")
+Rel_Back(github, snyk, "5) reports vulnerable depencies", "GitHub API")
 Rel_Back(approver, github, "5) requests review")
-Rel(approver, github, "6) approves and merges PR to master")
-Rel(circleci, dashboard_app_staging, "7) pushes code to staging space", "Cloud Foundry API")
-Rel(circleci, circleci, "8) runs smoke tests on staging")
-Rel(circleci, dashboard_app, "9) pushes code to production space", "Cloud Foundry API")
-Rel(circleci, dashboard_app, "10) periodically triggers crawls", "Cloud Foundry API")
+Rel(approver, github, "7) approves and merges PR to master")
+Rel(circleci, dashboard_app_staging, "8) pushes code to staging space", "Cloud Foundry API")
+Rel(circleci, circleci, "9) runs smoke tests on staging")
+Rel(circleci, dashboard_app, "10) pushes code to production space", "Cloud Foundry API")
+Rel(circleci, dashboard_app, "11) periodically triggers crawls", "Cloud Foundry API")
 
 Rel(dashboard_app, agencysites, "crawls data.json and digitalstrategy.json files", "https GET/HEAD (443)") 
 Rel(dashboard_app, dashboard_db, "reads agency info, reads/writes reports, ", "postgres (5432)")
