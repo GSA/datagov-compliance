@@ -5,7 +5,7 @@
 LAYOUT_WITH_LEGEND()
 title data.gov Dashboard Context
 
-Person(public, "Public", "A member of the public or agency personnel")
+Person(public, "Public Dashboard User", "A member of the public or agency personnel")
 
 Boundary(atob, "ATO boundary") {
     System(dashboard, "data.gov dashboard", "Displays quality check information data from various agencies. Also verifies uploaded files.")
