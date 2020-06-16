@@ -101,15 +101,16 @@ The services provided by Data.gov (in scope for this SSP) are:
 - Project Open Data Dashboard (PHP web application)
   A dashboard for measuring open data progress by agencies per OMB Directive M-13-13. The dashboard also provides a number of lightweight converters and validators and serves as the location for support tools provided by Data.gov for agencies.
 
-
+dashboard.data.gov logical view
+![dashboard.data.gov logical view](http://www.plantuml.com/plantuml/png/RP51ZzCm48Nl_XL3BxJIabuuxMdBjeALkhiLj498IDKadhI6YIVOutGhn7_7QMXLfCqf7i_CU-_pNLGCcXe6Yuh5JZfWsRaA6Jf71_F6-OgJ9TYhjl5sEWruA7PEzwbCaK8bNibhKKapHHiS-evJcwRtxz-j6Brk7fTJHgMekRIzxxjVj6YpdZ7BsRVdpNhxzM7zQRjSV5mypSSJeqwPm6BSbuB15g-xCYiAKVnsyQBZDfNigXiOhKu_C3_FmYOR7EMB6JJKb1H0Qj0zmJ014W1tvAiZjATjddWqCUQj5oLWgZNtdtjluS733-pm1gYZS8IACSRlFgSXRsDUwoA8fyAO3vAynN0SeqhPgw-VeVnN6qtWju7yVJb6fMPyoPdxBaalnTxxtCMMyHZXLq9sceNtLFq4vsi93QeJ3_qWr44Qw30uIN68vIWMCECea0sxEXyXjIneoKBjED_cj7-C6QoSK0uuebEAlV41pe7AKwLtyuZEdmkG7PnmDkATIY1xqUqnVYQ-FCrrpFxzpjm3jH8qQwL8sJmxEoJgi_LByexj4xbT7WxNhFxtMGKyS0HfQM1n3IS3DtVaRMhuBm00)
 ```plantuml
 @startuml data.gov logical view
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
-title data.gov logical view
+title dashboard.data.gov logical view
 
-Person(public, "Public Dashboard User", "A member of the public or agency personnel")
+Person_Ext(public, "Public Dashboard User", "A member of the public or agency personnel")
 
 'note left of public : In java, every class\nextends this one.
 
@@ -182,6 +183,146 @@ The only access point visible on a public network is the cloud.gov-operated IaaS
 
 The following architectural diagram provides a visual depiction of the major components of data.gov and the direction of network traffic across the boundaries of the referenced systems. (Systems used in deployment and administration, as well as the content of the staging and management spaces, are described in a later section.)
 
+WordPress boundary view
+![www.data.gov boundary view](http://www.plantuml.com/plantuml/png/fLPXRzis4Fqy_ufRFgnEq4XRd6v0KHHLcomjO3TUvS8Rji4uYMU764Mg96NL6_hVTvHiMRQ11SNq8Q6aU-_UqoClUUKyMbyLQl2jrBcg1C63zwLx7iSMwsWb_KELLOviRhGdxQFS534AAr6lLLLMyPlhowb2xJzEnd61pfFbHuitN8rIautAmFq4Ait0WWd0Fn0iZLAcbde5Yei0jO23rz8wNXdWng1CZafjcADJUDfWdFns_t6scB-RlLsCR-zktzyCpmTUUaLGrtKaq6EqCcl8JAK5sWsi9TM3ALbdzB1iVcbIJ-7iPbSvdToVyNq21HKPMJ3BHfhelp_VCYnkF_jXMMLAvWoPDei0dXn0sm86QUC9qC6jpksczDBez_naa2W5UT2HXqSE19KozoG0BG6rjNnNSoGm6wVmGtG5bLRa71ZcjxLq185RH0FIebaENcyD3x5smSuyXJkpVgDC9SxEuPy1yDNLvE4nc-F2PXcCTbNVf1ldgMYyCja2LTQl0sLGN6QeKETapxQzal5hDWpRQy_GjLfOKtcoNFxYEuKRikubx3dRbowmDPBXvo2Lu_CMbqkPWoExbZdrUkmDUnC4Te4bi_ik_ixKaR8EBD0zP0Qjw3EyqslItfp2cwlRaNlm0ilomDbyFeUaB9NCCMGSV4tVJk6dw3eQFOMviQAq8SzdqLNqO_EMRxcdW-tn0sGB_d0dbjQiB1RX6_IkBuFJLIVn9kk955beP9nVMKf_6KCu0XawscNuuIODoosu9qMBi5xALMKREx0qDaZh6N7I4qWT3k4bbYLh_6yjRhHjceuWg_A_o1-fIBrXOd2UE-Qmb8e0dIFlcBer-sNGssRtazSCufymINvjg2eMgFqs04WS8AJT9khoNpbSE4J7YBiqkKH66Il_9W4fOjhatpyF0aFEDycqQQ5HRRX3-59AjQUPkVlrccfBxRHuJpLyeDt0C5fwRgHNspxiffjESFaIk14yXuiBIwMnta7bS4KN5_27ZkFVcy4Dm-lhqVcVSJnevytNebZByGRkgTqnU59KaBUReDhdPOjdlGplpzFze2XGu-fqruBKl6kAxZYqQkvkP_7qFfqTqZP--fovqQug_XTfHtOwa9ZiioG7bZvLvBnxXEc4uE0hVXtV0HHUS8IyXPi8SRz_oUqYJ9F96AwYxqD-Jqu3XFOKzA5DyntiDBOMi2OhbnkG8g3yvX7_HpsFveib52wkhUJUxP_q9ZL77Ypbnef6KUa-AHW-knvTFShgHiUiWMytd4x9Nf4MuJ-5Vm40)
+
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title www.data.gov boundary view
+Person(personnel, "Data.gov PMO", "A member of the data.gov PMO")
+Person_Ext(public, "Public", "Member of the public")
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Boundary(aws, "AWS GovCloud") {
+    Boundary(cloudgov, "cloud.gov") {
+    	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+        Boundary(atob, "data.gov ATO boundary") {
+            System_Boundary(dashboard, "data.gov Inventory") {
+                Container(dashboard_app, "<&layers> WWW Application", "PHP 7.4.3, Wordpress 5.2.6", "Presents content about the data.gov program")
+            }
+        }
+        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Contains content and configuration for the Wordpress site in www-app")
+        ContainerDb(dashboard_s3, "AWS S3 bucket", "AWS RDS", "Stores static file assets")
+    }
+}
+System_Ext(OMB, "OMB MAX", "Authentication As a Service")
+Boundary(gsa_saas, "GSA-authorized SaaS") {
+	System_Ext(dap, "DAP", "Analytics collection")
+	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+}
+personnel -> dap : **reports usage** \n//[https (443)]//
+public -> dap : **reports usage** \n//[https (443)]//
+Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(personnel, aws_alb, "manage data.gov program information", "https GET/POST (443)")
+Rel(public, aws_alb, "consume data.gov program information", "https GET/POST (443)")
+Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
+dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
+'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
+Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
+Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+@enduml
+```
+
+Catalog boundary view
+![catalog.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLRRRjj647sklcBgXyOsOh6rN208WY3qfKvGsLPC1MdH5i9eToInNUqoiqifR95_xomfKHUXDS87QxsSEMSkPqPwumDoAEUcysrkbIarmIo4mhzC4iPbTvg7MJakFR5oDf0DNUNc2MhEqIvCMPJ9rSNPmA0D7-xwoHnz89QhqPLOOsw9kqN4VWQb5SUv042O4KoSCMwPsoaOCGAq6dPUv-pbv428mJY5nbI2qKPuID1FVttuC1nzV3TyE-hVtDxSNn-VT48U3872WCPDkre-krEtWB4hhKQkO97JiZCWziwERZw7uw8-MZBFuIYTabKL3DPNH_4E9gI9qG3D2-CgeYHMXL45nqSdEr3bsEHAV0Rr8NhVqNnC36vIfzWOY9DrWG0zt5Z5LH5oP-_bffCQ0oeogtZbGLEHgq0Qa0ceiPN_bj8V6FOp-A5x3gKrv3qumUTbxWaYjkvsoEhwsBbSPNwCIn_p-PZ1hLjS6LVgenFufmFoj3OgNakznB0-njgrLjzabGyqZxb6i16QyROT68VwR8m6hI8-Md6b_Kj965RF1g6b6h4h0x6Ol_hEO4NiNyC6itdf8reTClmKG-KA0kDaaYlmn8jSqHR79k7WOe2j1jBXGwk3Dgczo5fdZNusTiXw6-6TNP0DRjUzVLfvRfn7M1GxcLqrmeIqA4GA6FiSSnjKOUOizBelkhtdSFLpUW_dtHVr6oOld1uGF26h6P2TvZQE4yES0iRW02Ml018YiQqdoXLaeOuRCZKZNHhozSXnQRs8aLqvdGdcfv9AYlgS8I_8XpYUVxgnc3XWcWZvJ3wLO-sZrL_MBHjSJy4tHM-VBvt3KrkJw_5MLVGuPkPyc39bx_jmBO1ZWLoBvl4wYyUtpkWOB3qLmlzG-Pu0FPBEFRoNNF-RmWSCj9xK_R8qDOabZs_dGWEurS6JJfFrbywMm1_kBeL0_i9T-ajDMugp3IidI6DFirQ-hVAc7aSUCGxhRPQUeNWvplyc3HbYLYjlUn8rHeLTfuEQmgAfXC63SiQGQgBRiRUqP6hsr3qjuP7MgyhPF3YE0cXu99jsESBPQn0YU0cdfqo5u-2Xz3YbqrFutIR9R_Nt1nnVNFHE_aYIJhFfljPBOjaVdQrermY138dmkOfH1rKq_XAlk6-lyysAcgCLqbepRKEzArcHZnXD5BStmsJma0rtu9eyjh5MGnX7IOiGuyvhlo7QeNi2jKKxt845kyyvUM0I2VhmL7m70Blb-ogy7LTu9RsBseszmurmoQzxbwLtVLbItyV6FJli73Jott6Dv6ktmtur3WlYV591hgDNg9x8VuzpRyCmeVR9adFXRdvIhFV6Ug54-C9_Cd3yuqNl_4bKtzj7ZNYm-fbq2FQ6h2xdvby0)
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title catalog.data.gov boundary view
+Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
+Person_Ext(public, "Public", "Member of the public")
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Boundary(aws, "AWS GovCloud") {
+    Boundary(cloudgov, "cloud.gov") {
+    	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+        Boundary(atob, "data.gov ATO boundary") {
+            System_Boundary(dashboard, "data.gov Inventory") {
+                Container(dashboard_app, "<&layers> Catalog Application", "Python 3.8.3, CKAN 2.8", "Presents a search engine for metadata about government open data. Schedules and runs through a queue of harvesting jobs to refresh records of known datasets")
+            }
+        }
+        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Holds the records of known datasets")
+        ContainerDb(dashboard_s3, "Redis Queue", "AWS RDS", "Holds the state of the queue of harvest jobs for the main application")
+    }
+}
+System_Ext(OMB, "OMB MAX", "Authentication As a Service")
+Boundary(gsa_saas, "GSA-authorized SaaS") {
+	System_Ext(dap, "DAP", "Analytics collection")
+	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+}
+personnel -> dap : **reports usage** \n//[https (443)]//
+public -> dap : **reports usage** \n//[https (443)]//
+Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
+Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
+Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
+dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
+'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
+Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
+Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+@enduml
+```
+
+Inventory boundary view
+![inventory.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLNlRzis4Fqy_HMtV5YJeB6sEWEAe2Yg_5XQp4cyoa4xR8Dn5iys0PfKISgkDlH_tvriorOCj9i_10VgxhsxntVCcn3HnsfXak-rBKob2EOnbk4YJJskUZCTvzMa2kGBPoFPs2lS8aNbDTgbgSeglJe_6ngqyV5ka2umHF9yDBxYRDIMVAyKx6TGMIvSC034ES7K6UDMsix0S1AWLT3vh7tWo04JWt456bCpHjlX8S4W-_tXSJJ-y6xqTZoukRsvlpu-IQAEXa3R9UCwN_SKHkpDt18chh8AVGrBJQjaI3uuExxv78_B9hHadiDHDYDRr33S7Xt96Kn9aKS3j2YDgubIqSLZmGH79ubraG03tDZ2rsNKpjxpIP8P0uM0578KG56fYqWAq1FGEfSKh5Xi60ro-AdtWWKp508uriElT20GRDLBoAecJ2utGnpZAaXh7tAuTSihuofrT0B_9C2_DgUGOnwT4vjGP6Yplilh46aX2WZO6CraFm-CGtKsGOEs87-quSe6bpmmR7uxX9Pgx5qLoNFwgnyCrkJ3QzXXhZy6GMjQXb-aLLz3z3YTwW82-QKkQ8zZDt1qqc1xdTdeeRtITgWddRN52iDyuj2hVOHtMuySbCklzTgkU8nbsPciHO2iB8qkK6vQfXlMSUuiz7ilU_tdSFLhTWylUY-RBvu2rmH0UFp8A-41rvQJTGjY_xAQ61tcm2sIjyrwk98iID_Dqg1IiA28pI2m1pX7loJP8VGpYWBUB5R1USRDWBiN_4yLoSYTWRyaXr4hmFLaJm8raI5SY3DF-My3k6Rm2GRQEkJzTIxXMsTKQDWz5SvpxARRfJwhIZ4NgMQaG35mDrzd3Vt_nBgx3qd8EQ8BMBSYLB1vpg1jO59tv9S-6Ws-97lUVhYxP6p-2tVPnuQnui5itDmtPA9ztZgtDTqiu3WWofxUvjaPSfNp-c-cpH7pndJxIwXGp7MT3HiAYwPcXi0z6xD-GXXxFz_IoXERZhFlQGNl9PRIEsTrP28xs_3mDEqJ1sUlWOdW0avFFPNEny2ZimQdf_2dJTC_cly3S7n-tZ_vAqqJHdtg_ptUBK8aG-n8Nmj_BCfrFJDp-VxpkdjdjYRlEdk1bbjfpIrewtvkRqRfy24VTO1RjCF7f_JkiwO0djZj8OPl81q0T4V-NtYTKdZ5UejpH6_SsOR2Lkyyknlms_2ZYFtiK6rOcwzJAkJRiaEDrmLBydfQWrPI5UklpN_8-MJRFQ4AwSfhvbxly7Pnjyijy6NuPE3uv_F-Ys-YXduNjRkTXs1loAfgOVu5)
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title inventory.data.gov boundary view
+Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Boundary(aws, "AWS GovCloud") {
+    Boundary(cloudgov, "cloud.gov") {
+    	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+        Boundary(atob, "data.gov ATO boundary") {
+            System_Boundary(dashboard, "data.gov Inventory") {
+                Container(dashboard_app, "<&layers> Inventory Application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
+            }
+        }
+        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Holds the records of locally-uploaded datasets")
+        ContainerDb(dashboard_s3, "PostgreSQL Database", "AWS RDS", "Inventory DataStore: Holds data content uploaded by agency users")
+    }
+}
+System_Ext(OMB, "OMB MAX", "Authentication As a Service")
+Boundary(gsa_saas, "GSA-authorized SaaS") {
+	System_Ext(dap, "DAP", "Analytics collection")
+	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+}
+personnel -> dap : **reports usage** \n//[https (443)]//
+Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
+Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
+dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
+'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
+Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
+Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+@enduml
+```
+dashboard.data.gov boundary view
+![dashboard.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLL_RoCr4FsR_HH3_u2qQdSfgK0weTEbJMXFIjjmcwD2WA9PUv8OUUqzsvkz1TrtntQIJT80vQogSkoPzzxyyEmRwz2ukfJ9bq8nMNE2fNELVPLb1fjq8TooBcfBXcdbIBcKwJ93RWIgbQohEhkvkfX8LExz_JWhqJeo_cXsuwrHA39f5R2_Xbfvnz83W5iIpBMKkX5g0T8R0IeE1zV2MB_Ju8b1QePIjXwZKtXCa8m7lpo-dywUtaxlPkFHxUXXs3jDd72IWADT5XeDJpawJ1Tw1OMk5KVJmafGaoJ9X8pLQZRww7fLNKZ1pk5a4ZSmt7h3pzwMp8c_6a19PK46z3pgNVk0De0BKgo5Ak8faYUdIQAq8q0B8yLCMpcXrOC_IGPI0Wj6B1nPu5G9veW36WAAjk5Nuoi0qt4Eb-ctK2j9reBsfAOHbY1WypGXnUCsIQutaVMmiK7fKmwtUdKZTSrFJk6l1FoA_pf35kvyKhnrt8O4TQPVvArrLCRCUCGPocBV3gH6Vb6WHCLYQYBXO7pjuuRDsY5qL3EZQqV6c__mbSIMZ7qDEyprfGreKJVy6AIQ5fp1-Lmmi6HMWj4UnovgfuF0hj23wMDNx2wePyewvwvHzX6wmoFtiBest3dFiAeE8dkY0WPL9GN3KEaGr-Hk0j-dLsd_t2DmUhjGmf61VdgPNbu6WrlocEZ8Wg5A6sVZ6-4anSfZWdKUYi7Tr3-wcpoFbtDjIhlBILoVakDT9tbOx8dc8MttRVxJ68Rei41BstA-6-PXcpjjo6uxNAZ05mEAx6kPdly57jltKDTI5n3mEewy7ykDREafcC564eTOWp_iXe6BXN0ehGjvMRJhYxcG54bZY9_s-p_g3F1nSzG9a1pqTZIomf4zgDt6kQ4YtWMHzoZKzY0aFKw0KYiHuk4GaKGKjIzdON5c4MseRJwumDejjH5_UeSSCJyMn34qqN0mYHbIA5idc0McfLmF38-_Rw-eCRGUN0_KmBkmZshNmiAeZKHHrMPUNRm6JmEluEnissMrzVhFpk0tbMM_nWy1zAwk-gU_PrdYCPzt-Hxh5i6Hf9ASQGExOzNQFyp10D2Drzqm2IEuw-ZDLoOMV8LIyFW6TeqGwnsGrzfkHzDiyfXFEv90qK4VZvlAw8yYFgeFDLdt4j8Hm47uduqtUo2nyFv7m-Am-sBxs__V_GUSTwF1SCi9_rIoPq_U4FA3HtqEyIXhZDWRFzxI_vMj_I2Xr-z_yvs7_s_q-D2jqsRteF-jUjiKlI75wrB-3G00)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
@@ -189,10 +330,10 @@ The following architectural diagram provides a visual depiction of the major com
 ' !include C4_Container.puml
 
 LAYOUT_WITH_LEGEND()
-title data.gov boundary view
+title dashboard.data.gov boundary view
 
 
-Person(public, "Public Dashboard Viewer", "A member of the public or agency personnel")
+Person_Ext(public, "Public Dashboard Viewer", "A member of the public or agency personnel")
 
 note as EncryptionNote
 All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
