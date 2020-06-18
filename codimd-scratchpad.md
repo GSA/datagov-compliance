@@ -238,7 +238,7 @@ The only access point visible on a public network is the cloud.gov-operated IaaS
 The following architectural diagram provides a visual depiction of the major components of data.gov and the direction of network traffic across the boundaries of the referenced systems. (Systems used in deployment and administration, as well as the content of the staging and management spaces, are described in a later section.)
 
 WordPress boundary view
-![www.data.gov boundary view](http://www.plantuml.com/plantuml/png/fLPXRzis4Fqy_ufRFgnEq4XRd6v0KHHLcomjO3TUvS8Rji4uYMU764Mg96NL6_hVTvHiMRQ11SNq8Q6aU-_UqoClUUKyMbyLQl2jrBcg1C63zwLx7iSMwsWb_KELLOviRhGdxQFS534AAr6lLLLMyPlhowb2xJzEnd61pfFbHuitN8rIautAmFq4Ait0WWd0Fn0iZLAcbde5Yei0jO23rz8wNXdWng1CZafjcADJUDfWdFns_t6scB-RlLsCR-zktzyCpmTUUaLGrtKaq6EqCcl8JAK5sWsi9TM3ALbdzB1iVcbIJ-7iPbSvdToVyNq21HKPMJ3BHfhelp_VCYnkF_jXMMLAvWoPDei0dXn0sm86QUC9qC6jpksczDBez_naa2W5UT2HXqSE19KozoG0BG6rjNnNSoGm6wVmGtG5bLRa71ZcjxLq185RH0FIebaENcyD3x5smSuyXJkpVgDC9SxEuPy1yDNLvE4nc-F2PXcCTbNVf1ldgMYyCja2LTQl0sLGN6QeKETapxQzal5hDWpRQy_GjLfOKtcoNFxYEuKRikubx3dRbowmDPBXvo2Lu_CMbqkPWoExbZdrUkmDUnC4Te4bi_ik_ixKaR8EBD0zP0Qjw3EyqslItfp2cwlRaNlm0ilomDbyFeUaB9NCCMGSV4tVJk6dw3eQFOMviQAq8SzdqLNqO_EMRxcdW-tn0sGB_d0dbjQiB1RX6_IkBuFJLIVn9kk955beP9nVMKf_6KCu0XawscNuuIODoosu9qMBi5xALMKREx0qDaZh6N7I4qWT3k4bbYLh_6yjRhHjceuWg_A_o1-fIBrXOd2UE-Qmb8e0dIFlcBer-sNGssRtazSCufymINvjg2eMgFqs04WS8AJT9khoNpbSE4J7YBiqkKH66Il_9W4fOjhatpyF0aFEDycqQQ5HRRX3-59AjQUPkVlrccfBxRHuJpLyeDt0C5fwRgHNspxiffjESFaIk14yXuiBIwMnta7bS4KN5_27ZkFVcy4Dm-lhqVcVSJnevytNebZByGRkgTqnU59KaBUReDhdPOjdlGplpzFze2XGu-fqruBKl6kAxZYqQkvkP_7qFfqTqZP--fovqQug_XTfHtOwa9ZiioG7bZvLvBnxXEc4uE0hVXtV0HHUS8IyXPi8SRz_oUqYJ9F96AwYxqD-Jqu3XFOKzA5DyntiDBOMi2OhbnkG8g3yvX7_HpsFveib52wkhUJUxP_q9ZL77Ypbnef6KUa-AHW-knvTFShgHiUiWMytd4x9Nf4MuJ-5Vm40)
+![www.data.gov boundary view](http://www.plantuml.com/plantuml/png/fLLjRzis4Fuy_ufRFgnEq4XRd6v0KHHLNfOMi1ElSk4Dss2SnRD2Z29LahBg3VtlEqgsBCS3YcBwa53IFI_dvtn-upnQNnLgyAtKcQe4mQFtfNiPnnRhA9V-iLfMZcncj2VjeymKCGehKQzLLLRnzUNvLA7s7oRZk43doVAZnJLNezHaep9mFuDACx1W0l2F12kZbAcbpa5n4Q0MSF1QMiSd0omCocIer8OvEeV70kFajuSFiyNytUpjOdnxTtj_CpmTUEaLGLtNaK2FKMxMi3IL5cWti9PK3wPadT73ilcdIJs7avjTvNJoSCBt2HHKBCc2MJNMHF_zwPPXSVl93yjggMJ6a6bp2E390RGjO90sdW0TtEhCRaelZRxd9uD4ASY2ZomySY2eb9ad0MW9gAtbkveZWTauXH-Y2wYq8kV0CB-jfIC8t28Qa1RDSN2rRNY8jGljp5EuC-jhPIfnSWh_382lhYOBZxavBcoEeT6kwfjqupmLJQzCja2rxDU1CYZEbwXGPsHFjbh9-8eRXksrP-Ya5jPKdYoNl_fEuOQiUmrxplQb2soDPVWvMENulCNLIcRWoAvbHZsDVSFU18DTOCdieOk_Q-g9imxCGzF7ljDhqjuS0vkhcyK0Ms1P7dGpdyyXAKkE7aEkePVfsody55r6e-SmDrQKDcJu8hg8VcpUyYshETX-vG3PjZ-SljAQt6BHzTrUdmV7fyxSpRAn9vP1mZYVMqf_6KCO-2KwsYNs_YODnosiPqABS5x9lB9D8x0oDfZgjU2a9v0QMESSox9pT-p2ZRPowGYMLVON-IVwgJTC2SwpLWOhgGZGEVAk9UK6Fmzwu_GmkM8G_uL9ycj3LR4rpTZMQ-808Us6fSivTxXmY8uHTsboZemoLlvD0bB4j4cxF_S2GxOtoRIHqAWsh10-8wNQRorpz-irrPRQhN1FDRodtM8mMdeMqlbMXxlfjX2SlmOMWfTmTcQfDDOxg1pcT7O6V-Wu_hrPq32yl1oT_Xd7WtQlV2sAlUp7jUTpX_Mag21lDy6lpyeMoKuPsD-O-rLGeCRyU4P1QfwKeXl-riVTxIoUFgIpGzgcapudJvohYlz5sf4Thnmc-oJ9WQMF5Jdlli1qHD1zVb_3j0N1AmwC1xO93FVJIcuNM9fCnd0HVH_IUdOGLpljVL0Zk0CSXzG2rcJbQWDI19JVVA7RJgtR6fPGkBYsalNQd-Kc5qSUB6N6YiP5wJug6Bwu75ty9vCRFMKA7BirSqpmXhIe2lKl)
 
 ```plantuml
 @startuml
@@ -257,12 +257,12 @@ Boundary(aws, "AWS GovCloud") {
     	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
-            System_Boundary(dashboard, "data.gov Inventory") {
-                Container(dashboard_app, "<&layers> WWW Application", "PHP 7.4.3, Wordpress 5.2.6", "Presents content about the data.gov program")
+            System_Boundary(www, "data.gov Inventory") {
+                Container(www_app, "<&layers> WWW Application", "PHP 7.4.3, Wordpress 5.2.6", "Presents content about the data.gov program")
             }
         }
-        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Contains content and configuration for the Wordpress site in www-app")
-        ContainerDb(dashboard_s3, "AWS S3 bucket", "AWS RDS", "Stores static file assets")
+        ContainerDb(www_db, "PostgreSQL Database", "AWS RDS", "Contains content and configuration for the Wordpress site in www-app")
+        ContainerDb(www_s3, "AWS S3 bucket", "AWS RDS", "Stores static file assets")
     }
 }
 System_Ext(OMB, "OMB MAX", "Authentication As a Service")
@@ -272,21 +272,21 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 public -> dap : **reports usage** \n//[https (443)]//
-Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(www_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "manage data.gov program information", "https GET/POST (443)")
 Rel(public, aws_alb, "consume data.gov program information", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
-Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
-dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
-'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(cloudgov_router, www_app, "proxies requests", "https GET/POST (443)")
+www_app <-> OMB : **authenticates** \n//[SAML 2.0]//
+'Rel(www_app, OMB, "authenticates", "SAML 2.0")
 Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
-Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
-Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+Rel(www_app, www_db, "reads/writes local dataset records", "psql (5432)")
+Rel(www_app, www_s3, "reads/writes data content", "psql (5432)")
 @enduml
 ```
 
 Catalog boundary view
-![catalog.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLRRRjj647sklcBgXyOsOh6rN208WY3qfKvGsLPC1MdH5i9eToInNUqoiqifR95_xomfKHUXDS87QxsSEMSkPqPwumDoAEUcysrkbIarmIo4mhzC4iPbTvg7MJakFR5oDf0DNUNc2MhEqIvCMPJ9rSNPmA0D7-xwoHnz89QhqPLOOsw9kqN4VWQb5SUv042O4KoSCMwPsoaOCGAq6dPUv-pbv428mJY5nbI2qKPuID1FVttuC1nzV3TyE-hVtDxSNn-VT48U3872WCPDkre-krEtWB4hhKQkO97JiZCWziwERZw7uw8-MZBFuIYTabKL3DPNH_4E9gI9qG3D2-CgeYHMXL45nqSdEr3bsEHAV0Rr8NhVqNnC36vIfzWOY9DrWG0zt5Z5LH5oP-_bffCQ0oeogtZbGLEHgq0Qa0ceiPN_bj8V6FOp-A5x3gKrv3qumUTbxWaYjkvsoEhwsBbSPNwCIn_p-PZ1hLjS6LVgenFufmFoj3OgNakznB0-njgrLjzabGyqZxb6i16QyROT68VwR8m6hI8-Md6b_Kj965RF1g6b6h4h0x6Ol_hEO4NiNyC6itdf8reTClmKG-KA0kDaaYlmn8jSqHR79k7WOe2j1jBXGwk3Dgczo5fdZNusTiXw6-6TNP0DRjUzVLfvRfn7M1GxcLqrmeIqA4GA6FiSSnjKOUOizBelkhtdSFLpUW_dtHVr6oOld1uGF26h6P2TvZQE4yES0iRW02Ml018YiQqdoXLaeOuRCZKZNHhozSXnQRs8aLqvdGdcfv9AYlgS8I_8XpYUVxgnc3XWcWZvJ3wLO-sZrL_MBHjSJy4tHM-VBvt3KrkJw_5MLVGuPkPyc39bx_jmBO1ZWLoBvl4wYyUtpkWOB3qLmlzG-Pu0FPBEFRoNNF-RmWSCj9xK_R8qDOabZs_dGWEurS6JJfFrbywMm1_kBeL0_i9T-ajDMugp3IidI6DFirQ-hVAc7aSUCGxhRPQUeNWvplyc3HbYLYjlUn8rHeLTfuEQmgAfXC63SiQGQgBRiRUqP6hsr3qjuP7MgyhPF3YE0cXu99jsESBPQn0YU0cdfqo5u-2Xz3YbqrFutIR9R_Nt1nnVNFHE_aYIJhFfljPBOjaVdQrermY138dmkOfH1rKq_XAlk6-lyysAcgCLqbepRKEzArcHZnXD5BStmsJma0rtu9eyjh5MGnX7IOiGuyvhlo7QeNi2jKKxt845kyyvUM0I2VhmL7m70Blb-ogy7LTu9RsBseszmurmoQzxbwLtVLbItyV6FJli73Jott6Dv6ktmtur3WlYV591hgDNg9x8VuzpRyCmeVR9adFXRdvIhFV6Ug54-C9_Cd3yuqNl_4bKtzj7ZNYm-fbq2FQ6h2xdvby0)
+![catalog.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLPRRnit4tt-z2lcyqDh6xQsjLmW288WwqkTehAjU1MaHLi853cIs5BaXiELl2totplSoteL8JMo3nRDdNFcCcT6UaD1-52ipU3_safJA8HL23czJ18ljiEb3gjYNX1wwMn06uRIhHEXl1PsOugyI2xFJoT6sF3-Tfoi1GNqV3MxP6kXBVfX7hc_XS8oSCq445O82sUCssgx1CD68Ao2dTVQ4vySi6CmJWfZIkRe8jntC4v_lNy_dNtuQVfsDhw-kRwxEZmQ11qCWXH16BSSAluSBjq6vgwmIlWIDXgtWmbwSdPs_HWEy-feqPp0GRf4AqkOj5S7yGuMgD0B0xZEZIiHarWLBsHm_k1eXwgO6oqPCwaE4NsBwpbwS8ignTg0GTO5145mRQKlyw2TlUERGMeCoEXPnYi2XRcM0HK8Zu2rBV-tvVx0T9p1zyCphh518d3CxxUQ42At6WxGgkeuk6WoFnHRYlbyoE36RIwDAzJ14Vmp07uw6nclkLviM1rZxJgh_sKb1Lp7N2FPJ9XvtmwC4-fqBbWO4lr1uoiTNt32q3nF39shcNT5GC_chxuneaHFh-69itv9aQqA6NwCeN8VWnUBXPP0w3TQOi_7KyB1nG0x3QJJ-qu7NLAVHTQ16mNryPVrrHuqFfqqM-1Cv7a_fnODQPwp24JiSCngKeQLip0QlXYEJk3ov_GEpeOlgZSU2MqW440el5m1sgMsSP0yh36861W8pYW0XuVULhFaShHGnGoPNA4g358rRBwmn3BaYYvNpFcnm0AZCbV2Rv127Cm_tPnD77XSiFCLVqhd5KMhlwpRrho4WUfoTy-dmVwfgyZLlAk9ciUy78Mbn-pT6AxuViw4hLWUhh9uVEkCYg7YCm5ysH6DcEO1bIPuntb-sG454R2PpxsIrFM8vOvlr-m4HAzxCOIOyQT1JzRtjnViWF_2RVfBvRPWi0qD2DBOpwmJRQUt9OaP2K6CkCdIKy4ev_NVg20J8giqrvy_9QAwhj99vS8AKx870kcCGTb4rxUtkFLORwSxtC83jWlAMHsSv-OtVZYRRYN2wMjWH_0IZeyzviu7WeB44e-FuNUR9BzLtnfmU7u-EleZIGRrVljQ5CUoEpIzM5jyG8CiUL_6c8FCQpH7o-3-2dzQIsjXsMMbbwwTv0elaI977SFDzJIPt6VJNRegYpvNCtvnY1IBCEwvxbkX6xTdM3ks_RsNU_UeaS0Z2v32S_7j4VIAztLiFI2yugv5rSQkYIV98hLTozBRCQ-cxvgMzQjUQtw3NYzAq2f2G_bS5lsWT_Q3Hw4esNhDpkiV0ktKj-iWKkVqqS3X3-UZi_zafD5dZBKYcXys-qJTF98pFaQJyMSxht2n--tHtppHlZ6FhDegV4JLRcvkoeOBu-DyxGVROAEk26eadTJxkiOZCV0DMbMipRy0)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
@@ -304,12 +304,12 @@ Boundary(aws, "AWS GovCloud") {
     	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
-            System_Boundary(dashboard, "data.gov Inventory") {
-                Container(dashboard_app, "<&layers> Catalog Application", "Python 3.8.3, CKAN 2.8", "Presents a search engine for metadata about government open data. Schedules and runs through a queue of harvesting jobs to refresh records of known datasets")
+            System_Boundary(catalog, "data.gov Catalog") {
+                Container(catalog_app, "<&layers> Catalog Application", "Python 3.8.3, CKAN 2.8", "Presents a search engine for metadata about government open data. Schedules and runs through a queue of harvesting jobs to refresh records of known datasets")
             }
         }
-        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Holds the records of known datasets")
-        ContainerDb(dashboard_s3, "Redis Queue", "AWS RDS", "Holds the state of the queue of harvest jobs for the main application")
+        ContainerDb(catalog_db, "PostgreSQL Database", "AWS RDS", "Holds the records of known datasets")
+        ContainerDb(catalog_s3, "Redis Queue", "AWS RDS", "Holds the state of the queue of harvest jobs for the main application")
     }
 }
 System_Ext(OMB, "OMB MAX", "Authentication As a Service")
@@ -319,21 +319,24 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 public -> dap : **reports usage** \n//[https (443)]//
-Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(catalog_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
 Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
-Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
-dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
-'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(cloudgov_router, catalog_app, "proxies requests", "https GET/POST (443)")
+catalog_app <-> OMB : **authenticates** \n//[SAML 2.0]//
 Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
-Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
-Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+Rel(catalog_app, catalog_db, "reads/writes local dataset records", "psql (5432)")
+Rel(catalog_app, catalog_s3, "reads/writes data content", "psql (5432)")
+Boundary(solrb, "Solr Service Boundary") {
+  ContainerDb(solr, "Solr", "indexed search provider")
+}
+Rel(catalog_app, solr, "loads indexes, runs searches")
 @enduml
 ```
 
 Inventory boundary view
-![inventory.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLNlRzis4Fqy_HMtV5YJeB6sEWEAe2Yg_5XQp4cyoa4xR8Dn5iys0PfKISgkDlH_tvriorOCj9i_10VgxhsxntVCcn3HnsfXak-rBKob2EOnbk4YJJskUZCTvzMa2kGBPoFPs2lS8aNbDTgbgSeglJe_6ngqyV5ka2umHF9yDBxYRDIMVAyKx6TGMIvSC034ES7K6UDMsix0S1AWLT3vh7tWo04JWt456bCpHjlX8S4W-_tXSJJ-y6xqTZoukRsvlpu-IQAEXa3R9UCwN_SKHkpDt18chh8AVGrBJQjaI3uuExxv78_B9hHadiDHDYDRr33S7Xt96Kn9aKS3j2YDgubIqSLZmGH79ubraG03tDZ2rsNKpjxpIP8P0uM0578KG56fYqWAq1FGEfSKh5Xi60ro-AdtWWKp508uriElT20GRDLBoAecJ2utGnpZAaXh7tAuTSihuofrT0B_9C2_DgUGOnwT4vjGP6Yplilh46aX2WZO6CraFm-CGtKsGOEs87-quSe6bpmmR7uxX9Pgx5qLoNFwgnyCrkJ3QzXXhZy6GMjQXb-aLLz3z3YTwW82-QKkQ8zZDt1qqc1xdTdeeRtITgWddRN52iDyuj2hVOHtMuySbCklzTgkU8nbsPciHO2iB8qkK6vQfXlMSUuiz7ilU_tdSFLhTWylUY-RBvu2rmH0UFp8A-41rvQJTGjY_xAQ61tcm2sIjyrwk98iID_Dqg1IiA28pI2m1pX7loJP8VGpYWBUB5R1USRDWBiN_4yLoSYTWRyaXr4hmFLaJm8raI5SY3DF-My3k6Rm2GRQEkJzTIxXMsTKQDWz5SvpxARRfJwhIZ4NgMQaG35mDrzd3Vt_nBgx3qd8EQ8BMBSYLB1vpg1jO59tv9S-6Ws-97lUVhYxP6p-2tVPnuQnui5itDmtPA9ztZgtDTqiu3WWofxUvjaPSfNp-c-cpH7pndJxIwXGp7MT3HiAYwPcXi0z6xD-GXXxFz_IoXERZhFlQGNl9PRIEsTrP28xs_3mDEqJ1sUlWOdW0avFFPNEny2ZimQdf_2dJTC_cly3S7n-tZ_vAqqJHdtg_ptUBK8aG-n8Nmj_BCfrFJDp-VxpkdjdjYRlEdk1bbjfpIrewtvkRqRfy24VTO1RjCF7f_JkiwO0djZj8OPl81q0T4V-NtYTKdZ5UejpH6_SsOR2Lkyyknlms_2ZYFtiK6rOcwzJAkJRiaEDrmLBydfQWrPI5UklpN_8-MJRFQ4AwSfhvbxly7Pnjyijy6NuPE3uv_F-Ys-YXduNjRkTXs1loAfgOVu5)
+![inventory.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLNlRzj63Fqy_nLSFgn9q5XRdG55KHHLVYmjvYHUvQ8Tji4uwsZxWFEToZlPqOR-xoCbMxRYejtq8JcSoFV8fqVwTOYAOhcqlU-Dossf4HOn5k55af1Qz-ScBiff6P1oxoAwsC_zCb6QZ78hMnPbSdb-DhBAnVUtmsIfGaJYgyabHolZaFg5O3-1qd7YaW4WBX1ctbg_DcuEbeD0EGsTruO2dpmmCLYVAsihncWhF2GOfh_VlnzFFhmTlvaChs-kxwwEJthHH8jWt8fnFLLzhQBgp_qAfhvqMb45AuFhtWWfU3UvVeZ7HNrqQ9_2KJf7brSmsbuToHtCK2Cf2xWihAyG4z65LCu4HoSzvoE22d3jSggAQBoxuvjUQYta0fBBLG2DXSaZQb24W4qiQbYps30UPl1J_naBPZ44yAm7hKr046pTxw7JzR5tiMdYMAs3bFOXWnk_khI-r4Sdy4yF-6bZShdcrZcmFeeCRTHtMHKYBaK10PieEzsF0-kLFfiggroETBJXIeSNt31idXr2IpKXNqOa3d_vWrKLKdW5EypcPH2qkcJuHKgb2YAfsSpa491M9iSzZbt3qKk1xUTCn_Vj9ssRUbHPczpQOH_XxVRo85sUrckxv8agYavdBGAaHM5DhkHBItUZAYwyWq7_UN_m52v_JU_WMVzv_OOmS4u01Uy_yaWGgCPoCcv1x5-KKsl20hX495UFXo_GWTHT3utI6fOOLTq8x04k5ArGPaZH7AE0ruELSvprS-3g1VzJYT9of-7FlSDJAy3LT4y2FPKcV8Xpmkot8Lmn-5G5t3hatLKcnpVUwb2p4-QU-Endsw4-Amin5-gwfO0nS3LVPms3_yIw-nuIaF49Nq1JYb31Pfr1My2qwiZVrC4QVExjUVl-zeAn-I_SfXzhnf8RSt7plI4LxRFMkQtfva5DWb8ofpTPUgOuovFvcsapfRBQTFj3g9MOwoeTrHHEsOeP0jTiRRD267i_tk6Qa4t7qNUuXdTobjHRxqna8ZVVy70txOg3irV0HF02Jay92qynSEkimUaf_EcIv8_wTm2Epyy79tybIOzH7_j_ZtUB4D4YEv8guOzvqUGpCwVlhzVTdjcQlElifN9SIcjkGMlgkRaU9wFxRDm1Rj4Ebqz1_i5W049sUuZX6qW70DsM_nTU9nLUijxY7D5RxMo3OQjtbjuEUJVyA68_-OBQZVawgKA-JJlKk4bO8PbP1KPBLgo-sly1vwDf9rGw96iopDtCy7PmjyCjy4NuPE7uv_F1is-YXa4NjJkTXs3jH0LlIIhA-Fzsuk2YyoFGMI0IlmaNLECqFg26W8ho1HJaLomGoOHygU1DjgoA04qkppALBcmGC73gQtIwNDf_0G00)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
@@ -350,12 +353,12 @@ Boundary(aws, "AWS GovCloud") {
     	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
-            System_Boundary(dashboard, "data.gov Inventory") {
-                Container(dashboard_app, "<&layers> Inventory Application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
+            System_Boundary(inventory, "data.gov Inventory") {
+                Container(inventory_app, "<&layers> Inventory Application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
             }
         }
-        ContainerDb(dashboard_db, "PostgreSQL Database", "AWS RDS", "Holds the records of locally-uploaded datasets")
-        ContainerDb(dashboard_s3, "PostgreSQL Database", "AWS RDS", "Inventory DataStore: Holds data content uploaded by agency users")
+        ContainerDb(inventory_db, "PostgreSQL Database", "AWS RDS", "Holds the records of locally-uploaded datasets")
+        ContainerDb(inventory_s3, "PostgreSQL Database", "AWS RDS", "Inventory DataStore: Holds data content uploaded by agency users")
     }
 }
 System_Ext(OMB, "OMB MAX", "Authentication As a Service")
@@ -364,17 +367,24 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
-Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
-Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
-dashboard_app <-> OMB : **authenticates** \n//[SAML 2.0]//
-'Rel(dashboard_app, OMB, "authenticates", "SAML 2.0")
+Rel(cloudgov_router, inventory_app, "proxies requests", "https GET/POST (443)")
+inventory_app <-> OMB : **authenticates** \n//[SAML 2.0]//
+'Rel(inventory_app, OMB, "authenticates", "SAML 2.0")
 Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
-Rel(dashboard_app, dashboard_db, "reads/writes local dataset records", "psql (5432)")
-Rel(dashboard_app, dashboard_s3, "reads/writes data content", "psql (5432)")
+Rel(inventory_app, inventory_db, "reads/writes local dataset records", "psql (5432)")
+Rel(inventory_app, inventory_s3, "reads/writes data content", "psql (5432)")
+Boundary(solrb, "Solr Service Boundary") {
+  ContainerDb(solr, "Solr", "indexed search provider")
+}
+Rel(inventory_app, solr, "loads indexes, runs searches")
 @enduml
 ```
+
+
+
 dashboard.data.gov boundary view
 ![dashboard.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLL_RoCr4FsR_HH3_u2qQdSfgK0weTEbJMXFIjjmcwD2WA9PUv8OUUqzsvkz1TrtntQIJT80vQogSkoPzzxyyEmRwz2ukfJ9bq8nMNE2fNELVPLb1fjq8TooBcfBXcdbIBcKwJ93RWIgbQohEhkvkfX8LExz_JWhqJeo_cXsuwrHA39f5R2_Xbfvnz83W5iIpBMKkX5g0T8R0IeE1zV2MB_Ju8b1QePIjXwZKtXCa8m7lpo-dywUtaxlPkFHxUXXs3jDd72IWADT5XeDJpawJ1Tw1OMk5KVJmafGaoJ9X8pLQZRww7fLNKZ1pk5a4ZSmt7h3pzwMp8c_6a19PK46z3pgNVk0De0BKgo5Ak8faYUdIQAq8q0B8yLCMpcXrOC_IGPI0Wj6B1nPu5G9veW36WAAjk5Nuoi0qt4Eb-ctK2j9reBsfAOHbY1WypGXnUCsIQutaVMmiK7fKmwtUdKZTSrFJk6l1FoA_pf35kvyKhnrt8O4TQPVvArrLCRCUCGPocBV3gH6Vb6WHCLYQYBXO7pjuuRDsY5qL3EZQqV6c__mbSIMZ7qDEyprfGreKJVy6AIQ5fp1-Lmmi6HMWj4UnovgfuF0hj23wMDNx2wePyewvwvHzX6wmoFtiBest3dFiAeE8dkY0WPL9GN3KEaGr-Hk0j-dLsd_t2DmUhjGmf61VdgPNbu6WrlocEZ8Wg5A6sVZ6-4anSfZWdKUYi7Tr3-wcpoFbtDjIhlBILoVakDT9tbOx8dc8MttRVxJ68Rei41BstA-6-PXcpjjo6uxNAZ05mEAx6kPdly57jltKDTI5n3mEewy7ykDREafcC564eTOWp_iXe6BXN0ehGjvMRJhYxcG54bZY9_s-p_g3F1nSzG9a1pqTZIomf4zgDt6kQ4YtWMHzoZKzY0aFKw0KYiHuk4GaKGKjIzdON5c4MseRJwumDejjH5_UeSSCJyMn34qqN0mYHbIA5idc0McfLmF38-_Rw-eCRGUN0_KmBkmZshNmiAeZKHHrMPUNRm6JmEluEnissMrzVhFpk0tbMM_nWy1zAwk-gU_PrdYCPzt-Hxh5i6Hf9ASQGExOzNQFyp10D2Drzqm2IEuw-ZDLoOMV8LIyFW6TeqGwnsGrzfkHzDiyfXFEv90qK4VZvlAw8yYFgeFDLdt4j8Hm47uduqtUo2nyFv7m-Am-sBxs__V_GUSTwF1SCi9_rIoPq_U4FA3HtqEyIXhZDWRFzxI_vMj_I2Xr-z_yvs7_s_q-D2jqsRteF-jUjiKlI75wrB-3G00)
 ```plantuml
