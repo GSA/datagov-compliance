@@ -101,6 +101,59 @@ The services provided by Data.gov (in scope for this SSP) are:
 - Project Open Data Dashboard (PHP web application)
   A dashboard for measuring open data progress by agencies per OMB Directive M-13-13. The dashboard also provides a number of lightweight converters and validators and serves as the location for support tools provided by Data.gov for agencies.
 
+www.data.gov logical view
+![www.data.gov logical view](http://www.plantuml.com/plantuml/png/TP71RjGm48RlUOfXBsIbabmuzTJIhg3IBXl1LWW9APh4iucHFOxiST8LujrnIedI0pwDP_xlzypu9WXwYTPaRpIt9Yg2NcG8rsNfSIewBNriOY3VEXPYALfdIrHU8uyc3h6yU_-kCiZoUDYN1eM2f5HzDwkVf1Xcv_tjz-FZgVxsSFfKxtSVTv_lysqcMWp1D4s5Gi6YSoCOr-aM3OoQfgmY7npNkoV9X-UGoLp1vlwVk3eSD-b-2vPiGnxS6QGdKElwzfLBR8nk4r8z1pDyU8N-5IJeBJiXC7IMkRIy3jVmmF0JHxm26ibVe3KOmWzEWnAha4nq0CTKP1zSP8N-agEuPkxoT8Jc9RVPmgyCqlbw2K8sLnZwng5NIRTUnzpWCitWNUVHmiilf2P_Pr_8h5Upzh78s55OCCrdvosATfpG12xRM5F9F4JxN-o6M4Lh_W00)
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+LAYOUT_WITH_LEGEND()
+title www.data.gov logical view
+Person_Ext(personnel, "Data.gov PMO", "A member of the data.gov PMO")
+Person_Ext(public, "Public", "Member of the public")
+'note left of personnel : In java, every class\nextends this one.
+Boundary(atob, "ATO boundary") {
+    System(dashboard, "www.data.gov", "data.gov program content")
+}
+Rel(personnel, dashboard, "manages program information")
+Rel(public, dashboard, "consumes program information")
+@enduml
+
+```
+
+catalog.data.gov logical view
+![catalog.data.gov logical view](http://www.plantuml.com/plantuml/png/NP71RjD048RlVeeX5n8fs1TEFRM422gbDAAf419IDDwTs8RrZBKpTX8XtftT5gg0JwlVy_t-F7kjXj76FXIlEdPXz0IjsQ1NLHNnM3QTjMCzAaKdRCHMEkahzB53di8uZDNgxPjjGBR7kqqLq4WjHVjLdZvPEUJcpStN-yVT_iljxkD-i_wm_lH-lYYiiq3Wq318KteqB1kP84ZJEGmmTNGijXHLUBy-sNoWV6GAIvZTDCJk3Dk_qIndS21FCP7K3q7EH5KsZkXCucpnJzLOXyubPljqoFGTzJL5a0DOI_0yaA3NB4OGw63vrOi2NC4jmtUSS0aqKJo32wZwZUban5x1sav1cChYdOpiCPxdQ59dpTqzr7-osG9-5f2UXxCQzNEFsjQ2qQUvrNzxoP8FhYK_1b9eCKwafe3iGKrYoY8vYLwpw0-M8qD6bKpJV_mgFbEuNE7bftfaR2vB4sGTDme7YP2RCEyxwUQMb-rTLYXXTEqI8kLhUxBo2Go27cIWPvV4NnFxiG-_0G00)
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+LAYOUT_WITH_LEGEND()
+title catalog.data.gov logical view
+Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
+Person_Ext(public, "Public", "Member of the public")
+'note left of personnel : In java, every class\nextends this one.
+Boundary(atob, "ATO boundary") {
+    System(dashboard, "Catalog.data.gov", "Schedules harvests and stores records of known datasets")
+}
+Rel(personnel, dashboard, "manages harvests settings for own agency")
+Rel(public, dashboard, "search, review and download open data")
+@enduml
+```
+
+inventory.data.gov logical view
+![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP51YnD148NlyolAN4mWpbmyxMdNDMWWka6pY224ckdAJ4jFrT1LFRk3-D_jrbKMx5Fp-l7rUrNNQXWjZQ5wuRaBoH4CPfDUDKt4XxhtDgGsASLEs8YjxcHiq4MFF8SqfURszQjZGBRx3uSce95QbiwtnVrezLJ8XvklT_UdyvVzwVtvi7kt-_XslQdCMo3mF6UenALsQ5ZtCaEGtdSOOFRqK1qfgl1vzsZhwVULAMnXTTCJTmiS_qghei6574KCGECKP25gIkQ8NUQlDjLB5YC8T36G2_oZmHNi6RxZZ5kWcU82NK3LRvpZ4pi56xo2CDNL6qdiC2vhD6dBZwSxQ9-qrGP-L93FvqMDnhL37Lh1wB9l_r_9alUOsk1r09c8eJm0ieCH6NjI6CcmY3dup-eJXUVrdxCZTHATbah5hcIwXPJxeoFt1_kqERX46G7Bv3nfvbuJkxAUNm00)
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+LAYOUT_WITH_LEGEND()
+title inventory.data.gov logical view
+Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
+'note left of personnel : In java, every class\nextends this one.
+Boundary(atob, "ATO boundary") {
+    System(dashboard, "Inventory.data.gov", "Publish open data and manages metadata")
+}
+Rel(personnel, dashboard, "records of datasets, uploaded data content from agencies")
+@enduml
+```
+
 dashboard.data.gov logical view
 ![dashboard.data.gov logical view](http://www.plantuml.com/plantuml/png/RP51ZzCm48Nl_XL3BxJIabuuxMdBjeALkhiLj498IDKadhI6YIVOutGhn7_7QMXLfCqf7i_CU-_pNLGCcXe6Yuh5JZfWsRaA6Jf71_F6-OgJ9TYhjl5sEWruA7PEzwbCaK8bNibhKKapHHiS-evJcwRtxz-j6Brk7fTJHgMekRIzxxjVj6YpdZ7BsRVdpNhxzM7zQRjSV5mypSSJeqwPm6BSbuB15g-xCYiAKVnsyQBZDfNigXiOhKu_C3_FmYOR7EMB6JJKb1H0Qj0zmJ014W1tvAiZjATjddWqCUQj5oLWgZNtdtjluS733-pm1gYZS8IACSRlFgSXRsDUwoA8fyAO3vAynN0SeqhPgw-VeVnN6qtWju7yVJb6fMPyoPdxBaalnTxxtCMMyHZXLq9sceNtLFq4vsi93QeJ3_qWr44Qw30uIN68vIWMCECea0sxEXyXjIneoKBjED_cj7-C6QoSK0uuebEAlV41pe7AKwLtyuZEdmkG7PnmDkATIY1xqUqnVYQ-FCrrpFxzpjm3jH8qQwL8sJmxEoJgi_LByexj4xbT7WxNhFxtMGKyS0HfQM1n3IS3DtVaRMhuBm00)
 ```plantuml
