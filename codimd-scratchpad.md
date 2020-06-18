@@ -112,10 +112,10 @@ Person_Ext(personnel, "Data.gov PMO", "A member of the data.gov PMO")
 Person_Ext(public, "Public", "Member of the public")
 'note left of personnel : In java, every class\nextends this one.
 Boundary(atob, "ATO boundary") {
-    System(dashboard, "www.data.gov", "data.gov program content")
+    System(www, "www.data.gov", "data.gov program content")
 }
-Rel(personnel, dashboard, "manages program information")
-Rel(public, dashboard, "consumes program information")
+Rel(personnel, www, "manages program information")
+Rel(public, www, "consumes program information")
 @enduml
 
 ```
@@ -131,15 +131,15 @@ Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
 Person_Ext(public, "Public", "Member of the public")
 'note left of personnel : In java, every class\nextends this one.
 Boundary(atob, "ATO boundary") {
-    System(dashboard, "Catalog.data.gov", "Schedules harvests and stores records of known datasets")
+    System(catalog, "Catalog.data.gov", "Schedules harvests and stores records of known datasets")
 }
-Rel(personnel, dashboard, "manages harvests settings for own agency")
-Rel(public, dashboard, "search, review and download open data")
+Rel(personnel, catalog, "manages harvests settings for own agency")
+Rel(public, catalog, "search, review and download open data")
 @enduml
 ```
 
 inventory.data.gov logical view
-![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP51YnD148NlyolAN4mWpbmyxMdNDMWWka6pY224ckdAJ4jFrT1LFRk3-D_jrbKMx5Fp-l7rUrNNQXWjZQ5wuRaBoH4CPfDUDKt4XxhtDgGsASLEs8YjxcHiq4MFF8SqfURszQjZGBRx3uSce95QbiwtnVrezLJ8XvklT_UdyvVzwVtvi7kt-_XslQdCMo3mF6UenALsQ5ZtCaEGtdSOOFRqK1qfgl1vzsZhwVULAMnXTTCJTmiS_qghei6574KCGECKP25gIkQ8NUQlDjLB5YC8T36G2_oZmHNi6RxZZ5kWcU82NK3LRvpZ4pi56xo2CDNL6qdiC2vhD6dBZwSxQ9-qrGP-L93FvqMDnhL37Lh1wB9l_r_9alUOsk1r09c8eJm0ieCH6NjI6CcmY3dup-eJXUVrdxCZTHATbah5hcIwXPJxeoFt1_kqERX46G7Bv3nfvbuJkxAUNm00)
+![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP5HYnCn58NVvrTS-s8BTUR5fttQTIrQg6xHBY88vJOvdObaReRaPhQ3-D-TuBeKp5CuENmvvzxRf1mrzxvwvSJuR46Twf1kcYRoKzqwxV8f9qGJH25Qcz0tRADZ6NqUSdF_zitUi-ZZfrtZMP5qbextnNtHUYZatTttXyV3yTlsyF6ustpOV7w_N5Ngr8ESZ10DSQejAzTj6Cc7rXdsD3eyLNl45EIukUXoGBaA_9eMTot4JBJ_9osAHcTOHFQ4Vl1X0fgIERAP-OjLzLg2WZpEIk5CBpIweQtGJnvvJHWH9pAUK_eXk2Z49jBE9Gg2kdeNibYEqv8rdCgFXmSwFMkB5VsgQ3vVfwJebo_5Pj_slv8bxpwVl4iTXG52vO5OBFKit29H3-KYpi5_Lr_Wh-jVioDCY3QLIiMUe6bDUUxF5lOlzdbpT8wX9owJSqWpznPYoth-0000)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
@@ -148,10 +148,11 @@ title inventory.data.gov logical view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
 'note left of personnel : In java, every class\nextends this one.
 Boundary(atob, "ATO boundary") {
-    System(dashboard, "Inventory.data.gov", "Publish open data and manages metadata")
+    System(inventory, "Inventory.data.gov", "Publish open data and manages metadata")
 }
-Rel(personnel, dashboard, "records of datasets, uploaded data content from agencies")
+Rel(personnel, inventory, "records of datasets, uploaded data content from agencies")
 @enduml
+
 ```
 
 dashboard.data.gov logical view
