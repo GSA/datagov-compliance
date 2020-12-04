@@ -336,15 +336,16 @@ Rel(catalog_app, solr, "loads indexes, runs searches")
 ```
 
 Inventory boundary view
-![inventory.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLNlRzj63Fqy_nLSFgn9q5XRdG55KHHLVYmjvYHUvQ8Tji4uwsZxWFEToZlPqOR-xoCbMxRYejtq8JcSoFV8fqVwTOYAOhcqlU-Dossf4HOn5k55af1Qz-ScBiff6P1oxoAwsC_zCb6QZ78hMnPbSdb-DhBAnVUtmsIfGaJYgyabHolZaFg5O3-1qd7YaW4WBX1ctbg_DcuEbeD0EGsTruO2dpmmCLYVAsihncWhF2GOfh_VlnzFFhmTlvaChs-kxwwEJthHH8jWt8fnFLLzhQBgp_qAfhvqMb45AuFhtWWfU3UvVeZ7HNrqQ9_2KJf7brSmsbuToHtCK2Cf2xWihAyG4z65LCu4HoSzvoE22d3jSggAQBoxuvjUQYta0fBBLG2DXSaZQb24W4qiQbYps30UPl1J_naBPZ44yAm7hKr046pTxw7JzR5tiMdYMAs3bFOXWnk_khI-r4Sdy4yF-6bZShdcrZcmFeeCRTHtMHKYBaK10PieEzsF0-kLFfiggroETBJXIeSNt31idXr2IpKXNqOa3d_vWrKLKdW5EypcPH2qkcJuHKgb2YAfsSpa491M9iSzZbt3qKk1xUTCn_Vj9ssRUbHPczpQOH_XxVRo85sUrckxv8agYavdBGAaHM5DhkHBItUZAYwyWq7_UN_m52v_JU_WMVzv_OOmS4u01Uy_yaWGgCPoCcv1x5-KKsl20hX495UFXo_GWTHT3utI6fOOLTq8x04k5ArGPaZH7AE0ruELSvprS-3g1VzJYT9of-7FlSDJAy3LT4y2FPKcV8Xpmkot8Lmn-5G5t3hatLKcnpVUwb2p4-QU-Endsw4-Amin5-gwfO0nS3LVPms3_yIw-nuIaF49Nq1JYb31Pfr1My2qwiZVrC4QVExjUVl-zeAn-I_SfXzhnf8RSt7plI4LxRFMkQtfva5DWb8ofpTPUgOuovFvcsapfRBQTFj3g9MOwoeTrHHEsOeP0jTiRRD267i_tk6Qa4t7qNUuXdTobjHRxqna8ZVVy70txOg3irV0HF02Jay92qynSEkimUaf_EcIv8_wTm2Epyy79tybIOzH7_j_ZtUB4D4YEv8guOzvqUGpCwVlhzVTdjcQlElifN9SIcjkGMlgkRaU9wFxRDm1Rj4Ebqz1_i5W049sUuZX6qW70DsM_nTU9nLUijxY7D5RxMo3OQjtbjuEUJVyA68_-OBQZVawgKA-JJlKk4bO8PbP1KPBLgo-sly1vwDf9rGw96iopDtCy7PmjyCjy4NuPE7uv_F1is-YXa4NjJkTXs3jH0LlIIhA-Fzsuk2YyoFGMI0IlmaNLECqFg26W8ho1HJaLomGoOHygU1DjgoA04qkppALBcmGC73gQtIwNDf_0G00)
+![inventory.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLLjRzis4Fuy_ufRFgn9K5jRd055K1HrNfOKSnAlSj0Dss3GujacG9CgITdHXlpttKaMBSV5qlfB28hFov7FNTxx85mebhhplJAPBYJ28eJSdoM94-lUN8L5CIqykioQW2RqChjCSYqCOxe-IAscoSLfTyHR3xV3P2byG4TRamj226NGzNBcVmM58V2II20i46PMQxjMPWwQ3e4m4dO-A-TfPO74GTjCQ5qIHtIvBp0S_77_C9vy-Z2-cGolhg_kBW-FEa45ZQ3CYdYjAtjI1D6RsnLCRM6aS2Mi5Aux8tJUcidLOpZCgwL1_HeE1dCqMGcZPkk0zs264ftGWCjSsn8nuRjn8YE1WwCsrKAu5V9r42mZOMtdSDFi7Mmteok26niGX8Shaxao3ygQEzhf3BI6Z3ralEL1OgwoW1A4Gy3wB4fOqtl1U9Z2JxqJA8n6xy7ITRgryWZCBNiTDB9QTiutTt0erfuh-vJ2jLrTQ5l8WoFujmFqYsSotYQFR9kNx3UU-YujVS0bLyra4w6dxNEWhP3TgT32P5JvHcimFAU2OVFRCaIfYRD5VNjlVz2YHEVVmPQp_kYPhR8Clx1LLq9mOZPJ6NXqAvLXIsDRSB1iCAPXCBwFYOX5FNCMmJ5DROOFpMOR7dyngblmHEJvJcMH0GPvhbKc-AMvkb4P5jP0l_UcrtyD5xyExk2azwRwuj0JneE0XzzXPXs8Eh7SiPwx9o-cMla5a4LqfkekcwC1zbtrd90IbXX4LGYq23VXXI3S74D5pdtPv9ZSC__d0hdadOAVElkhU06NqzOLo2aNONsOEqn_6y8baK-5noOX7ozJNjvOBNsbxZ2pZjPsrio4Rf5pk51M9NaCdjpylwhlVvLgV8_gG4ehF8FQ2al1PY92D30jszVV-7ZgF7LQsHxQkJAzke_Ykb8kg40JDkyE0tw3D2OuXc_knSGBuGbndGwwWb3MgNz8FXKYhSBNRaOfE6INWr4bOOGkIS6JTwthKKBSxVC6rmufV7Jw3jVmaTSClRL61H8oyuqELHKd9NJV0Gd16HmVEyoj2nuAB-PuV0n_cIJvi_gN0eUdf_sZlvEaGwpF-w2bsp04r4Z9T2NhXoolyQHCyFQKtiwR9kox2LyAGrPYo9cjzdDzDKv6z-buXpZEx3OnbKrxNqiHSVjpB7VsKQ47XzGuFlWNcFO8Tcxjs_XseF2MdYp6hteuiSqV-kRXqi7ja8RDZ_nghxxmREqqxn2maGQy_sHjs0gTcfMW96D3-SADFDD_DaeS2kcJjLFae1uGpLHe9WVJv_wpXiEVJ_idBxBw_dFMTkllayKszLOxTfJItwQDuNptFqnxEl7vpN5cLKRY8qhmA5osWDpPbPBekEs-P7Y3vZdaeSRIW725yHi6z0HzZqOMI_qV)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
 title inventory.data.gov boundary view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
+Person_Ext(harvester, "catalog Harvester", "catalog.data.gov")
 note as EncryptionNote
 All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
@@ -361,7 +362,7 @@ Boundary(aws, "AWS GovCloud") {
         ContainerDb(inventory_s3, "PostgreSQL Database", "AWS RDS", "Inventory DataStore: Holds data content uploaded by agency users")
     }
 }
-System_Ext(OMB, "OMB MAX", "Authentication As a Service")
+System_Ext(Login.gov, "Login.gov", "Authentication As a Service")
 Boundary(gsa_saas, "GSA-authorized SaaS") {
 	System_Ext(dap, "DAP", "Analytics collection")
 	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
@@ -369,11 +370,12 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
+Rel(harvester, aws_alb, "ingest metadata", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, inventory_app, "proxies requests", "https GET/POST (443)")
-inventory_app <-> OMB : **authenticates** \n//[SAML 2.0]//
-'Rel(inventory_app, OMB, "authenticates", "SAML 2.0")
-Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
+inventory_app <-> Login.gov : **authenticates** \n//[SAML 2.0]//
+'Rel(inventory_app, Login.gov, "authenticates", "SAML 2.0")
+Rel(personnel, Login.gov, "verify identity", "https GET/POST (443)")
 Rel(inventory_app, inventory_db, "reads/writes local dataset records", "psql (5432)")
 Rel(inventory_app, inventory_s3, "reads/writes data content", "psql (5432)")
 Boundary(solrb, "Solr Service Boundary") {
