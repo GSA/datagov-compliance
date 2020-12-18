@@ -51,7 +51,7 @@ Bret is taking these:
 - [x] [12. Applicable Laws and Regulations](https://codimd.app.cloud.gov/jZHvzdiITWWRrrkA1qUf8w?view#12-Applicable-Laws-and-Regulations)
 - [x] [Add New Relic agent to deployed app](https://docs.cloudfoundry.org/buildpacks/php/gsg-php-newrelic.html)
 - [x] Add Google Analytics to diagram/description
-- [x] Add CF auth to diagram/description
+- [x] Add CF auth to diagram/description as is
 - [ ] List ATO information for GSA-approved SaaS ("Does your software inventory list include a column for GEAR approval status?")
 
 ## Requirements
