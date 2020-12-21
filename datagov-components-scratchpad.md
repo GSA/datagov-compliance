@@ -100,22 +100,6 @@ Bret is taking these:
 The services provided by Data.gov (in scope for this SSP) are:
 - Project Open Data Dashboard (PHP web application)
   A dashboard for measuring open data progress by agencies per OMB Directive M-13-13. The dashboard also provides a number of lightweight converters and validators and serves as the location for support tools provided by Data.gov for agencies.
-inventory.data.gov logical view
-![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP5HYnCn58NVvrTS-s8BTUR5fttQTIrQg6xHBY88vJOvdObaReRaPhQ3-D-TuBeKp5CuENmvvzxRf1mrzxvwvSJuR46Twf1kcYRoKzqwxV8f9qGJH25Qcz0tRADZ6NqUSdF_zitUi-ZZfrtZMP5qbextnNtHUYZatTttXyV3yTlsyF6ustpOV7w_N5Ngr8ESZ10DSQejAzTj6Cc7rXdsD3eyLNl45EIukUXoGBaA_9eMTot4JBJ_9osAHcTOHFQ4Vl1X0fgIERAP-OjLzLg2WZpEIk5CBpIweQtGJnvvJHWH9pAUK_eXk2Z49jBE9Gg2kdeNibYEqv8rdCgFXmSwFMkB5VsgQ3vVfwJebo_5Pj_slv8bxpwVl4iTXG52vO5OBFKit29H3-KYpi5_Lr_Wh-jVioDCY3QLIiMUe6bDUUxF5lOlzdbpT8wX9owJSqWpznPYoth-0000)
-```plantuml
-@startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
-LAYOUT_WITH_LEGEND()
-title inventory.data.gov logical view
-Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
-'note left of personnel : In java, every class\nextends this one.
-Boundary(atob, "ATO boundary") {
-    System(inventory, "Inventory.data.gov", "Publish open data and manages metadata")
-}
-Rel(personnel, inventory, "records of datasets, uploaded data content from agencies")
-@enduml
-
-```
 
 dashboard.data.gov logical view
 ![dashboard.data.gov logical view](http://www.plantuml.com/plantuml/png/RP51ZzCm48Nl_XL3BxJIabuuxMdBjeALkhiLj498IDKadhI6YIVOutGhn7_7QMXLfCqf7i_CU-_pNLGCcXe6Yuh5JZfWsRaA6Jf71_F6-OgJ9TYhjl5sEWruA7PEzwbCaK8bNibhKKapHHiS-evJcwRtxz-j6Brk7fTJHgMekRIzxxjVj6YpdZ7BsRVdpNhxzM7zQRjSV5mypSSJeqwPm6BSbuB15g-xCYiAKVnsyQBZDfNigXiOhKu_C3_FmYOR7EMB6JJKb1H0Qj0zmJ014W1tvAiZjATjddWqCUQj5oLWgZNtdtjluS733-pm1gYZS8IACSRlFgSXRsDUwoA8fyAO3vAynN0SeqhPgw-VeVnN6qtWju7yVJb6fMPyoPdxBaalnTxxtCMMyHZXLq9sceNtLFq4vsi93QeJ3_qWr44Qw30uIN68vIWMCECea0sxEXyXjIneoKBjED_cj7-C6QoSK0uuebEAlV41pe7AKwLtyuZEdmkG7PnmDkATIY1xqUqnVYQ-FCrrpFxzpjm3jH8qQwL8sJmxEoJgi_LByexj4xbT7WxNhFxtMGKyS0HfQM1n3IS3DtVaRMhuBm00)
