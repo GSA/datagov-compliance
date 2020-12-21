@@ -100,26 +100,6 @@ Bret is taking these:
 The services provided by Data.gov (in scope for this SSP) are:
 - Project Open Data Dashboard (PHP web application)
   A dashboard for measuring open data progress by agencies per OMB Directive M-13-13. The dashboard also provides a number of lightweight converters and validators and serves as the location for support tools provided by Data.gov for agencies.
-
-www.data.gov logical view
-![www.data.gov logical view](http://www.plantuml.com/plantuml/png/TP71RjGm48RlUOfXBsIbabmuzTJIhg3IBXl1LWW9APh4iucHFOxiST8LujrnIedI0pwDP_xlzypu9WXwYTPaRpIt9Yg2NcG8rsNfSIewBNriOY3VEXPYALfdIrHU8uyc3h6yU_-kCiZoUDYN1eM2f5HzDwkVf1Xcv_tjz-FZgVxsSFfKxtSVTv_lysqcMWp1D4s5Gi6YSoCOr-aM3OoQfgmY7npNkoV9X-UGoLp1vlwVk3eSD-b-2vPiGnxS6QGdKElwzfLBR8nk4r8z1pDyU8N-5IJeBJiXC7IMkRIy3jVmmF0JHxm26ibVe3KOmWzEWnAha4nq0CTKP1zSP8N-agEuPkxoT8Jc9RVPmgyCqlbw2K8sLnZwng5NIRTUnzpWCitWNUVHmiilf2P_Pr_8h5Upzh78s55OCCrdvosATfpG12xRM5F9F4JxN-o6M4Lh_W00)
-```plantuml
-@startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
-LAYOUT_WITH_LEGEND()
-title www.data.gov logical view
-Person_Ext(personnel, "Data.gov PMO", "A member of the data.gov PMO")
-Person_Ext(public, "Public", "Member of the public")
-'note left of personnel : In java, every class\nextends this one.
-Boundary(atob, "ATO boundary") {
-    System(www, "www.data.gov", "data.gov program content")
-}
-Rel(personnel, www, "manages program information")
-Rel(public, www, "consumes program information")
-@enduml
-
-```
-
 inventory.data.gov logical view
 ![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP5HYnCn58NVvrTS-s8BTUR5fttQTIrQg6xHBY88vJOvdObaReRaPhQ3-D-TuBeKp5CuENmvvzxRf1mrzxvwvSJuR46Twf1kcYRoKzqwxV8f9qGJH25Qcz0tRADZ6NqUSdF_zitUi-ZZfrtZMP5qbextnNtHUYZatTttXyV3yTlsyF6ustpOV7w_N5Ngr8ESZ10DSQejAzTj6Cc7rXdsD3eyLNl45EIukUXoGBaA_9eMTot4JBJ_9osAHcTOHFQ4Vl1X0fgIERAP-OjLzLg2WZpEIk5CBpIweQtGJnvvJHWH9pAUK_eXk2Z49jBE9Gg2kdeNibYEqv8rdCgFXmSwFMkB5VsgQ3vVfwJebo_5Pj_slv8bxpwVl4iTXG52vO5OBFKit29H3-KYpi5_Lr_Wh-jVioDCY3QLIiMUe6bDUUxF5lOlzdbpT8wX9owJSqWpznPYoth-0000)
 ```plantuml
