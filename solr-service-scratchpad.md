@@ -49,7 +49,7 @@ Boundary(aws, "AWS GovCloud") {
         Boundary(aws_fargate, "AWS Fargate") {
 	  System_Ext(sys_solr_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
 	  Boundary(b_solrcloud, "SolrCloud instance") {
-	  ContainerDb(solr_instances, "<&layers> Solr instances", "Apache Solr", "open-source distributed enterprise-search platform")
+	    ContainerDb(solr_instances, "<&layers> Solr instances", "Apache Solr", "open-source distributed enterprise-search platform")
 	    ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "Apache ZooKeeper", "distributed cluster manager")
 	  }
         }
@@ -58,8 +58,8 @@ Boundary(aws, "AWS GovCloud") {
         System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
 	Boundary(atob, "Solr Service ATO boundary") {
-	    System(eks_app, "EKS broker", "Open Service Broker API Go+Terraform")
-	    System(solr_app, "Solr broker", "Open Service Broker API Go+Terraform+Helm")
+	  Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
+	  Container(solr_app, "Solr broker", "Open Service Broker API, Go, Terraform, Helm", "Brokers SolrCloud as a service for applications")
         }
 	ContainerDb_Ext(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
 	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
