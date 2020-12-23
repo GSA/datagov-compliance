@@ -41,15 +41,16 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(iaas, "IaaS services ATO boundary") {
-    System_Ext(aws_solr_alb, "<&layers> Solr ALB", "application load balancer")
+    System_Ext(aws_solr_alb, "Solr ALB", "application load balancer")
         Boundary(aws_eks, "EKS control plane") {
 	    System_Ext(aws_eks_alb, "EKS Endpoint ALB")
             System_Ext(aws_eks_managers, "<&layers> EKS manager nodes")
         }
         Boundary(aws_fargate, "AWS Fargate") {
+	  System_Ext(sys_solr_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
 	  Boundary(b_solrcloud, "SolrCloud instance") {
-	  ContainerDb(solr_instances, "<&layers> Solr instances", "open-source distributed enterprise-search platform")
-	    ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "distributed cluster manager")
+	  ContainerDb(solr_instances, "<&layers> Solr instances", "Apache Solr", "open-source distributed enterprise-search platform")
+	    ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "Apache ZooKeeper", "distributed cluster manager")
 	  }
         }
     }
@@ -60,20 +61,19 @@ Boundary(aws, "AWS GovCloud") {
 	    System(eks_app, "EKS broker", "Open Service Broker API Go+Terraform")
 	    System(solr_app, "Solr broker", "Open Service Broker API Go+Terraform+Helm")
         }
-	ContainerDb_Ext(solr_app_db, "Broker State", "Store state of provisioned resources")
-	ContainerDb_Ext(eks_app_db, "Broker State", "Store state of provisioned resources")
+	ContainerDb_Ext(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
     }
 }
-Rel(eks_app, aws_eks, "provisions", "AWS API")
-Rel(solr_app, aws_eks_alb, "manages solr instances", "Kubernetes API")
+Rel(eks_app, aws_eks, "provisions", "Terraform (AWS provider)")
+Rel(solr_app, aws_eks_alb, "manages solr instances", "Terraform (Kubernetes provider)")
 Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")
 Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, eks_app, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, solr_app, "proxies requests", "https GET/POST (443)")
-Rel(eks_app, eks_app_db, "store and read state", "port (5432)")
-Rel(solr_app, solr_app_db, "store and read state", "port (5432)")
+Rel(eks_app, eks_app_db, "store and read state", "port (3306)")
+Rel(solr_app, solr_app_db, "store and read state", "port (3306)")
 Rel(service_client, aws_solr_alb, "use service instance", "http GET/POST (8193)")
-Rel(aws_solr_alb, solr_instances, "proxies requests", "http GET/POST (8193)")
 Rel(solr_instances, solr_instances, "shards and routes queries", "http 8193")
 Rel(solr_instances, zookeeper_instances, "delegates cluster management", "port 2181 plain text?")
 Rel(zookeeper_instances, zookeeper_instances, "cluster configuration", "port 2181 plain text?")
@@ -81,7 +81,10 @@ Rel(zookeeper_instances, zookeeper_instances, "cluster replication", "port 2888 
 Rel(zookeeper_instances, zookeeper_instances, "leader election", "port 3888 plain text?")
 Rel(aws_eks_alb, aws_eks_managers, "proxies requests")
 Rel(aws_eks_managers, aws_fargate, "manages Kubernetes workers")
-Rel(aws_eks_managers, aws_solr_alb, "provisions", "Kubernetes AWS Ingress controller")
-Rel(aws_eks_managers, b_solrcloud, "schedules pods and services")
+Rel(solr_app, aws_solr_alb, "provisions", "Terraform (AWS provider)")
+Rel(aws_eks_managers, b_solrcloud, "schedules pods and services for")
+Rel(aws_eks_managers, sys_solr_nginx_ingress, "schedules")
+Rel(aws_solr_alb, sys_solr_nginx_ingress, "proxies requests")
+Rel(sys_solr_nginx_ingress, solr_instances, "proxies requests", "http GET/POST (8193)")
 @enduml
 ```
