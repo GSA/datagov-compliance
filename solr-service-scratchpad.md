@@ -20,11 +20,11 @@ Rel(Solr_service, solr_instances , "manages", "AWS API")
 @enduml
 ```
 
-![Solr Service Network/Boundary view](http://www.plantuml.com/plantuml/png/hPPVRoCr4C3Vyoc6Uu1KN1Fr3r9122xjvKfrvLgngKxmidBiIMhLiHVRcpIWVdV6hjVRxIOW16zUU-OtVsOytdVEC-lhbHfy8JLNjK2uzxvotut7bcr6I-dlwtdjq7AZFMe_ucOrPi9AfjUghkhnnUdXhMBQt_ryFLunvz7ILdb1qangjACgiB-2MfFYYW3Wxn4MHYcpaNe9YeI0QG6TOsaThGoGOL26CwMsnCWUzWrSJtwzkPkLdwzcFvNNqylff_V3Wu6NNY4KHbaeqAubHvYRMWjcjx2Mk1cSfwyXLv9iluKt5t7nvW3-703SedL6fyFI8rjb2PZHrvi34YgspkEgd3xweN5pLiaomswAyydj5IGcRJHU6CllqNdBl3JwDSKz2sLCrcevTmwXicOj7UcZWAJY8keNLAyzwI6Zii3c0BX5GIUIAHVuJ6ypgXFzwmWj_bwZyvaZjVDCyr1WsyAZTCjz6cZZ4PY3gUPsMuKaVAATmKGfu4Phv67BWS1ASey2c4N0A1k-DjIJCBiku6Xq3BLMw1mOQXkxaGuXiCLeW5h4PLjZjd7amkHp0PTcVQ5CBLAP0RACP2m8NJ5MvAJ2P7QJ-oQh07IAHl1omUoIUIoPcXCZjjta-Zp6NLLAybXjK8O9c3CLqcGf6tjW-E0IQFgne4I9oaZjatp7voIT9CCrjKP1HGQmzNQ_aHNJR8asw7__fM9RMlu0WPGEG1k1xeNXfzqkfEXJYZ_4htqE39rHjcoQfMiwvksgEGhPCnNgGsTgoqCNUBILbGuF7JAwHY5GJzr6bx5ZAC-7z_FX7yOy85Qup-HlndoCvrsxGZflvRmEFSTL7KPRavHUEfwwVSH3UotDcYXnEQBrtxKENwPYP-dO9uUvJr9QgPzsjamsM5f3_jfEU2tp-J065oy0V0WEsoruonOBoPkUtzbctWG7EzEqVpFwfGuA9QkgHlVSceVdW6wehWqgRGFDoxTqFx-UeRKibxNDTB-uaI-2QmbH-D1umPmt5i65Jp2Bpi3CVP3mJpIKmh1hdUtUmUUokrI6u2KfxXYqdLhEep-zsUXW-Fmm70HSV6pXSZeRtzuKCnYUdfuS9FPBMB--5CwZ95WQmUuVO3r03lLVerhDDlSkvfffGH0cm3KrWCfO3yDlJa-EathlVUkFpjfXBskDJozSEZlwDllKWtGdpBuWzmEx-ZjuCOyE26ObjhJ0s8FOFOO4AWnkkrSpPfNUp9Z0uwEpep3ff0QFZ_x7PA57t6-cWNEZ5t9Pfr-F_vzlCJzrBVtixEo_qHKoGN1Ko3laaztapkNjFtIzNiXgNSbERxPJ03R6qiKEMkzGY_3x-HS0)
+![Solr Service Network/Boundary view](http://www.plantuml.com/plantuml/png/hPVVRnf74CUVmrynpKCBIWrouafkLRN13d6ikB5LYABs1Irt0woyx5vdzanevV-zDyknnt91LUI-BRSxd_antvjRNhDNvCkLwNoZRMRA767fVS4_3GQarls5zijoLZ9Ivgn7w_kPMmqAewpOdB3FZPuDBizExkJHnzzk1Yl57gbwDBsiB9IsIFr2-Dz1QIlZLGK1lqIOEsFSMji566qHbCqXsTR4rSf1oGZ6PSgOJSM8KROTt0p_kFqucNwwdhoRteokHX_UT7iThxr163j3C4Pwq1d2p9KsLxI11uthpaNzgviPZTP_3yylm-9v3_xf0DmXiRFrvjIZMiKJCAb-FUzLXyORzhYQZZxxhkEPAlGqmcx75yExQwYPrODT58wo9R8dvRMpXnJU7egOQDLmFZ92GUv1SsMFETGc752_epcCf8KCnZdkDY0ZpD5whGmBNzbDH2NP7sP8-5U9x2D7M_RAPj9WQk3XTCDzx5Zd4HJ3o6QqAQG87vp7pj0Oo9orcCaZXXmBdNdCGH42XhFoQwtz4YOtOpZjluJI6cG6vvT8Qyq8mixx7RHvM3OzLckkGXX-6iELUxWqhiphDWF4CrefENIjr3WM5OQJswYRQD8qJC1JTeQcoimguv-_DMg3nBzibJUykGYf5uNHMMWu6AToc2aZbQ9GQ80a327YlKGoUZ-MadXo1kJDmn30itO4Sbu2g6r6DY-SjZwuRpmSiLifgnP8d4Glc7e3hCkHzpYFNuvvhcYXFDPbVXj-nOZZoLceLYOT47LNwz2DA9wTGNp5tyoweRwx0zokSjoIMhi2xGcxaZA4NBCdFIj5E6WzKa6QyOHHKRQKalgve-fD5eUfox-TkqSiy9ZVFvrx7_PJv_iECrEoHzgLSUlbyQ2AZwa4GrqMxg52XMM_MeUA7EbVjgZR7ay7VPr4VTNTg8NGWaI7KtAbHqfoR9ZRpP3Xjbjl9M3QW2Srd-jizxf8Zeqcl9F8aWcSlasfcBj1n4LHYtX6xdwRm6s1DX8kmcEGqNhbNaoGICKUHbHGJCqI_ry9U_4EpIeH_BCzRKZTeeDfBZdMdB4NnOjFxmY1vIUuUJAj2KMROLotgLA1fqAt0JzsP7p7YZOp9PfnhGt9lZAJuqtLqfcoLJ03jrwsz-KCoQ97ZfZMzoVHwROHhKy6GtVxlUm9DTn3u6eq6TpTZYVGFJjxrQlP-x2MTYMvpnePwYyJ_mUi1OZrUZ8fblAhKJ66H0mScg-iz5hbm3jH58uyT7yuU_MorsfYM7qzeNK7EVZ4bOoj_krosalf_FJ7c5DAICVvyGeTentOjtcyL9Hpo3NqWw7YaiO6BBWZj2zF_XmDBfIWqh4kjzPOnPUdvwVoLT4MF7xslzOUMiJZRdRmpDcvNfJr7V7_vnF62qb3Fpy_VnhTeCgH00rc2VdLbyd9a6dVHjgogCrQ9vFRHvnMUxDfxUWUwHWWLNXhHkvnP5nUsmKXy-vYPf2EOjEx3cTBp4k338KBwaokxg_Hvl9Vvby0)
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
@@ -41,38 +41,47 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(iaas, "IaaS services ATO boundary") {
-        System_Ext(aws_fargate_alb, "Solr ALB", "application load balancer")
-        System_Ext(aws_eks_alb, "EKS Endpoint")
+    System_Ext(aws_solr_alb, "<&layers> Solr ALB", "application load balancer")
         Boundary(aws_eks, "EKS control plane") {
+	    System_Ext(aws_eks_alb, "EKS Endpoint ALB")
             System_Ext(aws_eks_managers, "<&layers> EKS manager nodes")
         }
         Boundary(aws_fargate, "AWS Fargate") {
-            System(solr_instances, "<&layers> Solr Instances", "open-source enterprise-search platform")
-            ContainerDb(zookeeper_instances, "<&layers> ZooKeeper Instances", "distributed cluster manager")
+	  Boundary(b_solrcloud, "SolrCloud instance") {
+	  ContainerDb(solr_instances, "<&layers> Solr instances", "open-source distributed enterprise-search platform")
+	    ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "distributed cluster manager")
+	  }
         }
     }
     Boundary(cloudgov, "cloud.gov") {
         System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
-        Boundary(atob, "Solr Service ATO boundary") {
-            System(Solr_app, "Solr Broker", "Open Service Broker API, Go+Terraform")
+	Boundary(atob, "Solr Service ATO boundary") {
+	    System(eks_app, "EKS broker", "Open Service Broker API Go+Terraform")
+	    System(solr_app, "Solr broker", "Open Service Broker API Go+Terraform+Helm")
         }
-        ContainerDb(Solr_db, "Broker State", "Store state of provisioned instances")
+	ContainerDb_Ext(solr_app_db, "Broker State", "Store state of provisioned resources")
+	ContainerDb_Ext(eks_app_db, "Broker State", "Store state of provisioned resources")
     }
 }
-Rel(Solr_app, aws_eks_alb, "manages", "AWS API")
+Rel(eks_app, aws_eks, "provisions", "AWS API")
+Rel(solr_app, aws_eks_alb, "manages solr instances", "Kubernetes API")
 Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")
 Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
-Rel(cloudgov_router, Solr_app, "proxies requests", "https GET/POST (443)")
-Rel(Solr_app, Solr_db, "store and read state", " port (5432)")
-Rel(service_client, aws_fargate_alb, "use service instance", "http GET/POST (8193)")
-Rel(aws_fargate_alb, solr_instances, "proxies requests", "http GET/POST (8193)")
-Rel(solr_instances, solr_instances, "routes queries", "http 8193")
+Rel(cloudgov_router, eks_app, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, solr_app, "proxies requests", "https GET/POST (443)")
+Rel(eks_app, eks_app_db, "store and read state", "port (5432)")
+Rel(solr_app, solr_app_db, "store and read state", "port (5432)")
+Rel(service_client, aws_solr_alb, "use service instance", "http GET/POST (8193)")
+Rel(aws_solr_alb, solr_instances, "proxies requests", "http GET/POST (8193)")
+Rel(solr_instances, solr_instances, "shards and routes queries", "http 8193")
 Rel(solr_instances, zookeeper_instances, "delegates cluster management", "port 2181 plain text?")
 Rel(zookeeper_instances, zookeeper_instances, "cluster configuration", "port 2181 plain text?")
 Rel(zookeeper_instances, zookeeper_instances, "cluster replication", "port 2888 plain text?")
 Rel(zookeeper_instances, zookeeper_instances, "leader election", "port 3888 plain text?")
 Rel(aws_eks_alb, aws_eks_managers, "proxies requests")
-Rel(aws_eks_managers, aws_fargate, "manages workers")
+Rel(aws_eks_managers, aws_fargate, "manages Kubernetes workers")
+Rel(aws_eks_managers, aws_solr_alb, "provisions", "Kubernetes AWS Ingress controller")
+Rel(aws_eks_managers, b_solrcloud, "schedules pods and services")
 @enduml
 ```
