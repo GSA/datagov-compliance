@@ -1,7 +1,7 @@
-![Solr Service Logical View](http://www.plantuml.com/plantuml/png/RPD1ZzfE3CNlV0h_z_0lg40EvRIggWMAA18jg0bQLQeKpIO6fftCH6DFTb7Lxrw795IKlO77_Zs_PtWWLfv3ONh_QPkPa2CScKkwZoAldiS7pSVm50XzvYoZvN7cYaZbNYjRcL26Q3uPROsolFkyZenY99PIEg-xNtXSrkJrzDjcbwIFg-HJkbui5ry-zWSzrcmGOcSynEWhdI4OTz2PCb1fVExDNB2vygT-PhJe3k5kVlvmDu1VFO0jUdAsVKmPLN7fW4I-tGsaAJuHOv4kNhXFZKPweNMYBLKgEq8elQiqQMSnXtQ41FMxzyOwHZ2uPt1xAC_g5WtSmyh23rMf8M25_WIPKKJVhPX7cnFmKHC8RlpNKEqvLMKfabVsfya6djgcrcLdePbf5-hcPjxzH5zllYdHTfYs3DFjQWXBzpP1xzNU-IQH2v1geBR4oef5ORp_twWJUlhGt6JLFTLy9_mHkU05ZvRHbruJZWYLpuvG6iMDWEJq5SrDrZTQWR1B5xfwhTFMHZcAO2wpzJtOPSu8MyZNvxuvwVbuEKBciHxMoX38OgzAANjwZVbFpfUVGvGvkzU7u6yN9-Xlufd4FQYvvpyFB1T9jDt42VGdatU3LkYQVHqAo6YXh3eqWKyVOn2Y33v84A4mVm00)
+![Solr Service Logical View](http://www.plantuml.com/plantuml/png/RPD1Zzem48Nl-HNJFRIW0ZcKqwgg5YYYIBIW9cXLgL9aaW7SEdRacR2Bgltl7KD2HTaRZFs-D_CcVY1MdklIH6-qpKrT8EoPAxgFOw-U1ZlD-tfJ4_hSMKRBWzoLSMMK3Pe-SM7q9fuC-wjGMdzTnAKYHY-bR18Kppoe0dqn-h5SfzdZFFsIBQQpwRVFdMx4cWr2ueo71Fr1vmZ6xNIk31mqFaLZLzj2-MCdDrgyUt0tEVsuwyAV2625dfnj3ZD6LLvkG2h_xhfoAJaIOvbDdxb3Pu_iGcjD6wfKreHGUNVGf9t50Xe92UebUcST8nZSChWjL2TtYmRkOMxXbpge7k01_H5oeuX-MXaURK70UqqWkC6_WSBCcQegiRmQVvGkOTDSQgPiHpXhcePQtTYxt-X3vyiAROjfoZ1QpNimS-zJz5vjdJydSW5I06fBhAoCA8oFRuqwegTFvvtCswF0TyBlawkzuD4o-ifhmZwXylaUAgEuCNY9lgEvoVh6goPiquMs7doQMhz0CIn46_R1BdT6s4A-NlVDIa_BAn1oZq6ibI6GnbwrKlRu6lE_d2-VGvmxkzMxsjysJj1P9cE9knkufmS4isaQhvP92ftXy4EtCRfcNuS28YsLLRjpuAF718GemWS98hoXlm00)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 LAYOUT_WITH_LEGEND()
 title Solr Service logical view
 Boundary(client, "Client") {
@@ -17,6 +17,65 @@ Rel(service_client, solr_instances, "use service instance", "service-dependent p
 Rel(client_team, service_client, "provide credentials for service instance", "any")
 Rel(client_team, Solr_service, "provision/configure service instances (OSBAPI)", "https GET/POST (443)")
 Rel(Solr_service, solr_instances , "manages", "AWS API")
+@enduml
+```
+
+![EKS service network/boundary View](http://www.plantuml.com/plantuml/png/bLLHRnit37wkVmNNXyq14djjWg4RXg5EwcP5tIRRkIZsTD3TqOuGMRg9kZZ6aFy-IYVBTtQyeKy-qVm-yYCfwYqvOLspKeFlf2vLKo7SELVJB-En5UlHKhgxfcW8RMcqG-r6fLcDQoMqnvoHgvGinbSNPxVUzENJRBmIvD2oARzYX90QxQZs_3z0encyOX9mTmWBevHPIxq4nKuWT0MzlwKb_ZB0mK6PKYYrOOwKvM60sUIlco_p_Ek7-U_vR7ez_VnkU39mqYc4wSSCChGFiaGeJAChOJVm874zk8odOQaaXpw5brVXu-K9_3C0k4LBHiS_SuTYbJnWpgUN9-oKRLZoAfy-kg6XGjGoJsGtsUNazWD4JZPiip2sl4DoLZXfz3xB_HlQKV2XW_yaj5WY0HV1rpaW_qIr7xZ7K5lp82lqHYWjLcoLGf6d4tgJA7eYzuLO_Bj1Sg6IKfCJklGjjD1wxBYU1jeu144mrQNTr5xVPxPma8bIK1gjiVH6WWfhMJgiG5W43Dx-jEQPW_aiWrUZrz1eXKHWU2JiMXA2Pwz60zHL-1piEYZMn5bClcPmRHwkb6cgs4I0v2E5y4vPTWchKCaAgEq8mMH-auOZ8djOlATyAvqvkfNekFSQoIdb7YPK4H6JsMMeLLqhMORcWpAYWa8e9eeDFSOJEVnLj4Q1luRO0NGhaI-4NGg7iIBlmodbkG-8phasbKT4RrWRUuyMl9Nse03fzeKCu_2mBiR_-hqI6xJqMnnSOBDNFTcfzaUgiPGBYQn-4-UeemRWQN3urTDODmNpvTGK6brKUXjia0NRCRsjiAtSwTNhhjG-A3LYI9kscNefzIDFmj8YKKzj-CSh-zWKQ3a-Kck3wBrjdVADzjJ7rQRVf_u4btwmb-Q1euJF4N__r_YLopXzoJiCt5aQk5Wt7indPoy5pArf7DgUu1rd-oTvjd3ruBrFs6x0MR5Oo79xpJZ6YrqFdIdYRUoCnk55VD6Pjd0DUPxYNIYikMz5tDIeqvA_36RWtNiAr-OKvcWv3sDNthFzay3Z1O7evBPhmOiKyLqHwX3ZvbMHA21pmc5OovliZrdOxyvO1F9sC0i8gvTO55PWaKnZIt-LOcEV1dxl9a5x2oPXGrMJ0XXokyA6XxZOBPqmvJElGA__RQLw2vnWs3vG9pv2UFVXUZeVtzvaSnXUN9nlURj4X_F0QJnA9ejl1FqFsG51BC2tCoLWhpSKMY2qhxYeWBOzgerrC3m___6dYE-zixiLkn9QrerYb2zoUcbZAfrCthpwEQMIu7khTFVE8sstS5oeUy3-JkhXU44zXsdxSMmjVMCjZz3qzleXvT6Ql4LTDIlrBm00)
+
+```plantuml
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title EKS service boundary view
+Boundary(client, "Client") {
+  Person(client_team, "Client Team")
+  System_Ext(osbapi_client, "OSBAPI Client", "Service orchestration")
+  System_Ext(k8s_client, "k8s Client", "Manages cluster")
+  Rel(osbapi_client, k8s_client, "provide k8s credentials", "any")
+  Rel(client_team, osbapi_client, "request EKS instance for client", "any")
+}
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+Boundary(aws, "AWS GovCloud") {
+    Boundary(iaas, "SSB managed services ATO boundary") {
+      Boundary(eks_instance, "EKS instance") {
+        System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
+        System_Ext(aws_eks, "EKS control plane")
+        Boundary(aws_fargate, "AWS Fargate") {
+          Boundary(fargate_node, "Fargate worker nodes") {
+            Container_Ext(client_app, "<&layers> Client app", "Application", "specified by client")
+          }
+        }
+        Boundary(aws_public_subnet, "AWS Public Subnet") {
+          Boundary(worker_node, "EC2 worker node") {
+            System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")    
+          }
+        }
+      }
+    }
+    Boundary(cloudgov, "cloud.gov") {
+        System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+	Boundary(atob, "SSB Application ATO boundary") {
+	  Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
+        }
+	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+    }
+}
+Rel(eks_app, eks_instance, "provisions", "Terraform (AWS, k8s providers)")
+Rel(osbapi_client, aws_cg_alb, "broker EKS instances (OSBAPI)", "https GET/POST (443)")
+Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, eks_app, "proxies requests", "https GET/POST (443)")
+Rel(eks_app, eks_app_db, "store and read state", "port (3306)")
+Rel(k8s_client, aws_eks, "manipulate k8s cluster", "http GET/POST (8193)")
+Rel(aws_eks, fargate_node, "orchestrates Fargate nodes")
+Rel(aws_eks, worker_node, "orchestrates EC2 nodes")
+Rel(aws_eks_alb, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
+Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "http GET/POST (8193)")
 @enduml
 ```
 
