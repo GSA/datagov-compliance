@@ -105,7 +105,7 @@ www.data.gov logical view
 ![www.data.gov logical view](http://www.plantuml.com/plantuml/png/TP71RjGm48RlUOfXBsIbabmuzTJIhg3IBXl1LWW9APh4iucHFOxiST8LujrnIedI0pwDP_xlzypu9WXwYTPaRpIt9Yg2NcG8rsNfSIewBNriOY3VEXPYALfdIrHU8uyc3h6yU_-kCiZoUDYN1eM2f5HzDwkVf1Xcv_tjz-FZgVxsSFfKxtSVTv_lysqcMWp1D4s5Gi6YSoCOr-aM3OoQfgmY7npNkoV9X-UGoLp1vlwVk3eSD-b-2vPiGnxS6QGdKElwzfLBR8nk4r8z1pDyU8N-5IJeBJiXC7IMkRIy3jVmmF0JHxm26ibVe3KOmWzEWnAha4nq0CTKP1zSP8N-agEuPkxoT8Jc9RVPmgyCqlbw2K8sLnZwng5NIRTUnzpWCitWNUVHmiilf2P_Pr_8h5Upzh78s55OCCrdvosATfpG12xRM5F9F4JxN-o6M4Lh_W00)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 LAYOUT_WITH_LEGEND()
 title www.data.gov logical view
 Person_Ext(personnel, "Data.gov PMO", "A member of the data.gov PMO")
@@ -124,7 +124,7 @@ catalog.data.gov logical view
 ![catalog.data.gov logical view](http://www.plantuml.com/plantuml/png/NP71RjD048RlVeeX5n8fs1TEFRM422gbDAAf419IDDwTs8RrZBKpTX8XtftT5gg0JwlVy_t-F7kjXj76FXIlEdPXz0IjsQ1NLHNnM3QTjMCzAaKdRCHMEkahzB53di8uZDNgxPjjGBR7kqqLq4WjHVjLdZvPEUJcpStN-yVT_iljxkD-i_wm_lH-lYYiiq3Wq318KteqB1kP84ZJEGmmTNGijXHLUBy-sNoWV6GAIvZTDCJk3Dk_qIndS21FCP7K3q7EH5KsZkXCucpnJzLOXyubPljqoFGTzJL5a0DOI_0yaA3NB4OGw63vrOi2NC4jmtUSS0aqKJo32wZwZUban5x1sav1cChYdOpiCPxdQ59dpTqzr7-osG9-5f2UXxCQzNEFsjQ2qQUvrNzxoP8FhYK_1b9eCKwafe3iGKrYoY8vYLwpw0-M8qD6bKpJV_mgFbEuNE7bftfaR2vB4sGTDme7YP2RCEyxwUQMb-rTLYXXTEqI8kLhUxBo2Go27cIWPvV4NnFxiG-_0G00)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 LAYOUT_WITH_LEGEND()
 title catalog.data.gov logical view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
@@ -142,7 +142,7 @@ inventory.data.gov logical view
 ![inventory.data.gov logical view](http://www.plantuml.com/plantuml/png/PP5HYnCn58NVvrTS-s8BTUR5fttQTIrQg6xHBY88vJOvdObaReRaPhQ3-D-TuBeKp5CuENmvvzxRf1mrzxvwvSJuR46Twf1kcYRoKzqwxV8f9qGJH25Qcz0tRADZ6NqUSdF_zitUi-ZZfrtZMP5qbextnNtHUYZatTttXyV3yTlsyF6ustpOV7w_N5Ngr8ESZ10DSQejAzTj6Cc7rXdsD3eyLNl45EIukUXoGBaA_9eMTot4JBJ_9osAHcTOHFQ4Vl1X0fgIERAP-OjLzLg2WZpEIk5CBpIweQtGJnvvJHWH9pAUK_eXk2Z49jBE9Gg2kdeNibYEqv8rdCgFXmSwFMkB5VsgQ3vVfwJebo_5Pj_slv8bxpwVl4iTXG52vO5OBFKit29H3-KYpi5_Lr_Wh-jVioDCY3QLIiMUe6bDUUxF5lOlzdbpT8wX9owJSqWpznPYoth-0000)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 LAYOUT_WITH_LEGEND()
 title inventory.data.gov logical view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
@@ -159,7 +159,7 @@ dashboard.data.gov logical view
 ![dashboard.data.gov logical view](http://www.plantuml.com/plantuml/png/RP51ZzCm48Nl_XL3BxJIabuuxMdBjeALkhiLj498IDKadhI6YIVOutGhn7_7QMXLfCqf7i_CU-_pNLGCcXe6Yuh5JZfWsRaA6Jf71_F6-OgJ9TYhjl5sEWruA7PEzwbCaK8bNibhKKapHHiS-evJcwRtxz-j6Brk7fTJHgMekRIzxxjVj6YpdZ7BsRVdpNhxzM7zQRjSV5mypSSJeqwPm6BSbuB15g-xCYiAKVnsyQBZDfNigXiOhKu_C3_FmYOR7EMB6JJKb1H0Qj0zmJ014W1tvAiZjATjddWqCUQj5oLWgZNtdtjluS733-pm1gYZS8IACSRlFgSXRsDUwoA8fyAO3vAynN0SeqhPgw-VeVnN6qtWju7yVJb6fMPyoPdxBaalnTxxtCMMyHZXLq9sceNtLFq4vsi93QeJ3_qWr44Qw30uIN68vIWMCECea0sxEXyXjIneoKBjED_cj7-C6QoSK0uuebEAlV41pe7AKwLtyuZEdmkG7PnmDkATIY1xqUqnVYQ-FCrrpFxzpjm3jH8qQwL8sJmxEoJgi_LByexj4xbT7WxNhFxtMGKyS0HfQM1n3IS3DtVaRMhuBm00)
 ```plantuml
 @startuml data.gov logical view
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()
 title dashboard.data.gov logical view
@@ -242,7 +242,7 @@ WordPress boundary view
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
@@ -289,7 +289,7 @@ Catalog boundary view
 ![catalog.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLPRRnit4tt-z2lcyqDh6xQsjLmW288WwqkTehAjU1MaHLi853cIs5BaXiELl2totplSoteL8JMo3nRDdNFcCcT6UaD1-52ipU3_safJA8HL23czJ18ljiEb3gjYNX1wwMn06uRIhHEXl1PsOugyI2xFJoT6sF3-Tfoi1GNqV3MxP6kXBVfX7hc_XS8oSCq445O82sUCssgx1CD68Ao2dTVQ4vySi6CmJWfZIkRe8jntC4v_lNy_dNtuQVfsDhw-kRwxEZmQ11qCWXH16BSSAluSBjq6vgwmIlWIDXgtWmbwSdPs_HWEy-feqPp0GRf4AqkOj5S7yGuMgD0B0xZEZIiHarWLBsHm_k1eXwgO6oqPCwaE4NsBwpbwS8ignTg0GTO5145mRQKlyw2TlUERGMeCoEXPnYi2XRcM0HK8Zu2rBV-tvVx0T9p1zyCphh518d3CxxUQ42At6WxGgkeuk6WoFnHRYlbyoE36RIwDAzJ14Vmp07uw6nclkLviM1rZxJgh_sKb1Lp7N2FPJ9XvtmwC4-fqBbWO4lr1uoiTNt32q3nF39shcNT5GC_chxuneaHFh-69itv9aQqA6NwCeN8VWnUBXPP0w3TQOi_7KyB1nG0x3QJJ-qu7NLAVHTQ16mNryPVrrHuqFfqqM-1Cv7a_fnODQPwp24JiSCngKeQLip0QlXYEJk3ov_GEpeOlgZSU2MqW440el5m1sgMsSP0yh36861W8pYW0XuVULhFaShHGnGoPNA4g358rRBwmn3BaYYvNpFcnm0AZCbV2Rv127Cm_tPnD77XSiFCLVqhd5KMhlwpRrho4WUfoTy-dmVwfgyZLlAk9ciUy78Mbn-pT6AxuViw4hLWUhh9uVEkCYg7YCm5ysH6DcEO1bIPuntb-sG454R2PpxsIrFM8vOvlr-m4HAzxCOIOyQT1JzRtjnViWF_2RVfBvRPWi0qD2DBOpwmJRQUt9OaP2K6CkCdIKy4ev_NVg20J8giqrvy_9QAwhj99vS8AKx870kcCGTb4rxUtkFLORwSxtC83jWlAMHsSv-OtVZYRRYN2wMjWH_0IZeyzviu7WeB44e-FuNUR9BzLtnfmU7u-EleZIGRrVljQ5CUoEpIzM5jyG8CiUL_6c8FCQpH7o-3-2dzQIsjXsMMbbwwTv0elaI977SFDzJIPt6VJNRegYpvNCtvnY1IBCEwvxbkX6xTdM3ks_RsNU_UeaS0Z2v32S_7j4VIAztLiFI2yugv5rSQkYIV98hLTozBRCQ-cxvgMzQjUQtw3NYzAq2f2G_bS5lsWT_Q3Hw4esNhDpkiV0ktKj-iWKkVqqS3X3-UZi_zafD5dZBKYcXys-qJTF98pFaQJyMSxht2n--tHtppHlZ6FhDegV4JLRcvkoeOBu-DyxGVROAEk26eadTJxkiOZCV0DMbMipRy0)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
@@ -391,7 +391,7 @@ dashboard.data.gov boundary view
 ![dashboard.data.gov boundary view](http://www.plantuml.com/plantuml/png/bLL_RoCr4FsR_HH3_u2qQdSfgK0weTEbJMXFIjjmcwD2WA9PUv8OUUqzsvkz1TrtntQIJT80vQogSkoPzzxyyEmRwz2ukfJ9bq8nMNE2fNELVPLb1fjq8TooBcfBXcdbIBcKwJ93RWIgbQohEhkvkfX8LExz_JWhqJeo_cXsuwrHA39f5R2_Xbfvnz83W5iIpBMKkX5g0T8R0IeE1zV2MB_Ju8b1QePIjXwZKtXCa8m7lpo-dywUtaxlPkFHxUXXs3jDd72IWADT5XeDJpawJ1Tw1OMk5KVJmafGaoJ9X8pLQZRww7fLNKZ1pk5a4ZSmt7h3pzwMp8c_6a19PK46z3pgNVk0De0BKgo5Ak8faYUdIQAq8q0B8yLCMpcXrOC_IGPI0Wj6B1nPu5G9veW36WAAjk5Nuoi0qt4Eb-ctK2j9reBsfAOHbY1WypGXnUCsIQutaVMmiK7fKmwtUdKZTSrFJk6l1FoA_pf35kvyKhnrt8O4TQPVvArrLCRCUCGPocBV3gH6Vb6WHCLYQYBXO7pjuuRDsY5qL3EZQqV6c__mbSIMZ7qDEyprfGreKJVy6AIQ5fp1-Lmmi6HMWj4UnovgfuF0hj23wMDNx2wePyewvwvHzX6wmoFtiBest3dFiAeE8dkY0WPL9GN3KEaGr-Hk0j-dLsd_t2DmUhjGmf61VdgPNbu6WrlocEZ8Wg5A6sVZ6-4anSfZWdKUYi7Tr3-wcpoFbtDjIhlBILoVakDT9tbOx8dc8MttRVxJ68Rei41BstA-6-PXcpjjo6uxNAZ05mEAx6kPdly57jltKDTI5n3mEewy7ykDREafcC564eTOWp_iXe6BXN0ehGjvMRJhYxcG54bZY9_s-p_g3F1nSzG9a1pqTZIomf4zgDt6kQ4YtWMHzoZKzY0aFKw0KYiHuk4GaKGKjIzdON5c4MseRJwumDejjH5_UeSSCJyMn34qqN0mYHbIA5idc0McfLmF38-_Rw-eCRGUN0_KmBkmZshNmiAeZKHHrMPUNRm6JmEluEnissMrzVhFpk0tbMM_nWy1zAwk-gU_PrdYCPzt-Hxh5i6Hf9ASQGExOzNQFyp10D2Drzqm2IEuw-ZDLoOMV8LIyFW6TeqGwnsGrzfkHzDiyfXFEv90qK4VZvlAw8yYFgeFDLdt4j8Hm47uduqtUo2nyFv7m-Am-sBxs__V_GUSTwF1SCi9_rIoPq_U4FA3HtqEyIXhZDWRFzxI_vMj_I2Xr-z_yvs7_s_q-D2jqsRteF-jUjiKlI75wrB-3G00)
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 
@@ -461,7 +461,7 @@ Every data.gov component follows the pattern described below with variance only 
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
 
 LAYOUT_WITH_LEGEND()
 title data.gov typical application interactions
@@ -554,7 +554,7 @@ Figure 10-1 Deployment Diagram
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
 
 LAYOUT_WITH_LEGEND()
 title data.gov typical deployment interactions
