@@ -20,7 +20,7 @@ Rel(Solr_service, solr_instances , "manages", "AWS API")
 @enduml
 ```
 
-![EKS service network/boundary View](http://www.plantuml.com/plantuml/png/bLNVRzis47wE_ufR7ZORIEor2OPk68OwhfiLTMjlSb7iIQ2aiqE48ZKUPSSOyh-Ff6XQifqDVR9ulk-x7z_n-9OCqwOkHUyxBdDH5mWFnbJqosYasNQuvkQXpcf2dIjfK9fXhifH9PXqc6ioXU3PQ79xlN2cBvzcevAHGMrDwSGY69UeXvNZ_m5gQS6b9G7pWB1IGgWjbsiGrWcOBA3pDzTalnJOu21KpeJOMOwOvMc0sVYl-PTb-lN3ylTqDhsVVdxN7_GCDm9X-Z41GhtXEKAcQbamlOCDnstlBfpwkU0sz1LSJlp7vG3-wG4iK9EIuS_K82kZ1opjwN9WdP8T6IpJwPFfAyfOnTD8Da_kneiF43Yj8GbPA9q_81dD35VocENn3HqexA65_yGaMoE1ROBhiqV-YU8uS8UXqch32tH6o3KMrigP84V7v2vIT8eyBaJZtpMIyPtaaWoJkPDGG-Dnu7hkIMKG6C5KvdfNkVe-MuiDCXO2SYKbviv8K635SuC5C8s0tjkTjdRcO3bBuDNmDTHI814eEn9womd1iHV37ih2V_OE2h8jsIp6NnEuLvk9K7KHH0I8FfmnvvGaTr3wJXRxkI0OB-TnE0AoWyL7IlUbMuvs9rhk7I5jIgc3CP45n7XsvtjLLOBdNdmGYXMGCU68dA0lymGETnMr4b1P2BO0xKwaAwRNp63eo7j_YdaU0u9pAbNX4C4Rjae_eWPdfICeGBnzVL92fwf2pOpIhhls3FDmlWmZ7DhiZkL-XciogWJdxkK2ZQHgdRjWhL3FlVXrljIgpcmpKwepYIOKlF0sIBpjfRAR-lPLJoUlsnLtGL6FFkqQJUMQooSx46kDv9JvzNl1TgZfD_3_k48_rXbg6n-fiK7mtYiedDwE-kLgu-zpTv1prx2rsjWe_dDel_zh2lDr6CBexUVkEivTw9kTpxCZ60EcMjK6TQVW0sVp9pcsHjBtBc6z0wFPQiNpE0Q3tiL1GwEoS2d7XtjnUXylsaFdhrLLXIkHQVNO567dJi9-ozvvCzWLV0NtwWgMg6qUIfVEi_cJmE4P0MlbTf3W8aPyb_a-XBXfaKKAI0mpwBVpBlbZvjUyKHg1d1tK2lm69biKdWxvirsPRlt6WexsJCJwhiOAe6_byeiUmdxNDB2KPnw3ZlvDfpfxdA3Vl5C35y4__t0_NOuMysG9_TlRcprlc-Xq7cmQJnm9mbD1_qDsGX0QyErC4TZHXhm4JBgEim9ehr6bj87-pSsFFmLyvxcDczPjALxLmg9Sa-E36r9fPVBcrSynbGW_sgY7vnvflup3NZq2nfrqYhCBwXocqUFyMlgcNhv5MTIb-1S0)
+![EKS service network/boundary View](http://www.plantuml.com/plantuml/svg/dLPHRzis47wEVyKj3viD9FQw14Ct34FjrCsAkaqskIZs953IsI52aHf9sJ66_FSTAPesxQPh-cJoTFVTVTyTIRyobcdRrgBt7PUbQ2k4EsiRy-jefDbwkEJshYrQWxfKqgAqmrBLeqOmwMBEZQq4BqPNb-UtplJn_MnKCsDHaoc_eWZ69UfXu_1_W5PIS4qWOEyG5ae8jUPo2OASWCaAaizS6refeEGWLCc4s116hF8umMpyzyt7UVxfxVoFV3QzddvutH_qBBS2OVek0-AmuYL2eLfPCRs15STrRn9s_L9mIdq6frT-SJg0Vti0jwYDak5ZRf7LqGFcj3iTa5Es8SfrFdsmVMKArl0yWjraa_7jMmYOPCX25KgNTsYiPfOhUOXo_zBi86Yp5_-UIRP40oI2qzb7_eNYC762q6YruYIPGoerLcJbJ1W7n-GcGYGa3ube_AUbUhsIN1hBPEbQgA7ps64zzgIo2Cp0L9PwqpX-7yX2ISP208sHnD8P3LJOyD9Y1KmZOETDkpND7Cnd6RmO_WIj56WCA1e9lUO6mQ5NmnxAoYzxkmwojQ4gnfyok5QhAw7QAZGH8FfmnfnJbasWzafMsxamC9xVnE48aKaitfjyIvqmzfNOSqyQIINb51QytH7IIe0xFkXbJpDuzmNJIsOnC7dZToa-G1pylb52vwf1pQpIZXZjuIRiJyFq18PkMs_7XwP7rU3SlLAWqQXMamonhZGH4mMHNvBRLkIPOXLCc73yjVSaRWA_b7KyctZuLAc-sNYLShdayc4los_V2xP1RNu7_yKXlMiBr18jciu6mHlAc3_D47kn7M_MD0bqPmOo2rxwqtX8OE208kRZvzlMj0N5vwOjgBgWqAstGUPjeOLF3qbE4eT1SJhHSgyc44xj8gXD59DoukzZEksbQ-rIhGZBBuUq_jAebijGHFJsUSzZta0izl4092RCjMejwbJeYDbzD0wj6xuthc2z0QlPOi7BdVAzavt8LXNXv8vtkXmVsfFzgVMoDasGjT3glYD19qJ2zYgUU3FGFNq6r-eCvgYf3gLhvzbzDE3YcG4MQzjlmKdC-BhmEeIyULL42CWii-Yly4tsvymjCgiqWd5sK0lmrxGXKdXy71_fNdLtT2HqS1d5MAzgP01zQfT_3I0y0jeC2F8pBqRI_qwfvB8tqEyUiu7BuFyZmFLqFhgzoURGlxoysEBk0ntF0vNnm0ail2VcVy2E0880pqUAWKblZ6y1aqvnLe7PzgXHsaB_ukB7dqDyyYRlhlMQITwqWgASoF5L3gNiLVBonI-nbEJ0fnVhCqabmUar-isOJy1qt9-hVKBuwH9t_uRmwx7If--RC4Y_vrVn2cNLrk8_)
 
 ```plantuml
 @startuml
@@ -43,17 +43,15 @@ end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(iaas, "SSB managed services ATO boundary") {
       Boundary(eks_instance, "EKS instance") {
-        System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
         System_Ext(aws_eks, "EKS control plane")
         Boundary(aws_fargate, "AWS Fargate") {
-          Boundary(fargate_node, "Fargate worker nodes") {
-            Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
-          }
+          Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
+          Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
+          System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
+          System_Ext(client_app, "<&layers> client application", "k8s service")    
         }
         Boundary(aws_public_subnet, "AWS Public Subnet") {
-          Boundary(worker_node, "EC2 worker node") {
-            System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")    
-          }
+          System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
         }
       }
     }
@@ -72,9 +70,12 @@ Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, eks_app, "proxies requests", "https GET/POST (443)")
 Rel(eks_app, eks_app_db, "store and read state", "port (3306)")
 Rel(k8s_client, aws_eks, "manipulate k8s cluster", "http GET/POST (8193)")
-Rel(aws_eks, fargate_node, "orchestrates Fargate nodes")
-Rel(aws_eks, worker_node, "orchestrates EC2 nodes")
-Rel(aws_eks_alb, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
+Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
+Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
+Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
+Rel(aws_eks, sys_eks_nginx_ingress, "orchestrates", "https GET/POST (443)")
+Rel(aws_eks, solr_operator, "orchestrates", "https GET/POST (443)")
+Rel(aws_eks, alb_ingress, "orchestrates", "https GET/POST (443)")
 @enduml
 ```
 
