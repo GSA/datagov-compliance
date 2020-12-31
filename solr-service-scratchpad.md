@@ -9,7 +9,7 @@ Boundary(client, "Client") {
   System_Ext(service_client, "Service Client", "Use provisioned services")
 }
 'note left of personnel : In java, every class\nextends this one.
-Boundary(Solr_app, "Solr Service ATO boundary") {
+Boundary(Solr_app, "Solr service boundary") {
     System(Solr_service, "Solr Broker", "Open Service Broker API, Go+Terraform")
     System(solr_instances, "<&layers> Solr Instances", "open-source enterprise-search platform")
 }
@@ -20,7 +20,7 @@ Rel(Solr_service, solr_instances , "manages", "AWS API")
 @enduml
 ```
 
-![EKS service network/boundary View](http://www.plantuml.com/plantuml/svg/dLPHRzis47wEVyKj3viD9FQw14Ct34FjrCsAkaqskIZs953IsI52aHf9sJ66_FSTAPesxQPh-cJoTFVTVTyTIRyobcdRrgBt7PUbQ2k4EsiRy-jefDbwkEJshYrQWxfKqgAqmrBLeqOmwMBEZQq4BqPNb-UtplJn_MnKCsDHaoc_eWZ69UfXu_1_W5PIS4qWOEyG5ae8jUPo2OASWCaAaizS6refeEGWLCc4s116hF8umMpyzyt7UVxfxVoFV3QzddvutH_qBBS2OVek0-AmuYL2eLfPCRs15STrRn9s_L9mIdq6frT-SJg0Vti0jwYDak5ZRf7LqGFcj3iTa5Es8SfrFdsmVMKArl0yWjraa_7jMmYOPCX25KgNTsYiPfOhUOXo_zBi86Yp5_-UIRP40oI2qzb7_eNYC762q6YruYIPGoerLcJbJ1W7n-GcGYGa3ube_AUbUhsIN1hBPEbQgA7ps64zzgIo2Cp0L9PwqpX-7yX2ISP208sHnD8P3LJOyD9Y1KmZOETDkpND7Cnd6RmO_WIj56WCA1e9lUO6mQ5NmnxAoYzxkmwojQ4gnfyok5QhAw7QAZGH8FfmnfnJbasWzafMsxamC9xVnE48aKaitfjyIvqmzfNOSqyQIINb51QytH7IIe0xFkXbJpDuzmNJIsOnC7dZToa-G1pylb52vwf1pQpIZXZjuIRiJyFq18PkMs_7XwP7rU3SlLAWqQXMamonhZGH4mMHNvBRLkIPOXLCc73yjVSaRWA_b7KyctZuLAc-sNYLShdayc4los_V2xP1RNu7_yKXlMiBr18jciu6mHlAc3_D47kn7M_MD0bqPmOo2rxwqtX8OE208kRZvzlMj0N5vwOjgBgWqAstGUPjeOLF3qbE4eT1SJhHSgyc44xj8gXD59DoukzZEksbQ-rIhGZBBuUq_jAebijGHFJsUSzZta0izl4092RCjMejwbJeYDbzD0wj6xuthc2z0QlPOi7BdVAzavt8LXNXv8vtkXmVsfFzgVMoDasGjT3glYD19qJ2zYgUU3FGFNq6r-eCvgYf3gLhvzbzDE3YcG4MQzjlmKdC-BhmEeIyULL42CWii-Yly4tsvymjCgiqWd5sK0lmrxGXKdXy71_fNdLtT2HqS1d5MAzgP01zQfT_3I0y0jeC2F8pBqRI_qwfvB8tqEyUiu7BuFyZmFLqFhgzoURGlxoysEBk0ntF0vNnm0ail2VcVy2E0880pqUAWKblZ6y1aqvnLe7PzgXHsaB_ukB7dqDyyYRlhlMQITwqWgASoF5L3gNiLVBonI-nbEJ0fnVhCqabmUar-isOJy1qt9-hVKBuwH9t_uRmwx7If--RC4Y_vrVn2cNLrk8_)
+![EKS service network/boundary View](http://www.plantuml.com/plantuml/svg/dLPHRnit37wkVmMNXyq6MdjTYw4RXg6nusP1tSRhkIlsTD3TqOuGdNGJTNQC8VzzaYphBATUa3wTH94VoO-KU6_9C6tQMlI-ux8KROLmOqn3luv6ccs6Asvksg8brAMI1gKPbgeUDO99P_E2J2LuCPgyVZ5teiyVPgEQaK5jHVd4MZ0kKGyRX_y3jD8QrnO4p0t2KWcXDbokG5WbOBA2v9XhiYi5rZa8LJ8XjXOZHldGmUpyx-lFY_pBrUAFV3Qzd7wyw0zwXXk1C7sV0Q5UynAXKAsicDx2ckEcDmwxVYcuTVqSpYP-SJQ0Vti0SzIaP3ZC3R8wQi32xiu6LYdRai4wdzwPlgA2DJoFODVP-7n-1G7J2h8GXTBb3PBHp70bZr5ktr07OJS7zX-OP2iai2Gudhtb9nJ7ZXE4Hgirhz09eTHOMIbdWXmSazi8aIHvd8Z6VreauvdaaWoJfIkXXfr6XtNVKOft1hLa8W_KarMQ1XbaGUQ8JhElL7cBEbVB9I-vjUOrMtdR2ty0r-40hlo1Sxr6pPSSAsWRCjec03iZ7uzK1e4HJ6MfjutZ-wELM9_dGa2ffCJI2GagR7XfB0hJ2EYrtMvZxm0iPXcy7Fu4hHH81CgsgDvmGd3erR27ilBBNfS-sxYWpxzaSAdM4w7QAkGA47KuOqufoyPG-yfMiJ-3SgAEjvJlsRTcXyM8wed1kYb337_D9ubAGhaDDRVO0T9TTQq4k6jkSV_7fDG1VIeO6Lv2l9AserQSZDv2VphvD4XG3XdAbqolcC60yswtEueKEjm-AQ5prQ1cHcb7dTt3TTYVXViI6ivjw_s5QSce6fowhmLe9DLgtu4dNB6gvaHSoJmm8j3dknV398g_uhXfXI3_h8NkfD2Kf_s9mbPtfP4eq35Jh88n4wx0-gIx9C_psJWuI8lMfwslSIvNNDuT-FdjUy6sgEbty2SEwtrRe9Pea7Oo2DhGyP3uI1eZF2EiQHBmdHYiMF3Ilth7IGmSq07g_QcMQTh2OkJK5ZR6mDJSoo3pijW-frizjsI7TdUCsUL1P20SxqNWFQOQWafNuNkVtklIjTXAhIskNmxjsaTr8g9o5GAAsZw65p66a6PNtHGaEiorQWtgbFg8kJiaXxQx1EzSm7eBHZFtgdQrw3thA3Ug26_K0KVfE_Nii8yzlKqJw2sqkjqbO6-fXFq077insEdu72xLSrYWjZ4eNJlDtI61isS4x22kZlvdqUD5uJa8VlEgY12G6MRG3yvjzkVCJs2ZD08vEQWb-E7eRZC-V1BkxVHmap4cTFJ-HblFQCm0-hPKVWP36BsQt0lubJcTr7x7L39Y2VgxNuY1y-3_pE1okXZDhxC5z5-_VhN7FGGwxWKVw1stO66AqoDW3m020Kz7YeP9RSYNW4d7EAk0zZLgb3RGV_Ngnv-3VV8dr0sfcadUjC9QEPBZlr08vI2IDoz_YQ4a5pzzQf-OL6ASFAlVZda29dbCdmWP-Kh7RFVdQQ4sIj-wX-Onh0GYZFumuy9OUmJXn30zyQ-N8e_Y02M-aioq-jky9O6J9G42SFLu2czHLcqj_WC0)
 
 ```plantuml
 @startuml
@@ -36,29 +36,36 @@ Boundary(client, "Client") {
   Rel(osbapi_client, k8s_client, "provide k8s credentials", "any")
   Rel(client_team, osbapi_client, "request EKS instance for client", "any")
 }
+Boundary(external_services, "External Services") {
+  System_Ext(docker_official_images, "Docker Official Images", "verified upstream images")
+}
 note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 
 Boundary(aws, "AWS GovCloud") {
-    Boundary(iaas, "SSB managed services ATO boundary") {
+    Boundary(iaas, "SSB managed boundary") {
       Boundary(eks_instance, "EKS instance") {
-        System_Ext(aws_eks, "EKS control plane")
-        Boundary(aws_fargate, "AWS Fargate") {
-          Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
-          Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
-          System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
-          System_Ext(client_app, "<&layers> client application", "k8s service")    
-        }
-        Boundary(aws_public_subnet, "AWS Public Subnet") {
-          System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
+        Boundary(vpc, "AWS VPC") {
+          System_Ext(aws_eks, "EKS control plane")
+          System_Ext(aws_ecr, "AWS Elastic Container Registry (ECR)")
+          Boundary(aws_fargate, "AWS Fargate") {
+            Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
+            Container(admission_controller, "Admission Controller", "k8s service", "pulls and verifies images")
+            Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
+            System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
+            System_Ext(client_app, "<&layers> client application", "k8s service")    
+          }
+          Boundary(aws_public_subnet, "AWS Public Subnet") {
+            System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
+          }
         }
       }
     }
     Boundary(cloudgov, "cloud.gov") {
         System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
-	Boundary(atob, "SSB Application ATO boundary") {
+	Boundary(atob, "SSB application boundary") {
 	  Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
         }
 	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
@@ -73,9 +80,10 @@ Rel(k8s_client, aws_eks, "manipulate k8s cluster", "http GET/POST (8193)")
 Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
 Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
 Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
-Rel(aws_eks, sys_eks_nginx_ingress, "orchestrates", "https GET/POST (443)")
-Rel(aws_eks, solr_operator, "orchestrates", "https GET/POST (443)")
-Rel(aws_eks, alb_ingress, "orchestrates", "https GET/POST (443)")
+Rel(aws_eks, aws_fargate, "orchestrates workloads", "https GET/POST (443)")
+Rel(aws_fargate, aws_ecr, "pulls images", "https GET/POST (443)")
+Rel(admission_controller, docker_official_images, "pulls images/verifies signatures", "https GET/POST (443)")
+Rel(admission_controller, aws_ecr, "pushes verified images", "https GET/POST (443)")
 @enduml
 ```
 
@@ -100,7 +108,7 @@ note as EncryptionNote
 end note
 
 Boundary(aws, "AWS GovCloud") {
-    Boundary(iaas, "SSB managed services boundary") {
+    Boundary(iaas, "SSB managed boundary") {
       Boundary(eks, "EKS service instance") {
         System_Ext(solr_operator, "Solr Operator", "manages custom SolrCloud resources")
         Boundary(k8s_ingress, "k8s ingress controller") {    
