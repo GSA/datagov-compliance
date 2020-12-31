@@ -83,9 +83,13 @@ Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
 Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
 Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
 Rel(aws_eks, aws_fargate, "orchestrates workloads", "https GET/POST (443)")
-Rel(aws_fargate, aws_ecr, "pulls images", "https GET/POST (443)")
-Rel(admission_controller, docker_official_images, "pulls images/verifies signatures", "https GET/POST (443)")
-Rel(admission_controller, aws_ecr, "pushes verified images", "https GET/POST (443)")
+Rel_Up(admission_controller, docker_official_images, "pulls images/verifies signatures", "https GET/POST (443)")
+Rel(client_team, docker_official_images, "pushes images", "https GET/POST (443)")
+Rel_Up(admission_controller, aws_ecr, "pushes verified images", "https GET/POST (443)")
+
+' The following hidden line constrains the "External Services" boundary below the "Client" boundary, narrowing the 
+' diagram
+k8s_client -[hidden]- docker_official_images
 @enduml
 ```
 
