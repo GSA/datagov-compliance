@@ -1,4 +1,4 @@
-![Solr Service logical view](out/solr-service-scratchpad/Solr%20Service%20logical%20view.png)
+![Solr Service logical view](out/ssb-service-scratchpad/Solr%20Service%20logical%20view.png)
 
 
 ```plantuml
@@ -22,7 +22,7 @@ Rel(Solr_service, solr_instances , "manages", "AWS API")
 @enduml
 ```
 
-![EKS service boundary view](out/solr-service-scratchpad/EKS%20Service%20boundary%20view.png)
+![EKS service boundary view](out/ssb-service-scratchpad/EKS%20Service%20boundary%20view.png)
 
 ```plantuml
 @startuml
@@ -93,7 +93,7 @@ k8s_client -[hidden]- docker_official_images
 @enduml
 ```
 
-![Solr Service boundary view](out/solr-service-scratchpad/Solr%20Service%boundary%20view.png)
+![Solr Service boundary view](out/ssb-service-scratchpad/Solr%20Service%boundary%20view.png)
 
 ```plantuml
 @startuml
