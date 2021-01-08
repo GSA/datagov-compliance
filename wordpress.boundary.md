@@ -3,7 +3,7 @@ WordPress boundary view
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()

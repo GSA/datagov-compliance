@@ -2,7 +2,7 @@
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Deployment.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
 LAYOUT_WITH_LEGEND()
 title data.gov management space interactions
 note as EncryptionNote
