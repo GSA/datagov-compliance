@@ -72,7 +72,6 @@ System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 
 ' Deployment
 Boundary(deploymentservices, "Deployment services") {
-    System_Ext(circleci, "CircleCI", "CI/CD SaaS")
     System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
     Deployment_Node(github, "GitHub", "VCS SaaS"){
         System(github_repo, "GSA/project-open-data-dashboard", "Code repository")
@@ -80,10 +79,9 @@ Boundary(deploymentservices, "Deployment services") {
 }
 Rel_Back(team, newrelic, "reports problems", "email")
 Rel(team, github_repo, "commits code, makes pull-request, approves PRs", "https (443)")
-Rel(circleci, github_repo, "watches for changes, reports test results", "GitHub API")
 Rel(snyk, github_repo, "watches for changes, reports vulnerable depencies", "GitHub API")
-Rel(circleci, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
-Rel(circleci, cloudgov_router, "runs smoke tests on URLs", "https (443)")
+Rel(github_repo, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
+Rel(github_repo, cloudgov_router, "runs smoke tests on URLs", "https (443)")
 Rel(cloudgov_controller, staging, "provisions/operates apps and services")
 Rel(cloudgov_controller, production, "provisions/operates apps and services")
 Rel(cloudgov_controller, management, "provisions/operates apps and services")

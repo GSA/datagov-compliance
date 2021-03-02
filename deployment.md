@@ -68,7 +68,6 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 		System(ggroup, "datagovhelp@gsa.gov", "Google Group")
 	}
     Boundary(deploymentservices, "Deployment services") {
-        System_Ext(circleci, "CircleCI", "CI/CD SaaS")
         System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
         Deployment_Node(github, "GitHub", "VCS SaaS"){
             System(github_repo, "GSA/[component name]", "Code repository")
@@ -95,10 +94,8 @@ Rel(team, ggroup, "provides assistance", "email")
 Rel(team, secureauth, "authenticates", "https (443)")
 
 ' Deployment automation
-Rel_Up(circleci, github_repo, "watches for changes, reports test results", "GitHub API")
 Rel_Up(snyk, github_repo, "watches for changes, reports vulnerable dependencies", "GitHub API")
-Rel(circleci, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
-'Rel_D(circleci, cloudgov_router, "runs smoke tests on URLs", "https (443)") 
+Rel(github_repo, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
 
 ' Non-functional, just helps with layout'
 'Lay_R(cloudgov_endpoints, atob)  
