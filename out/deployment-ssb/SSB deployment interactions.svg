@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1672px" preserveAspectRatio="none" style="width:2711px;height:1672px;" version="1.1" viewBox="0 0 2711 1672" width="2711px" zoomAndPan="magnify"><defs><filter height="300%" id="fyploaah85gch" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="268" x="1215" y="16.708">SSB deployment interactions</text><!--MD5=[c444070a69c905f8781a2e7d91c12e8c]
+cluster aws--><rect fill="#FFFFFF" height="1095.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="1718" x="7" y="419.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="799.5" y="436.8047">AWS GovCloud</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="192" x="770" y="451.7168">[Amazon Web Services Region]</text><!--MD5=[6dc0c918ee8d9489bf678f2cd9a1b608]
+cluster aws_alb--><rect fill="#FFFFFF" height="1012.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="1670" x="31" y="478.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="272" x="730" y="495.8047">Public-facing TLS termination</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="834" y="510.7168">[AWS ALB]</text><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><rect fill="#FFFFFF" height="929.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="1622" x="55" y="537.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="821.5" y="554.8047">cloud.gov</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="129" x="801.5" y="569.7168">[Cloud Foundry PaaS]</text><!--MD5=[3ad542ed356be2ae1cb8cbcb7ae62e2e]
+cluster cloudgov_router--><rect fill="#FFFFFF" height="846.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="1574" x="79" y="596.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="154" x="789" y="613.8047">cloud.gov router</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="146" x="793" y="628.7168">[Cloud Foundry service]</text><!--MD5=[6acf7bb6211d1d6f01905e448ef9d0c2]
+cluster cloudgov_endpoints--><rect fill="#FFFFFF" height="693" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="900" x="721" y="663.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="1078" y="680.8047">cloud.gov endpoints</text><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><rect fill="#FFFFFF" height="310" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="343" x="111" y="1101.4531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="130" x="217.5" y="1118.3047">ATO boundary</text><!--MD5=[4c55b2e2938314fe7430e1980dbbe371]
+cluster organization--><rect fill="#FFFFFF" height="225" style="stroke:#A2A2A2;stroke-width:1.5;" width="271" x="143" y="1154.4531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="156" x="200.5" y="1171.3047">SSB organization</text><!--MD5=[a152c444040b11fd78447215b26dd3c3]
+cluster space--><rect fill="#FFFFFF" height="140" style="stroke:#A2A2A2;stroke-width:1.5;" width="207" x="175" y="1207.4531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="232" y="1224.3047">SSB space</text><!--MD5=[3320c4e17d84b5275ff7273532b2725a]
+cluster computer--><rect fill="#FFFFFF" height="155" style="stroke:#A2A2A2;stroke-width:1.5;" width="607" x="1397" y="175.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="165" x="1618" y="192.8047">Computing Device</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="180" x="1610.5" y="207.7168">[MS Windows, OS X, or Linux]</text><!--MD5=[6b3f55f5e25f8d17d2bba6efeb9558e0]
+cluster gsa_saas--><rect fill="#FFFFFF" height="464.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="956" x="1749" y="567.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="192" x="2131" y="584.8047">GSA-authorized SaaS</text><!--MD5=[9541eb5ca0fde0e38d130b3f3240f98a]
+cluster gsuite--><rect fill="#FFFFFF" height="138" style="stroke:#A2A2A2;stroke-width:1.5;" width="254" x="2427" y="657.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="108" x="2500" y="674.8047">GSA G Suite</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="2492.5" y="689.7168">[Collaboration SaaS]</text><!--MD5=[4b7e0bc75171606716ea54f9453815a0]
+cluster deploymentservices--><rect fill="#FFFFFF" height="395.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="256" x="1773" y="612.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="191" x="1805.5" y="629.8047">Deployment services</text><!--MD5=[46add8cf7bf384e60847f614ab2d9898]
+cluster github--><rect fill="#FFFFFF" height="138" style="stroke:#A2A2A2;stroke-width:1.5;" width="208" x="1797" y="657.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1870.5" y="674.8047">GitHub</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="1867" y="689.7168">[VCS SaaS]</text><!--MD5=[efca1563b625985f984f3ba7a0b37fa3]
+entity cloudgov_services--><path d="M481.5,1233.4531 C481.5,1223.4531 589,1223.4531 589,1223.4531 C589,1223.4531 696.5,1223.4531 696.5,1233.4531 L696.5,1342.5625 C696.5,1352.5625 589,1352.5625 589,1352.5625 C589,1352.5625 481.5,1352.5625 481.5,1342.5625 L481.5,1233.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M481.5,1233.4531 C481.5,1243.4531 589,1243.4531 589,1243.4531 C589,1243.4531 696.5,1243.4531 696.5,1233.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="137" x="517.5" y="1262.3047">cloud.gov data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="551.5" y="1280.9297">services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="530" y="1295.8418">[AWS RDS, S3, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="591" y="1311.667"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="495.5" y="1327.9639">Stores persistent data for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="571.5" y="1344.2607">apps</text><!--MD5=[a3abf8627b64c688077b8ad133827221]
+entity cloudgov_logdrain--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="177" x="994.5" y="921.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="1004.5" y="946.3047">logs.fr.cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1085" y="963.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="1071.5" y="979.3701">ELK</text><!--MD5=[e07fa7dc78c79b00af64ac2ccfa744ec]
+entity cloudgov_controller--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="206" x="1207" y="912.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="1217" y="937.8047">cloud.gov controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1312" y="954.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1259.5" y="970.8701">Cloud Foundry</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1261" y="987.167">orchestration</text><!--MD5=[545e3ef1cbf72f17ca0e039b23274403]
+entity cloudgov_dashboard--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="211" x="1366.5" y="708.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="191" x="1376.5" y="733.8047">cloud.gov dashboard</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1474" y="750.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1398" y="766.8701">Cloud Foundry web UI</text><!--MD5=[508b41559fa5f4caa84c87e23978123f]
+entity cloudgov_sshproxy--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="214" x="745" y="912.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="759" y="937.8047">cloud.gov SSH proxy</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="854" y="954.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="759" y="970.8701">Cloud Foundry application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="814" y="987.167">inspection</text><!--MD5=[455ba82e9fec4efd8e188ad48d6884f9]
+entity cloudgov_uaa--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="180" x="1220" y="1242.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1262.5" y="1267.8047">cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1242" y="1286.4297">authentication</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1312" y="1303.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="1234" y="1319.4951">Cloud Foundry service</text><!--MD5=[4541fb81c80c07473fe4b07432ef0971]
+entity app--><rect fill="#1168BD" height="71.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="140" x="218" y="1252.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="237.5" y="1277.3047">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="290" y="1294.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="232" y="1310.3701">SSB component</text><!--MD5=[23555a4f9c8a267cdfd801ad53ceaf15]
+entity browser--><rect fill="#1168BD" height="71.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="165" x="1614.5" y="235.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="1636" y="260.3047">Web Browser</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1699" y="277.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1628.5" y="293.3701">any modern version</text><!--MD5=[8d378d7fa3d28bcb81a7915c0a174c8c]
+entity git_cli--><rect fill="#1168BD" height="87.5156" style="stroke:#3C7FC0;stroke-width:1.5;" width="173" x="1814.5" y="226.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="58" x="1872" y="251.8047">git CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1903" y="268.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1828.5" y="284.8701">local version control</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1865.5" y="301.167">command</text><!--MD5=[ec94f8b2a6d7b685c3eca5066b764266]
+entity cf_cli--><rect fill="#1168BD" height="87.5156" style="stroke:#3C7FC0;stroke-width:1.5;" width="166" x="1413" y="226.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1470.5" y="251.8047">cf CLI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1498" y="268.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1427" y="284.8701">local Cloud Foundry</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1460.5" y="301.167">command</text><!--MD5=[61e0817949b923cdbd4126e8a8a560b5]
+entity newrelic--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="140" x="2045" y="708.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="88" x="2071" y="733.8047">New Relic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2117" y="750.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2059" y="766.8701">Monitoring SaaS</text><!--MD5=[2e8b36c285d5e1f5938b65e8f301b5a0]
+entity secureauth--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="188" x="2220" y="708.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="147" x="2240.5" y="733.8047">GSA SecureAuth</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2316" y="750.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="2234" y="766.8701">SAML Identity Provider</text><!--MD5=[6313d1a98fd634432c97f86c220e9adb]
+entity ggroup--><rect fill="#1168BD" height="71.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="221" x="2443.5" y="708.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="201" x="2453.5" y="733.8047">datagovhelp@gsa.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2556" y="750.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="2506.5" y="766.8701">Google Group</text><!--MD5=[f6c2a91ee3e7a9d14d18108c69126578]
+entity snyk--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="212" x="1789" y="921.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1874" y="946.3047">Snyk</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1897" y="963.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1803" y="979.3701">Dependency analysis SaaS</text><!--MD5=[71cadeb8fcec62cb3d9f95842856d941]
+entity github_repo--><rect fill="#1168BD" height="71.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="175" x="1813.5" y="708.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="155" x="1823.5" y="733.8047">GSA/datagov-ssb</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1903" y="750.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1845" y="766.8701">Code repository</text><path d="M2154.5,43.9531 L2154.5,99.3516 L2371.5,99.3516 L2371.5,53.9531 L2361.5,43.9531 L2154.5,43.9531 " fill="#FBFB77" filter="url(#fyploaah85gch)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2361.5,43.9531 L2361.5,53.9531 L2371.5,53.9531 L2361.5,43.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="2160.5" y="61.02">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="2160.5" y="76.1528">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="2160.5" y="91.2856">otherwise noted.</text><!--MD5=[3789662c0cc29586a59dac5c9e376c74]
+entity team--><rect fill="#08427B" height="86.625" style="stroke:#073B6F;stroke-width:1.5;" width="189" x="1930.5" y="27.9531"/><image height="48" width="48" x="2001" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="37.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="169" x="1940.5" y="100.8047">SSB team member</text><!--MD5=[0549f0185b585745c6f0e2860c8943e5]
+link cloudgov_dashboard to cloudgov_controller--><path d="M1417.26,780.1371 C1405.04,789.4931 1392.81,800.2901 1383,811.9531 C1359.74,839.6221 1341.38,875.9621 1328.9,905.2121 " fill="none" id="cloudgov_dashboard-to-cloudgov_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1325.69,912.8731,1331.5485,906.6539,1326.0146,904.3353,1325.69,912.8731" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1384" y="845.0918">manipulates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1388.5" y="859.0605">[https (443)]</text><!--MD5=[0549f0185b585745c6f0e2860c8943e5]
+link cloudgov_dashboard to cloudgov_controller--><!--MD5=[24a19dda25a3d427a177a205affc0ce7]
+link cloudgov_dashboard to cloudgov_uaa--><path d="M1476.92,780.0801 C1480.06,807.9791 1482.74,848.1501 1478,882.9531 C1465.89,971.8461 1457.66,994.2921 1424,1077.4531 C1401.24,1133.6931 1367.19,1194.1851 1342.23,1235.6381 " fill="none" id="cloudgov_dashboard-to-cloudgov_uaa" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1337.99,1242.6371,1344.6996,1237.3473,1339.5669,1234.2399,1337.99,1242.6371" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1475" y="954.5918">authenticates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1487" y="968.5605">[https (443)]</text><!--MD5=[4a575c3564384e0cfb128f9d884327a6]
+link cloudgov_controller to cloudgov_uaa--><path d="M1310,1000.9641 C1310,1061.0961 1310,1170.1641 1310,1234.8341 " fill="none" id="cloudgov_controller-to-cloudgov_uaa" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1310,1242.8811,1313,1234.8811,1307,1234.8811,1310,1242.8811" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1311" y="1060.5918">authenticates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1323" y="1074.5605">[https (443)]</text><!--MD5=[e61849ebddf66ce8731cee36a7dd04ab]
+link cloudgov_logdrain to cloudgov_uaa--><path d="M1108.78,992.4731 C1129.83,1018.6911 1161.64,1054.1001 1196,1077.4531 C1203.92,1082.8341 1209.04,1078.8761 1216,1085.4531 C1258.87,1125.9841 1284.05,1189.9321 1297.39,1234.8951 " fill="none" id="cloudgov_logdrain-to-cloudgov_uaa" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1299.67,1242.7801,1300.3336,1234.2619,1294.569,1235.926,1299.67,1242.7801" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1197" y="1060.5918">authenticates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1209" y="1074.5605">[https (443)]</text><!--MD5=[08dac72580e64ab7c8c4044f449638e7]
+link cloudgov_sshproxy to cloudgov_uaa--><path d="M903.888,1000.9621 C941.335,1029.0101 994.52,1062.9981 1048,1077.4531 C1066.04,1082.3291 1200.48,1075.0411 1216,1085.4531 C1266.15,1119.1001 1290.11,1186.8781 1301.16,1234.5031 " fill="none" id="cloudgov_sshproxy-to-cloudgov_uaa" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1302.95,1242.5561,1304.1425,1234.0957,1298.2854,1235.3978,1302.95,1242.5561" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1049" y="1060.5918">authenticates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1061" y="1074.5605">[https (443)]</text><!--MD5=[e778078458779220788a2ae3c74eaa39]
+link cloudgov_sshproxy to app--><path d="M744.842,981.1471 C675.35,997.3281 583.318,1020.9111 504,1048.4531 C473.733,1058.9631 468.968,1069.2341 438,1077.4531 C421.586,1081.8101 375.396,1075.0161 362,1085.4531 C313.051,1123.5881 296.471,1197.3561 290.862,1244.2741 " fill="none" id="cloudgov_sshproxy-to-app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="289.965,1252.4211,293.8227,1244.7976,287.8588,1244.1408,289.965,1252.4211" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="505" y="1067.5918">creates shell</text><!--MD5=[9da13b5ecfbb1df2dd27e4aa452c1741]
+link cloudgov_controller to space--><path d="M1261.13,1001.0051 C1240.36,1016.5811 1214.96,1032.3271 1189,1040.4531 C1163.21,1048.5261 238.175,1032.9991 216,1048.4531 C172.789,1078.5671 164.1198,1136.8139 166.458,1188.2051 C167.0426,1201.0529 168.3151,1213.4723 169.9079,1224.9165 C170.7043,1230.6386 171.5807,1236.1169 172.4913,1241.283 C172.9465,1243.8661 173.4103,1246.3712 173.8769,1248.7897 C174.1102,1249.9989 174.3442,1251.1865 174.5781,1252.3514 C174.6951,1252.9338 174.8121,1253.5106 174.929,1254.0815 " fill="none" id="cloudgov_controller-to-space" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="174.929,1254.0815,176.2636,1245.6424,170.3855,1246.8457,174.929,1254.0815" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="212" x="217" y="1060.5918">provisions/inspects/operates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="35" x="305.5" y="1074.5605">apps</text><!--MD5=[c81ed2a96d5b01605e5322e1419f1a66]
+link cloudgov_controller to cloudgov_services--><path d="M1260.78,1001.0431 C1240.06,1016.5221 1214.79,1032.1881 1189,1040.4531 C1150.37,1052.8341 863.783,1040.5271 824,1048.4531 C779.562,1057.3061 764.587,1057.4041 729,1085.4531 C684.633,1120.4221 648.663,1173.2361 624.296,1216.0211 " fill="none" id="cloudgov_controller-to-cloudgov_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="620.335,1223.0681,626.8691,1217.5631,621.6383,1214.6241,620.335,1223.0681" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="825" y="1060.5918">provisions/inspects</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="61" x="867" y="1074.5605">services</text><!--MD5=[80203ab3abe2d40d3d8327b84757bbee]
+link team to browser--><path d="M1930.3,102.4531 C1887.57,118.3531 1837.67,140.3731 1797,167.9531 C1772.08,184.8531 1748.3,208.6731 1730.18,229.0431 " fill="none" id="team-to-browser" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1724.75,235.2431,1732.2792,231.2043,1727.767,227.2495,1724.75,235.2431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="1833" y="157.0918">uses</text><!--MD5=[3ece57f51c6c5ff316674e6f261b5521]
+link team to cf_cli--><path d="M1930.28,78.2231 C1839.76,87.1631 1701.95,109.9431 1597,167.9531 C1573.29,181.0631 1551.5,201.4231 1534.28,220.5231 " fill="none" id="team-to-cf_cli" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1528.62,226.9431,1536.1593,222.9233,1531.6572,218.9572,1528.62,226.9431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="1641" y="157.0918">uses</text><!--MD5=[ba33e0e9ec7c1aadc5fc165052663820]
+link team to git_cli--><path d="M1998.09,115.3031 C1978.82,146.0031 1952.81,187.4331 1932.56,219.6931 " fill="none" id="team-to-git_cli" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1928.07,226.8431,1934.8677,221.6671,1929.7882,218.4737,1928.07,226.8431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="1979" y="157.0918">uses</text><!--MD5=[b8e2594684b4d57d1bc874c970758804]
+link cloudgov_uaa to secureauth--><path d="M1400.01,1270.3461 C1542.32,1241.0891 1824.12,1170.7531 2029,1040.4531 C2140.42,969.5901 2239.96,846.6101 2286.37,784.1921 " fill="none" id="cloudgov_uaa-to-secureauth" style="stroke:#666666;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#666666" points="2289.35,780.1691,2280.7759,785.0153,2286.3715,784.1852,2287.2016,789.7808,2289.35,780.1691" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="54" x="2205.5" y="940.5918">proxies</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="2178" y="954.5605">authentication</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="66" x="2201.5" y="968.5293">requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="117" x="2176" y="982.498">[SAML/https (443)]</text><!--MD5=[b24de2a5616485af86c5915e8440a478]
+reverse link team to newrelic--><path d="M2031.84,123.4831 C2049.36,254.1031 2095.49,598.0161 2110.33,708.6431 " fill="none" id="team-backto-newrelic" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2030.73,115.1931,2028.8136,123.5194,2034.761,122.7265,2030.73,115.1931" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="127" x="2061" y="268.5918">reports problems</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="2103.5" y="282.5605">[email]</text><!--MD5=[fbd96b96c5394d3c187debe5aed32c7c]
+link browser to cloudgov_logdrain--><path d="M1652.8,306.4731 C1635.83,318.2831 1615.78,330.6131 1596,338.9531 C1560.5,353.9231 1283.31,383.8031 1257,411.9531 C1136.8,540.5841 1268.59,641.8101 1200,803.9531 C1182.19,846.0441 1149.85,886.6891 1123.68,915.3421 " fill="none" id="browser-to-cloudgov_logdrain" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1118.2,921.2711,1125.8301,917.4265,1121.4207,913.3574,1118.2,921.2711" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1258" y="742.0918">reviews logs</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1263" y="756.0605">[https (443)]</text><!--MD5=[34fe10ac248a24ba6543f20c8ac1b751]
+link browser to github_repo--><path d="M1707.98,306.4931 C1716.77,333.3331 1729.77,371.3431 1743,403.9531 C1787.27,513.0731 1848,637.7441 1879.73,701.3291 " fill="none" id="browser-to-github_repo" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1883.45,708.7751,1882.5569,700.2779,1877.1899,702.9603,1883.45,708.7751" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="144" x="1744" y="366.0918">makes pull-request,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1769" y="380.0605">approves PRs</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1778" y="394.0293">[https (443)]</text><!--MD5=[467d9abc5f256b63239734abb1957638]
+link git_cli to github_repo--><path d="M1901,315.0431 C1901,404.8831 1901,611.2391 1901,700.7421 " fill="none" id="git_cli-to-github_repo" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1901,708.7761,1904,700.7761,1898,700.7761,1901,708.7761" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="1902" y="373.0918">commits code</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="1921.5" y="387.0605">[ssh (22)]</text><!--MD5=[e1d52ca4ce514fd24de62a500920371d]
+link cf_cli to cloudgov_controller--><path d="M1412.8,273.6531 C1316.29,280.6331 1160.97,308.4531 1087,411.9531 C985.7,553.6981 1005.58,649.9251 1087,803.9531 C1111.27,849.8621 1156.32,884.5091 1199.61,909.0411 " fill="none" id="cf_cli-to-cloudgov_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1206.82,913.0441,1201.2735,906.5452,1198.3679,911.7947,1206.82,913.0441" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="103" x="1088" y="735.0918">interacts with</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="1094" y="749.0605">cloud.gov API</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1101.5" y="763.0293">[https (443)]</text><!--MD5=[f36dc8e5d903443338d9b626e3d5fca3]
+link cf_cli to cloudgov_sshproxy--><path d="M1412.89,277.5931 C1257.34,290.0931 931.969,326.1131 866,411.9531 C753.085,558.8821 804.976,800.0041 835.417,904.7331 " fill="none" id="cf_cli-to-cloudgov_sshproxy" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="837.75,912.6361,838.363,904.1141,832.6084,905.8124,837.75,912.6361" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="867" y="742.0918">establishes session</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="908.5" y="756.0605">[ssh (22)]</text><!--MD5=[094cabbdf3fbce041e775e94adeead3c]
+link browser to cloudgov_dashboard--><path d="M1645.42,306.8031 C1631.22,318.2931 1616.77,332.0031 1606,346.9531 C1525.16,459.1531 1490.46,623.6641 1477.97,700.6991 " fill="none" id="browser-to-cloudgov_dashboard" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1476.7,708.7641,1480.9147,701.332,1474.9886,700.3933,1476.7,708.7641" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="103" x="1607" y="359.0918">interacts with</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="1624" y="373.0605">cloud.gov</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1621.5" y="387.0293">dashboard</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1620.5" y="400.998">[https (443)]</text><!--MD5=[ab88e0362905da48db6ab813158f3f99]
+link team to ggroup--><path d="M2119.67,109.5431 C2125.5,111.4731 2131.31,113.2931 2137,114.9531 C2247.26,147.2131 2305.93,89.6531 2390,167.9531 C2545.45,312.7231 2557.2,593.3501 2555.64,700.4731 " fill="none" id="team-to-ggroup" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2555.48,708.7891,2558.628,700.8462,2552.6291,700.7348,2555.48,708.7891" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="146" x="2500" y="268.5918">provides assistance</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="2552" y="282.5605">[email]</text><!--MD5=[da464b5b2158b482a23a4dfab7f3a23b]
+link team to secureauth--><path d="M2119.87,106.7431 C2148.59,121.4631 2177.62,141.5031 2197,167.9531 C2319.05,334.5531 2321.21,597.8051 2316.79,700.4621 " fill="none" id="team-to-secureauth" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2316.4,708.7331,2319.7699,700.8817,2313.7764,700.6019,2316.4,708.7331" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="2277" y="268.5918">authenticates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="2289" y="282.5605">[https (443)]</text><!--MD5=[7da88a42a52e0e590131eec6e48dacc5]
+reverse link github_repo to snyk--><path d="M1886.95,788.0031 C1884.89,795.8831 1883.1,804.1051 1882,811.9531 C1876.79,849.1171 1882.1,891.9841 1887.42,921.2191 " fill="none" id="github_repo-backto-snyk" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1889.09,780.2621,1884.0749,787.1794,1889.8599,788.7714,1889.09,780.2621" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1901.5" y="824.0918">watches for</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1883" y="838.0605">changes, reports</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1907" y="852.0293">vulnerable</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="101" x="1897" y="865.998">dependencies</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="75" x="1910" y="879.9668">[GitHub API]</text><!--MD5=[c577d6edd757a6f8d73ec89ccc3a05f9]
+link github_repo to cloudgov_controller--><path d="M1813.39,768.7671 C1770.47,780.7271 1718.21,796.0951 1672,811.9531 C1585.74,841.5581 1489.92,879.9251 1418.54,909.6111 " fill="none" id="github_repo-to-cloudgov_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1410.84,912.8211,1419.3787,912.5187,1417.0744,906.9788,1410.84,912.8211" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="1673" y="838.0918">pushes code,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="1673" y="852.0605">invokes tasks</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="1682.5" y="866.0293">[https (443)]</text><!--MD5=[b18ccc4e4f029097b9b9030764ea7412]
+link cloudgov_endpoints to atob--><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="153" x="2536" y="1528.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="2542" y="1548.4482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2603" y="1548.4482"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1551.75"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="2546" y="1564.7451">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1568.0469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="2546" y="1581.042">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1584.3438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="2546" y="1597.3389">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1600.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="2546" y="1613.6357">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1616.9375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2546" y="1629.9326">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2542" y="1633.2344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="2546" y="1646.2295">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1535.4531" y2="1535.4531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1551.75" y2="1551.75"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1568.0469" y2="1568.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1584.3438" y2="1584.3438"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1600.6406" y2="1600.6406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1616.9375" y2="1616.9375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1633.2344" y2="1633.2344"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2683" y1="1649.5313" y2="1649.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2542" x2="2542" y1="1535.4531" y2="1649.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2683" x2="2683" y1="1535.4531" y2="1649.5313"/><!--MD5=[22a002ba59c93c5eb8a7a6501703ed0f]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+LAYOUT_WITH_LEGEND()
+title SSB deployment interactions
+
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+Deployment_Node(aws, "AWS GovCloud", "Amazon Web Services Region") {
+	Deployment_Node(aws_alb, "Public-facing TLS termination", "AWS ALB") {
+        Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
+        	Deployment_Node(cloudgov_router, "cloud.gov router", "Cloud Foundry service") {
+				Boundary(cloudgov_endpoints, "cloud.gov endpoints") {
+                System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
+                System_Ext(cloudgov_controller, "cloud.gov controller", "Cloud Foundry orchestration")
+                System_Ext(cloudgov_dashboard, "cloud.gov dashboard", "Cloud Foundry web UI")
+                System_Ext(cloudgov_sshproxy, "cloud.gov SSH proxy", "Cloud Foundry application inspection")
+                System_Ext(cloudgov_uaa, "cloud.gov authentication", "Cloud Foundry service")
+				}
+                ContainerDb(cloudgov_services, "cloud.gov data services", "AWS RDS, S3, etc", "Stores persistent data for apps")
+                Boundary(atob, "ATO boundary") {
+                    Deployment_Node(organization, "SSB organization") {
+                        Deployment_Node(space, "SSB space") {
+                            System(app, "application", "SSB component")
+                        }
+                    }
+                }
+			}
+		}
+	}
+}
+
+' Application output (not critical here, so commented out)
+' Rel(app, cloudgov_services, "reads/writes data", "data protocols")
+' Rel(app, cloudgov_logdrain, "logs to", "stdout/stderr")
+
+' cloud.gov internals
+Rel(cloudgov_dashboard, cloudgov_controller, "manipulates", "https (443)")
+Lay_D(cloudgov_dashboard, cloudgov_controller) 
+Rel(cloudgov_dashboard, cloudgov_uaa, "authenticates", "https (443)")
+Rel(cloudgov_controller, cloudgov_uaa, "authenticates", "https (443)")
+Rel(cloudgov_logdrain, cloudgov_uaa, "authenticates", "https (443)")
+Rel(cloudgov_sshproxy, cloudgov_uaa, "authenticates", "https (443)")
+Rel(cloudgov_sshproxy, app, "creates shell")
+Rel(cloudgov_controller, space, "provisions/inspects/operates apps")
+Rel(cloudgov_controller, cloudgov_services, "provisions/inspects services")
+
+Person(team, "SSB team member")
+Deployment_Node(computer, "Computing Device", "MS Windows, OS X, or Linux"){
+    System(browser, "Web Browser", "any modern version")
+    System(git_cli, "git CLI", "local version control command")
+    System(cf_cli, "cf CLI", "local Cloud Foundry command")
+}
+Rel(team, browser, "uses")
+Rel(team, cf_cli, "uses")
+Rel(team, git_cli, "uses")
+
+Boundary(gsa_saas, "GSA-authorized SaaS") { 
+	Deployment_Node(gsuite, "GSA G Suite", "Collaboration SaaS") {
+		System(ggroup, "datagovhelp@gsa.gov", "Google Group")
+	}
+    Boundary(deploymentservices, "Deployment services") {
+        System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
+        Deployment_Node(github, "GitHub", "VCS SaaS"){
+            System(github_repo, "GSA/datagov-ssb", "Code repository")
+        }
+    }
+	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+	System_Ext(secureauth, "GSA SecureAuth", "SAML Identity Provider")
+}
+Rel_(cloudgov_uaa, secureauth, "proxies authentication requests", "SAML/https (443)", "..>")
+
+
+'Team interactions
+Rel_Back(team, newrelic, "reports problems", "email")
+Rel(browser, cloudgov_logdrain, "reviews logs", "https (443)")
+'Lay_D(app, cloudgov_logdrain)
+Rel(browser, github_repo, "makes pull-request, approves PRs", "https (443)")
+Rel(git_cli, github_repo, "commits code", "ssh (22)")
+Rel(cf_cli, cloudgov_controller, "interacts with cloud.gov API", "https (443)")
+Rel(cf_cli, cloudgov_sshproxy, "establishes session", "ssh (22)")
+Rel(browser, cloudgov_dashboard, "interacts with cloud.gov dashboard", "https (443)")
+Rel(team, ggroup, "provides assistance", "email")
+Rel(team, secureauth, "authenticates", "https (443)")
+
+' Deployment automation
+Rel_Up(snyk, github_repo, "watches for changes, reports vulnerable dependencies", "GitHub API")
+Rel(github_repo, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
+
+' Non-functional, just helps with layout
+Lay_R(cloudgov_endpoints, atob)
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam database<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam queue<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+
+skinparam rectangle<<node>> {
+    FontStyle normal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title SSB deployment interactions
+
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+rectangle "==AWS GovCloud\n<size:12>[Amazon Web Services Region]</size>" <<node>> as aws {
+	rectangle "==Public-facing TLS termination\n<size:12>[AWS ALB]</size>" <<node>> as aws_alb {
+        rectangle "==cloud.gov\n<size:12>[Cloud Foundry PaaS]</size>" <<node>> as cloudgov {
+        	rectangle "==cloud.gov router\n<size:12>[Cloud Foundry service]</size>" <<node>> as cloudgov_router {
+				rectangle "==cloud.gov endpoints" <<boundary>> as cloudgov_endpoints {
+                rectangle "==logs.fr.cloud.gov\n\n ELK" <<external_system>> as cloudgov_logdrain
+                rectangle "==cloud.gov controller\n\n Cloud Foundry orchestration" <<external_system>> as cloudgov_controller
+                rectangle "==cloud.gov dashboard\n\n Cloud Foundry web UI" <<external_system>> as cloudgov_dashboard
+                rectangle "==cloud.gov SSH proxy\n\n Cloud Foundry application inspection" <<external_system>> as cloudgov_sshproxy
+                rectangle "==cloud.gov authentication\n\n Cloud Foundry service" <<external_system>> as cloudgov_uaa
+				}
+                database "==cloud.gov data services\n//<size:12>[AWS RDS, S3, etc]</size>//\n\n Stores persistent data for apps" <<container>> as cloudgov_services
+                rectangle "==ATO boundary" <<boundary>> as atob {
+                    rectangle "==SSB organization" <<node>> as organization {
+                        rectangle "==SSB space" <<node>> as space {
+                            rectangle "==application\n\n SSB component" <<system>> as app
+                        }
+                    }
+                }
+			}
+		}
+	}
+}
+
+
+cloudgov_dashboard - ->> cloudgov_controller : **manipulates**\n//<size:12>[https (443)]</size>//
+cloudgov_dashboard -[hidden]D- cloudgov_controller 
+cloudgov_dashboard - ->> cloudgov_uaa : **authenticates**\n//<size:12>[https (443)]</size>//
+cloudgov_controller - ->> cloudgov_uaa : **authenticates**\n//<size:12>[https (443)]</size>//
+cloudgov_logdrain - ->> cloudgov_uaa : **authenticates**\n//<size:12>[https (443)]</size>//
+cloudgov_sshproxy - ->> cloudgov_uaa : **authenticates**\n//<size:12>[https (443)]</size>//
+cloudgov_sshproxy - ->> app : **creates shell**
+cloudgov_controller - ->> space : **provisions/inspects/operates apps**
+cloudgov_controller - ->> cloudgov_services : **provisions/inspects services**
+
+rectangle "<$person>\n==SSB team member" <<person>> as team
+rectangle "==Computing Device\n<size:12>[MS Windows, OS X, or Linux]</size>" <<node>> as computer{
+    rectangle "==Web Browser\n\n any modern version" <<system>> as browser
+    rectangle "==git CLI\n\n local version control command" <<system>> as git_cli
+    rectangle "==cf CLI\n\n local Cloud Foundry command" <<system>> as cf_cli
+}
+team - ->> browser : **uses**
+team - ->> cf_cli : **uses**
+team - ->> git_cli : **uses**
+
+rectangle "==GSA-authorized SaaS" <<boundary>> as gsa_saas { 
+	rectangle "==GSA G Suite\n<size:12>[Collaboration SaaS]</size>" <<node>> as gsuite {
+		rectangle "==datagovhelp@gsa.gov\n\n Google Group" <<system>> as ggroup
+	}
+    rectangle "==Deployment services" <<boundary>> as deploymentservices {
+        rectangle "==Snyk\n\n Dependency analysis SaaS" <<external_system>> as snyk
+        rectangle "==GitHub\n<size:12>[VCS SaaS]</size>" <<node>> as github{
+            rectangle "==GSA/datagov-ssb\n\n Code repository" <<system>> as github_repo
+        }
+    }
+	rectangle "==New Relic\n\n Monitoring SaaS" <<external_system>> as newrelic
+	rectangle "==GSA SecureAuth\n\n SAML Identity Provider" <<external_system>> as secureauth
+}
+cloudgov_uaa ..> secureauth : **proxies authentication requests**\n//<size:12>[SAML/https (443)]</size>//
+
+
+team <<- - newrelic : **reports problems**\n//<size:12>[email]</size>//
+browser - ->> cloudgov_logdrain : **reviews logs**\n//<size:12>[https (443)]</size>//
+browser - ->> github_repo : **makes pull-request, approves PRs**\n//<size:12>[https (443)]</size>//
+git_cli - ->> github_repo : **commits code**\n//<size:12>[ssh (22)]</size>//
+cf_cli - ->> cloudgov_controller : **interacts with cloud.gov API**\n//<size:12>[https (443)]</size>//
+cf_cli - ->> cloudgov_sshproxy : **establishes session**\n//<size:12>[ssh (22)]</size>//
+browser - ->> cloudgov_dashboard : **interacts with cloud.gov dashboard**\n//<size:12>[https (443)]</size>//
+team - ->> ggroup : **provides assistance**\n//<size:12>[email]</size>//
+team - ->> secureauth : **authenticates**\n//<size:12>[https (443)]</size>//
+
+snyk -UP->> github_repo : **watches for changes, reports vulnerable dependencies**\n//<size:12>[GitHub API]</size>//
+github_repo - ->> cloudgov_controller : **pushes code, invokes tasks**\n//<size:12>[https (443)]</size>//
+
+cloudgov_endpoints -[hidden]R- atob
+@enduml
+
+PlantUML version 1.2021.2beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
