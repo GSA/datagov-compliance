@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1083px" preserveAspectRatio="none" style="width:2673px;height:1083px;" version="1.1" viewBox="0 0 2673 1083" width="2673px" zoomAndPan="magnify"><defs><filter height="300%" id="f1czfc8o9orcea" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="387" x="1136.75" y="16.708">data.gov management space interactions</text><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><rect fill="#FFFFFF" height="898.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="2428" x="239.5" y="27.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1409" y="44.8047">cloud.gov</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="129" x="1389" y="59.7168">[Cloud Foundry PaaS]</text><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><rect fill="#FFFFFF" height="815.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="2163" x="263.5" y="86.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="130" x="1280" y="103.8047">ATO boundary</text><!--MD5=[4c55b2e2938314fe7430e1980dbbe371]
+cluster organization--><rect fill="#FFFFFF" height="746.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="2115" x="287.5" y="131.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="204" x="1243" y="148.8047">data.gov organization</text><!--MD5=[3fb4865bab139ab2919f1e69951fd3d7]
+cluster ms_staging_boundary--><rect fill="#FFFFFF" height="433.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="992" x="1386.5" y="176.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="239" x="1763" y="193.8047">management testing area</text><!--MD5=[07ca47b472f7dd5d3675ecac7419b2b4]
+cluster ms_space--><rect fill="#FFFFFF" height="364.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="944" x="1410.5" y="221.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="254" x="1755.5" y="238.8047">management-staging space</text><!--MD5=[07b5faf46a2598e63f5f8a0765f14f88]
+cluster ms_prod_boundary--><rect fill="#FFFFFF" height="677.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1051" x="311.5" y="176.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="100" x="787" y="193.8047">live spaces</text><!--MD5=[ed21a90cce806d7e57aca971956d75b3]
+cluster staging_space--><rect fill="#FFFFFF" height="387.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="228" x="577.5" y="442.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="127" x="628" y="459.8047">staging space</text><!--MD5=[2437d47e3f66315c5516728bb2ca4988]
+cluster management_space--><rect fill="#FFFFFF" height="373" style="stroke:#A2A2A2;stroke-width:1.5;" width="218" x="335.5" y="221.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="179" x="355" y="238.8047">management space</text><!--MD5=[819181a3b62ccd411ec385c94ae6d6e9]
+cluster production_space--><rect fill="#FFFFFF" height="387.5" style="stroke:#A2A2A2;stroke-width:1.5;" width="248" x="980.5" y="442.9531"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="159" x="1025" y="459.8047">production space</text><!--MD5=[a3abf8627b64c688077b8ad133827221]
+entity cloudgov_logdrain--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="177" x="2457" y="479.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="2467" y="504.8047">logs.fr.cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2547.5" y="521.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="2534" y="537.8701">ELK</text><!--MD5=[8335242905739f1148141c6d81b878fa]
+entity ms_app--><rect fill="#1168BD" height="89.8438" style="stroke:#3C7FC0;stroke-width:1.5;" width="175" x="1936" y="258.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="120" x="1960.5" y="283.8047">management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="1973" y="302.4297">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2025.5" y="319.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1950" y="335.4951">data.gov component</text><!--MD5=[66209ee61c43a5023985e4a4c249397f]
+entity ms_test_app--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="175" x="2163" y="479.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="2200" y="504.8047">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2252.5" y="521.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="2177" y="537.8701">data.gov component</text><!--MD5=[ee265304ea4caaea751e94bc357ca781]
+entity ms_services--><path d="M1427,470.4531 C1427,460.4531 1527.5,460.4531 1527.5,460.4531 C1527.5,460.4531 1628,460.4531 1628,470.4531 L1628,560.9375 C1628,570.9375 1527.5,570.9375 1527.5,570.9375 C1527.5,570.9375 1427,570.9375 1427,560.9375 L1427,470.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M1427,470.4531 C1427,480.4531 1527.5,480.4531 1527.5,480.4531 C1527.5,480.4531 1628,480.4531 1628,470.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1437" y="499.3047">production stand-in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="1468.5" y="514.2168">[AWS RDS, S3, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1529.5" y="530.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1467.5" y="546.3389">Stores (stand-in)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1440" y="562.6357">persistent data for apps</text><!--MD5=[1cc0b62ee7398e47d2255367e16591f5]
+entity ms_replica_services--><path d="M1663.5,470.4531 C1663.5,460.4531 1773.5,460.4531 1773.5,460.4531 C1773.5,460.4531 1883.5,460.4531 1883.5,470.4531 L1883.5,560.9375 C1883.5,570.9375 1773.5,570.9375 1773.5,570.9375 C1773.5,570.9375 1663.5,570.9375 1663.5,560.9375 L1663.5,470.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M1663.5,470.4531 C1663.5,480.4531 1773.5,480.4531 1773.5,480.4531 C1773.5,480.4531 1883.5,480.4531 1883.5,470.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="1699" y="499.3047">staging stand-in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="1714.5" y="514.2168">[AWS RDS, S3, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1775.5" y="530.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="1677.5" y="546.3389">Stores replica of (stand-in)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="1686" y="562.6357">persistent data for apps</text><!--MD5=[5af2b48577eea141a1cef39761d279c3]
+entity ms_backups--><path d="M1919,470.4531 C1919,460.4531 2023.5,460.4531 2023.5,460.4531 C2023.5,460.4531 2128,460.4531 2128,470.4531 L2128,560.9375 C2128,570.9375 2023.5,570.9375 2023.5,570.9375 C2023.5,570.9375 1919,570.9375 1919,560.9375 L1919,470.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M1919,470.4531 C1919,480.4531 2023.5,480.4531 2023.5,480.4531 C2023.5,480.4531 2128,480.4531 2128,470.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="145" x="1951" y="499.3047">backup stand-in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="1994.5" y="514.2168">[AWS S3]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2025.5" y="530.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="1958.5" y="546.3389">Stores backups of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="1929" y="562.6357">production stand-in's data</text><!--MD5=[05b38927d950fb1db54bb306411ee48d]
+entity staging_app--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="175" x="594" y="479.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="631" y="504.8047">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="683.5" y="521.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="608" y="537.8701">data.gov component</text><!--MD5=[10e6f9c8dcda1ffa34b3cd071ff78693]
+entity staging_services--><path d="M594,695.4531 C594,685.4531 691.5,685.4531 691.5,685.4531 C691.5,685.4531 789,685.4531 789,695.4531 L789,804.5625 C789,814.5625 691.5,814.5625 691.5,814.5625 C691.5,814.5625 594,814.5625 594,804.5625 L594,695.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M594,695.4531 C594,705.4531 691.5,705.4531 691.5,705.4531 C691.5,705.4531 789,705.4531 789,695.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="163" x="607" y="724.3047">cloud.gov staging</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="654" y="742.9297">services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="632.5" y="757.8418">[AWS RDS, S3, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="693.5" y="773.667"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="632" y="789.9639">Stores replica of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="604" y="806.2607">persistent data for apps</text><!--MD5=[1d3ab797b5051c428d340ce297285862]
+entity management_app--><rect fill="#1168BD" height="89.8438" style="stroke:#3C7FC0;stroke-width:1.5;" width="175" x="362" y="258.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="120" x="386.5" y="283.8047">management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="399" y="302.4297">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="451.5" y="319.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="376" y="335.4951">data.gov component</text><!--MD5=[6c9ada47a76d4af5692655706be698ad]
+entity manangement_backups--><path d="M351.5,461.9531 C351.5,451.9531 444.5,451.9531 444.5,451.9531 C444.5,451.9531 537.5,451.9531 537.5,461.9531 L537.5,568.7344 C537.5,578.7344 444.5,578.7344 444.5,578.7344 C444.5,578.7344 351.5,578.7344 351.5,568.7344 L351.5,461.9531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M351.5,461.9531 C351.5,471.9531 444.5,471.9531 444.5,471.9531 C444.5,471.9531 537.5,471.9531 537.5,461.9531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="166" x="361.5" y="490.8047">backup repository</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="415.5" y="505.7168">[AWS S3]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="446.5" y="521.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="379.5" y="537.8389">Stores backups of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="381.5" y="554.1357">production apps'</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="389" y="570.4326">persistent data</text><!--MD5=[1f41e458a2e024ece0d2b5757bf6feb1]
+entity production_app--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="175" x="997" y="479.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="1034" y="504.8047">application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1086.5" y="521.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="1011" y="537.8701">data.gov component</text><!--MD5=[86b4242efb68ce0c1f1944095ff52d17]
+entity production_services--><path d="M997,695.4531 C997,685.4531 1104.5,685.4531 1104.5,685.4531 C1104.5,685.4531 1212,685.4531 1212,695.4531 L1212,804.5625 C1212,814.5625 1104.5,814.5625 1104.5,814.5625 C1104.5,814.5625 997,814.5625 997,804.5625 L997,695.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M997,695.4531 C997,705.4531 1104.5,705.4531 1104.5,705.4531 C1104.5,705.4531 1212,705.4531 1212,695.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="195" x="1007" y="724.3047">cloud.gov production</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="1067" y="742.9297">services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="118" x="1045.5" y="757.8418">[AWS RDS, S3, etc]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1106.5" y="773.667"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="1011" y="789.9639">Stores persistent data for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="1087" y="806.2607">apps</text><path d="M6,276.4531 L6,331.8516 L223,331.8516 L223,286.4531 L213,276.4531 L6,276.4531 " fill="#FBFB77" filter="url(#f1czfc8o9orcea)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M213,276.4531 L213,286.4531 L223,286.4531 L213,276.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="12" y="293.52">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="12" y="308.6528">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="12" y="323.7856">otherwise noted.</text><!--MD5=[b2ef07c847e3f0f8be56ad0a61eb574c]
+link ms_app to ms_replica_services--><path d="M1935.67,344.4001 C1917.55,354.4111 1899.22,366.0411 1883.5,378.9531 C1857.6,400.2251 1833.54,428.4121 1814.58,453.5671 " fill="none" id="ms_app-to-ms_replica_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1809.61,460.2311,1816.7945,455.607,1811.9825,452.0231,1809.61,460.2311" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="1884.5" y="398.0918">reads/writes data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="1901.5" y="412.0605">[data protocols]</text><!--MD5=[1533b5cd229c5c046b004075774f0845]
+link ms_app to ms_backups--><path d="M2023.5,349.1271 C2023.5,379.0071 2023.5,418.9081 2023.5,452.0251 " fill="none" id="ms_app-to-ms_backups" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2023.5,460.2881,2026.5,452.2881,2020.5,452.2881,2023.5,460.2881" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="2024.5" y="391.0918">reads/writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="60" x="2042.5" y="405.0605">backups</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="79" x="2033" y="419.0293">[S3 protocol]</text><!--MD5=[6ba9d0a30d284e02dd2161df3e6ce067]
+link ms_app to ms_services--><path d="M1935.74,319.3661 C1876.43,330.9741 1797.25,350.1641 1731.5,378.9531 C1689.72,397.2471 1683.53,409.7651 1645.5,434.9531 C1635.36,441.6671 1624.76,448.7381 1614.25,455.7801 " fill="none" id="ms_app-to-ms_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1607.36,460.4001,1615.6749,458.4348,1612.3324,453.4521,1607.36,460.4001" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1732.5" y="391.0918">make/restore</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1753.5" y="405.0605">backups</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="1735.5" y="419.0293">[data protocols]</text><!--MD5=[e87d875e8d7ef1bc26f62ef53b263585]
+link ms_app to ms_test_app--><path d="M2091.73,349.0701 C2104.69,358.4161 2117.83,368.6011 2129.5,378.9531 C2162.29,408.0431 2195.14,445.4871 2218.32,473.6381 " fill="none" id="ms_app-to-ms_test_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2223.41,479.8581,2220.6623,471.768,2216.0203,475.5695,2223.41,479.8581" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="2173.5" y="391.0918">monitors app</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="2177.5" y="405.0605">environment</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="2199.5" y="419.0293">[CF API]</text><!--MD5=[d4d058f99ffbb69df221ec28017f1b08]
+link ms_app to cloudgov_logdrain--><path d="M2111.03,306.0551 C2238.08,309.5671 2464.64,323.6481 2521.5,378.9531 C2545.76,402.5521 2550.52,441.5331 2549.93,471.6411 " fill="none" id="ms_app-to-cloudgov_logdrain" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2549.64,479.8781,2552.9269,471.9917,2546.9309,471.775,2549.64,479.8781" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="2551" y="398.0918">log events</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="89" x="2544.5" y="412.0605">[stdout/stderr]</text><!--MD5=[d3c6fc63e0a998f14b0ab225234fd6f6]
+link staging_app to staging_services--><path d="M682.986,551.0101 C684.412,584.1661 686.61,635.2501 688.415,677.2171 " fill="none" id="staging_app-to-staging_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="688.758,685.2111,691.4124,677.0899,685.4179,677.347,688.758,685.2111" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="688.5" y="638.5918">reads/writes data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="705.5" y="652.5605">[data protocols]</text><!--MD5=[e8c614ae627cc8bcbb69afcc4ad28789]
+link management_app to manangement_backups--><path d="M448.446,349.1271 C447.793,376.4561 446.941,412.1681 446.196,443.4051 " fill="none" id="management_app-to-manangement_backups" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="445.999,451.6631,449.1895,443.7372,443.1913,443.5936,445.999,451.6631" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="449.5" y="391.0918">reads/writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="60" x="467.5" y="405.0605">backups</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="79" x="458" y="419.0293">[S3 protocol]</text><!--MD5=[e528bc56a1e26e1d4eac50b5f676cdfe]
+link management_app to production_services--><path d="M537.043,306.9281 C714.401,312.9621 1106.39,337.2951 1189.5,434.9531 C1254.44,511.2601 1282.53,566.4481 1236.5,655.4531 C1231.57,664.9951 1225.16,673.7721 1217.83,681.8011 " fill="none" id="management_app-to-production_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1212.06,687.7951,1219.7726,684.1187,1215.4535,679.9539,1212.06,687.7951" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1260.5" y="506.0918">make/restore</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="60" x="1281.5" y="520.0605">backups</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="1263.5" y="534.0293">[data protocols]</text><!--MD5=[8baa416d117c05b8da913d9ca2a9a9d8]
+link management_app to staging_services--><path d="M537.255,311.1551 C617.88,322.1201 732.752,352.2781 786.5,434.9531 C840.831,518.5241 873.906,567.2341 827.5,655.4531 C819.705,670.2721 808.382,683.1971 795.548,694.3221 " fill="none" id="management_app-to-staging_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="789.135,699.6381,797.2084,696.8418,793.3791,692.2227,789.135,699.6381" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="120" x="851.5" y="513.0918">restore backups</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="863.5" y="527.0605">[data protocols]</text><!--MD5=[33d63853906563fdf5a358b4bb19877c]
+link production_app to production_services--><path d="M1087.47,551.0101 C1090.32,584.1661 1094.72,635.2501 1098.33,677.2171 " fill="none" id="production_app-to-production_services" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1099.02,685.2111,1101.3233,676.9834,1095.3454,677.4977,1099.02,685.2111" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="1097.5" y="638.5918">reads/writes data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="1114.5" y="652.5605">[data protocols]</text><!--MD5=[abd262aa4b06f7a0ed16994529766583]
+link management_app to cloudgov_logdrain--><path d="M537.263,309.3831 C706.256,317.8211 1088.61,336.4701 1410.5,348.9531 C1515.36,353.0201 2255.03,345.5041 2354.5,378.9531 C2370.07,384.1881 2442.08,436.8001 2493.08,474.8951 " fill="none" id="management_app-to-cloudgov_logdrain" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2499.5,479.6981,2494.8859,472.5072,2491.2953,477.3142,2499.5,479.6981" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="2425" y="398.0918">log events</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="89" x="2418.5" y="412.0605">[stdout/stderr]</text><!--MD5=[0cbe114b3eb67e4165c0a72bcc9b7f68]
+link management_app to staging_app--><path d="M516.31,348.9551 C529.344,358.3881 542.637,368.6351 554.5,378.9531 C588.2,408.2631 622.614,445.5271 647.103,473.5561 " fill="none" id="management_app-to-staging_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="652.484,479.7491,649.5012,471.7427,644.9722,475.6781,652.484,479.7491" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="600.5" y="391.0918">monitors app</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="604.5" y="405.0605">environment</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="626.5" y="419.0293">[CF API]</text><!--MD5=[04046841561c8b3fa2f6e9f5e5bcea8d]
+link management_app to production_app--><path d="M537.04,314.7861 C618.926,325.4751 743.948,345.6451 848.5,378.9531 C904.962,396.9411 918.05,405.5521 969.5,434.9531 C990.519,446.9641 1012.62,461.6841 1031.76,475.1781 " fill="none" id="management_app-to-production_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1038.4,479.8941,1033.6118,472.8179,1030.1396,477.7111,1038.4,479.8941" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="948.5" y="391.0918">monitors app</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="952.5" y="405.0605">environment</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="974.5" y="419.0293">[CF API]</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="153" x="2498.5" y="939.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="2504.5" y="959.4482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2565.5" y="959.4482"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="962.75"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="2508.5" y="975.7451">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="979.0469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="2508.5" y="992.042">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="995.3438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="2508.5" y="1008.3389">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="1011.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="2508.5" y="1024.6357">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="1027.9375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2508.5" y="1040.9326">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="2504.5" y="1044.2344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="2508.5" y="1057.2295">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="946.4531" y2="946.4531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="962.75" y2="962.75"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="979.0469" y2="979.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="995.3438" y2="995.3438"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="1011.6406" y2="1011.6406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="1027.9375" y2="1027.9375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="1044.2344" y2="1044.2344"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2645.5" y1="1060.5313" y2="1060.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2504.5" x2="2504.5" y1="946.4531" y2="1060.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2645.5" x2="2645.5" y1="946.4531" y2="1060.5313"/><!--MD5=[fede40fa462e5e604e3ca8e59351a75e]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+LAYOUT_WITH_LEGEND()
+title data.gov management space interactions
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
+    System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
+
+    Boundary(atob, "ATO boundary") {
+        Deployment_Node(organization, "data.gov organization") {
+            Boundary(ms_staging_boundary, "management testing area") {
+                Deployment_Node(ms_space, "management-staging space") {
+                    System(ms_app, "management application", "data.gov component")
+                    System_Ext(ms_test_app, "application", "data.gov component")
+                    ContainerDb(ms_services, "production stand-in", "AWS RDS, S3, etc", "Stores (stand-in) persistent data for apps")
+                    ContainerDb(ms_replica_services, "staging stand-in", "AWS RDS, S3, etc", "Stores replica of (stand-in) persistent data for apps")
+                    ContainerDb(ms_backups, "backup stand-in", "AWS S3", "Stores backups of production stand-in's data")
+                }
+            }
+            Boundary(ms_prod_boundary, "live spaces") {
+                Deployment_Node(staging_space, "staging space") {
+                    System_Ext(staging_app, "application", "data.gov component")
+                    ContainerDb(staging_services, "cloud.gov staging services", "AWS RDS, S3, etc", "Stores replica of persistent data for apps")
+                }
+                Deployment_Node(management_space, "management space") {
+                    System(management_app, "management application", "data.gov component")
+                    ContainerDb(manangement_backups, "backup repository", "AWS S3", "Stores backups of production apps' persistent data")
+                }
+                Deployment_Node(production_space, "production space") {
+                    System_Ext(production_app, "application", "data.gov component")
+                    ContainerDb(production_services, "cloud.gov production services", "AWS RDS, S3, etc", "Stores persistent data for apps")
+                }
+            }
+        }
+    }
+}
+
+' Staging flow
+Rel(ms_app, ms_replica_services, "reads/writes data", "data protocols")
+Rel(ms_app, ms_backups, "reads/writes backups", "S3 protocol")
+Rel(ms_app, ms_services, "make/restore backups", "data protocols")
+Rel(ms_app, ms_test_app, "monitors app environment", "CF API")
+Rel(ms_app, cloudgov_logdrain, "log events", "stdout/stderr")
+
+
+' Backups flow
+Rel(staging_app, staging_services, "reads/writes data", "data protocols")
+Rel(management_app, manangement_backups, "reads/writes backups", "S3 protocol")
+Rel(management_app, production_services, "make/restore backups", "data protocols")
+Rel(management_app, staging_services, "restore backups", "data protocols")
+Rel(production_app, production_services, "reads/writes data", "data protocols")
+
+' Logs and monitoring flow
+Rel(management_app, cloudgov_logdrain, "log events", "stdout/stderr")
+Rel(management_app, staging_app, "monitors app environment", "CF API")
+Rel(management_app, production_app, "monitors app environment", "CF API")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam database<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam queue<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+
+skinparam rectangle<<node>> {
+    FontStyle normal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title data.gov management space interactions
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+rectangle "==cloud.gov\n<size:12>[Cloud Foundry PaaS]</size>" <<node>> as cloudgov {
+    rectangle "==logs.fr.cloud.gov\n\n ELK" <<external_system>> as cloudgov_logdrain
+
+    rectangle "==ATO boundary" <<boundary>> as atob {
+        rectangle "==data.gov organization" <<node>> as organization {
+            rectangle "==management testing area" <<boundary>> as ms_staging_boundary {
+                rectangle "==management-staging space" <<node>> as ms_space {
+                    rectangle "==management application\n\n data.gov component" <<system>> as ms_app
+                    rectangle "==application\n\n data.gov component" <<external_system>> as ms_test_app
+                    database "==production stand-in\n//<size:12>[AWS RDS, S3, etc]</size>//\n\n Stores (stand-in) persistent data for apps" <<container>> as ms_services
+                    database "==staging stand-in\n//<size:12>[AWS RDS, S3, etc]</size>//\n\n Stores replica of (stand-in) persistent data for apps" <<container>> as ms_replica_services
+                    database "==backup stand-in\n//<size:12>[AWS S3]</size>//\n\n Stores backups of production stand-in's data" <<container>> as ms_backups
+                }
+            }
+            rectangle "==live spaces" <<boundary>> as ms_prod_boundary {
+                rectangle "==staging space" <<node>> as staging_space {
+                    rectangle "==application\n\n data.gov component" <<external_system>> as staging_app
+                    database "==cloud.gov staging services\n//<size:12>[AWS RDS, S3, etc]</size>//\n\n Stores replica of persistent data for apps" <<container>> as staging_services
+                }
+                rectangle "==management space" <<node>> as management_space {
+                    rectangle "==management application\n\n data.gov component" <<system>> as management_app
+                    database "==backup repository\n//<size:12>[AWS S3]</size>//\n\n Stores backups of production apps' persistent data" <<container>> as manangement_backups
+                }
+                rectangle "==production space" <<node>> as production_space {
+                    rectangle "==application\n\n data.gov component" <<external_system>> as production_app
+                    database "==cloud.gov production services\n//<size:12>[AWS RDS, S3, etc]</size>//\n\n Stores persistent data for apps" <<container>> as production_services
+                }
+            }
+        }
+    }
+}
+
+ms_app - ->> ms_replica_services : **reads/writes data**\n//<size:12>[data protocols]</size>//
+ms_app - ->> ms_backups : **reads/writes backups**\n//<size:12>[S3 protocol]</size>//
+ms_app - ->> ms_services : **make/restore backups**\n//<size:12>[data protocols]</size>//
+ms_app - ->> ms_test_app : **monitors app environment**\n//<size:12>[CF API]</size>//
+ms_app - ->> cloudgov_logdrain : **log events**\n//<size:12>[stdout/stderr]</size>//
+
+
+staging_app - ->> staging_services : **reads/writes data**\n//<size:12>[data protocols]</size>//
+management_app - ->> manangement_backups : **reads/writes backups**\n//<size:12>[S3 protocol]</size>//
+management_app - ->> production_services : **make/restore backups**\n//<size:12>[data protocols]</size>//
+management_app - ->> staging_services : **restore backups**\n//<size:12>[data protocols]</size>//
+production_app - ->> production_services : **reads/writes data**\n//<size:12>[data protocols]</size>//
+
+management_app - ->> cloudgov_logdrain : **log events**\n//<size:12>[stdout/stderr]</size>//
+management_app - ->> staging_app : **monitors app environment**\n//<size:12>[CF API]</size>//
+management_app - ->> production_app : **monitors app environment**\n//<size:12>[CF API]</size>//
+@enduml
+
+PlantUML version 1.2021.2beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
