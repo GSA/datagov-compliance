@@ -1,4 +1,4 @@
-![Solr Service logical view](out/ssb-service-scratchpad/Solr%20Service%20logical%20view.png)
+![Solr Service logical view](out/ssb-service-scratchpad/Solr%20Service%20logical%20view.svg)
 
 
 ```plantuml
@@ -22,7 +22,7 @@ Rel(Solr_service, solr_instances , "manages", "AWS API")
 @enduml
 ```
 
-![EKS service boundary view](out/ssb-service-scratchpad/EKS%20Service%20boundary%20view.png)
+![EKS service boundary view](out/ssb-service-scratchpad/EKS%20Service%20boundary%20view.svg)
 
 ```plantuml
 @startuml
@@ -44,32 +44,33 @@ Boundary(external_services, "External Services") {
 note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
-
-Boundary(aws, "AWS GovCloud") {
-    Boundary(iaas, "SSB managed boundary") {
-      Boundary(eks_instance, "EKS instance") {
-        Boundary(vpc, "AWS VPC") {
-          System_Ext(aws_eks, "EKS control plane")
-          System_Ext(aws_ecr, "AWS Elastic Container Registry (ECR)")
-          Boundary(aws_fargate, "AWS Fargate") {
-            Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
-            Container(admission_controller, "Admission Controller", "k8s service", "pulls and verifies images")
-            Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
-            System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
-            System_Ext(client_app, "<&layers> client application", "k8s service")    
-          }
-          Boundary(aws_public_subnet, "AWS Public Subnet") {
-            System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
-          }
+Boundary(aws_east, "AWS us-east-1") {
+  Boundary(iaas, "SSB managed boundary") {
+    Boundary(eks_instance, "EKS instance") {
+      Boundary(vpc, "AWS VPC") {
+        System_Ext(aws_eks, "EKS control plane")
+        System_Ext(aws_ecr, "AWS Elastic Container Registry (ECR)")
+        Boundary(aws_fargate, "AWS Fargate") {
+          Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
+          Container(admission_controller, "Admission Controller", "k8s service", "pulls and verifies images")
+          Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
+          System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
+          System_Ext(client_app, "<&layers> client application", "k8s service")    
+        }
+        Boundary(aws_public_subnet, "AWS Public Subnet") {
+          System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
         }
       }
     }
-    Boundary(cloudgov, "cloud.gov") {
-        System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
-        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
-	Boundary(atob, "SSB application boundary") {
-	  Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
-        }
+  }
+}
+Boundary(aws_govcloud, "AWS GovCloud") {
+  Boundary(cloudgov, "cloud.gov") {
+      System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+      System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+      Boundary(atob, "SSB application boundary") {
+        Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
+      }
 	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
     }
 }
@@ -93,7 +94,7 @@ k8s_client -[hidden]- docker_official_images
 @enduml
 ```
 
-![Solr Service boundary view](out/ssb-service-scratchpad/Solr%20Service%boundary%20view.png)
+![Solr Service boundary view](out/ssb-service-scratchpad/Solr%20Service%20boundary%20view.svg)
 
 ```plantuml
 @startuml
@@ -113,27 +114,29 @@ note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 
-Boundary(aws, "AWS GovCloud") {
-    Boundary(iaas, "SSB managed boundary") {
-      Boundary(eks, "EKS service instance") {
-        System_Ext(solr_operator, "Solr Operator", "manages custom SolrCloud resources")
-        Boundary(k8s_ingress, "k8s ingress controller") {    
-          System(solr_ingress, "<instance>.solr.ssb.data.gov", "k8s ingress")
-        }
-        Boundary(b_solrcloud, "SolrCloud instance") {
-          ContainerDb(solr_instances, "<&layers> Solr instances", "Apache Solr", "open-source distributed enterprise-search platform")
-          ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "Apache ZooKeeper", "distributed cluster manager")
-        }
+Boundary(aws_east, "AWS us-east-1") {
+  Boundary(iaas, "SSB managed boundary") {
+    Boundary(eks, "EKS service instance") {
+      System_Ext(solr_operator, "Solr Operator", "manages custom SolrCloud resources")
+      Boundary(k8s_ingress, "k8s ingress controller") {    
+        System(solr_ingress, "<instance>.solr.ssb.data.gov", "k8s ingress")
+      }
+      Boundary(b_solrcloud, "SolrCloud instance") {
+        ContainerDb(solr_instances, "<&layers> Solr instances", "Apache Solr", "open-source distributed enterprise-search platform")
+        ContainerDb(zookeeper_instances, "<&layers> ZooKeeper instances", "Apache ZooKeeper", "distributed cluster manager")
       }
     }
-    Boundary(cloudgov, "cloud.gov") {
-        System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
-        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
-	Boundary(atob, "SSB application boundary") {
-	  Container(solr_app, "Solr broker", "Open Service Broker API, Go, Terraform, Helm", "Brokers SolrCloud as a service for applications")
-        }
-	ContainerDb_Ext(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+  }
+}
+Boundary(aws_govcloud, "AWS GovCloud") {
+  Boundary(cloudgov, "cloud.gov") {
+    System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+    System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+    Boundary(atob, "SSB application boundary") {
+      Container(solr_app, "Solr broker", "Open Service Broker API, Go, Terraform, Helm", "Brokers SolrCloud as a service for applications")
     }
+    ContainerDb_Ext(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+  }
 }
 Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")
 Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
