@@ -1,15 +1,15 @@
-## Deployment
-Configuration management and deployment for every data.gov component follows the pattern described unless otherwise specified.
+## SSB Deployment
+
 
 Figure 10-1 Deployment Diagram
-![data.gov typical deployment interactions](out/deployment/data.gov%20typical%20deployment%20interactions.svg)
+![SSB typical deployment interactions](out/deployment-ssb/SSB%20deployment%20interactions.svg)
 
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
 
 LAYOUT_WITH_LEGEND()
-title data.gov typical deployment interactions
+title SSB deployment interactions
 
 note as EncryptionNote
 All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
@@ -28,9 +28,9 @@ Deployment_Node(aws, "AWS GovCloud", "Amazon Web Services Region") {
 				}
                 ContainerDb(cloudgov_services, "cloud.gov data services", "AWS RDS, S3, etc", "Stores persistent data for apps")
                 Boundary(atob, "ATO boundary") {
-                    Deployment_Node(organization, "data.gov organization") {
-                        Deployment_Node(space, "data.gov space") {
-                            System(app, "application", "data.gov component")
+                    Deployment_Node(organization, "SSB organization") {
+                        Deployment_Node(space, "SSB space") {
+                            System(app, "application", "SSB component")
                         }
                     }
                 }
@@ -54,7 +54,7 @@ Rel(cloudgov_sshproxy, app, "creates shell")
 Rel(cloudgov_controller, space, "provisions/inspects/operates apps")
 Rel(cloudgov_controller, cloudgov_services, "provisions/inspects services")
 
-Person(team, "data.gov team member")
+Person(team, "SSB team member")
 Deployment_Node(computer, "Computing Device", "MS Windows, OS X, or Linux"){
     System(browser, "Web Browser", "any modern version")
     System(git_cli, "git CLI", "local version control command")
@@ -71,10 +71,9 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
     Boundary(deploymentservices, "Deployment services") {
         System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
         Deployment_Node(github, "GitHub", "VCS SaaS"){
-            System(github_repo, "GSA/[component name]", "Code repository")
+            System(github_repo, "GSA/datagov-ssb", "Code repository")
         }
     }
-	System_Ext(dap, "DAP", "Web analytics SaaS")
 	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 	System_Ext(secureauth, "GSA SecureAuth", "SAML Identity Provider")
 }
@@ -83,7 +82,6 @@ Rel_(cloudgov_uaa, secureauth, "proxies authentication requests", "SAML/https (4
 
 'Team interactions
 Rel_Back(team, newrelic, "reports problems", "email")
-Rel(browser, dap, "reviews reports", "https (443)")
 Rel(browser, cloudgov_logdrain, "reviews logs", "https (443)")
 'Lay_D(app, cloudgov_logdrain)
 Rel(browser, github_repo, "makes pull-request, approves PRs", "https (443)")
@@ -98,8 +96,8 @@ Rel(team, secureauth, "authenticates", "https (443)")
 Rel_Up(snyk, github_repo, "watches for changes, reports vulnerable dependencies", "GitHub API")
 Rel(github_repo, cloudgov_controller, "pushes code, invokes tasks", "https (443)")
 
-' Non-functional, just helps with layout'
-'Lay_R(cloudgov_endpoints, atob)  
+' Non-functional, just helps with layout
+Lay_R(cloudgov_endpoints, atob)  
 
 @enduml
 ```
