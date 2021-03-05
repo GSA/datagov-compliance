@@ -14,7 +14,7 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
-    	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
             System_Boundary(inventory, "data.gov Inventory") {
@@ -27,8 +27,8 @@ Boundary(aws, "AWS GovCloud") {
 }
 System_Ext(Login.gov, "Login.gov", "Authentication As a Service")
 Boundary(gsa_saas, "GSA-authorized SaaS") {
-	System_Ext(dap, "DAP", "Analytics collection")
-	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+    System_Ext(dap, "DAP", "Analytics collection")
+    System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
@@ -42,7 +42,7 @@ Rel(personnel, Login.gov, "verify identity", "https GET/POST (443)")
 Rel(inventory_app, inventory_db, "reads/writes local dataset records", "psql (5432)")
 Rel(inventory_app, inventory_s3, "reads/writes data content", "psql (5432)")
 Boundary(solrb, "Solr Service Boundary") {
-  ContainerDb(solr, "Solr", "indexed search provider")
+    ContainerDb(solr, "Solr", "indexed search provider")
 }
 Rel(inventory_app, solr, "loads indexes, runs searches")
 @enduml
