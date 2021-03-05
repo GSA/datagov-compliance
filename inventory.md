@@ -18,11 +18,13 @@ Boundary(aws, "AWS GovCloud") {
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
             System_Boundary(inventory, "data.gov Inventory") {
-                Container(inventory_app, "<&layers> Inventory Application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
+                Container(inventory_app, "<&layers> Inventory application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
+                Container(datapusher_app, "<&layers> Datapusher application", "Python 3.8.3, CKAN 2.8", "Process uploaded open data for use in datastore API")
             }
         }
         ContainerDb(inventory_db, "PostgreSQL Database", "AWS RDS", "Holds the records of locally-uploaded datasets")
         ContainerDb(inventory_s3, "PostgreSQL Database", "AWS RDS", "Inventory DataStore: Holds data content uploaded by agency users")
+        ContainerDb(datapusher_db, "Datapusher database", "AWS RDS (PostgreSQL)", "Stores job queue for processing uploaded data for datastore API")
     }
 }
 System_Ext(Login.gov, "Login.gov", "Authentication As a Service")
@@ -32,6 +34,8 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
+Rel(inventory_app, datapusher_app, "queues datastore upload", "http (80)")
+Rel(datapusher_app, inventory_app, "inserts data for datastore", "https (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
 Rel(harvester, aws_alb, "ingest metadata", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
@@ -41,6 +45,7 @@ inventory_app <-> Login.gov : **authenticates** \n//[SAML 2.0]//
 Rel(personnel, Login.gov, "verify identity", "https GET/POST (443)")
 Rel(inventory_app, inventory_db, "reads/writes local dataset records", "psql (5432)")
 Rel(inventory_app, inventory_s3, "reads/writes data content", "psql (5432)")
+Rel(datapusher_app, datapusher_db, "reads/writes job tasks", "psql (5432)")
 Boundary(solrb, "Solr Service Boundary") {
     ContainerDb(solr, "Solr", "indexed search provider")
 }
