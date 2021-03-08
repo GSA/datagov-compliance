@@ -17,7 +17,7 @@ Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
                 Deployment_Node(ms_space, "management-staging space") {
                     System(ms_dumper, "backup service", "data.gov component")
                     System(ms_drain, "log shipper", "Fluent Bit")
-                    ContainerDb_Ext(ms_es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
+                    ContainerDb(ms_es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
                     ContainerDb(ms_services, "production stand-in", "AWS RDS, S3, etc", "Stores (stand-in) persistent data for apps")
                     ContainerDb(ms_replica_services, "staging stand-in", "AWS RDS, S3, etc", "Stores replica of (stand-in) persistent data for apps")
                     ContainerDb(ms_backups, "backup stand-in", "AWS S3", "Stores backups of production stand-in's data")
@@ -32,7 +32,7 @@ Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
                     System(management_dumper, "backup service", "data.gov component")
                     ContainerDb(manangement_backups, "backup repository", "AWS S3", "Stores backups of production apps' persistent data")
                     System(management_drain, "log shipper", "Fluent Bit")
-                    ContainerDb_Ext(es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
+                    ContainerDb(es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
                 }
                 Deployment_Node(production_space, "production space") {
                     System_Ext(production_app, "application", "data.gov component")
