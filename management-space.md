@@ -1,4 +1,4 @@
-![PlantUML diagram of management app interactions](http://www.plantuml.com/plantuml/png/jLHHJzim47wcl-BM5uh46ctiQK-Kjcne7I1IXFPKkV4rM3YsPJljkcd_VRus9AOA1QJD3wdlVFVTT_vyFNMUMLyMilDEg4oM7E7UU-C-9ubbgtuk_7qvBntQJ2kFolSpNIICMy7KKfQcJ8QVtbzBflpjzqaYcKVdWsisGYFrkg04G-2JmO-hs-dixcBwTJOPVnbVZdf77I-yHE3Citwkbr0mnNAa7726PGWYLBGiyq8hrr7Q8p07OvNPjI7VPV1q00PIGY2dS1i878t8F79W5W6tqS5QXKvWEadXG_yZb4gYSw3zFTgLS0Y4pliTL1mKmHuq3SmkDSTU9dN90yjZw6wsnBWRZ24PSAvBnUqQhXbBkqVmkmFLIjVEOp4R__Grmapgd5icLCWEMzTVsFuJoF7aM_UeHXXgvKCmsj6yvppBXSfd3krIPEXYCb0TmkCXGGtkKhWPfSUGdXm3-enygTSM7HYqJZYITAC0BBG5PenxfZI9exRgnENdB7ie3LWqsea0lAwgXe9HhMsK0xq0OpKlDqfjgXtkydYcV9FMtdnp_jh-A-P4OW-7CnAMsNMFUJqdmEaLp2jV8tIrTj-CjZbJuXSZMY6tVkYnlmRP1rJhJcCHa6gfoTuW7D1g7bkT4TeByU4hHRQj5nC9isoq2cMgZkFrvqLMpRpMn1fNExSefw8MPVmVbl7BgLWshZqt6ENzcqiaAzxHzn3Egj5OIBtgtA1ygbpBm5jat2KhApowxMkjoD0CU9rfIIDCIBjt7OzmEs0zgOIPdjI8pm2s3sN17Z2nw6ZCOhoNEROt_5geNS4Y-ytNTmWJdJjWYaEXbGZr0wbAenRMRN_jLPu3-OY4ov2muUyyrwLFmWzQk_yco8ZHWWcebi9gHR64DZo7mVN5ongz0UaK5IyB-HS0)
+![PlantUML diagram of management app interactions](out/management-space/data.gov%20management%20space%20interactions.svg)
 
 ```plantuml
 @startuml
@@ -8,34 +8,61 @@ title data.gov management space interactions
 note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
-	Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
-        System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
-        ContainerDb(staging_services, "cloud.gov staging services", "AWS RDS, S3, etc", "Stores persistent data for apps")
-        ContainerDb(manangement_services, "backup repository", "AWS S3", "Stores backups of production apps' persistent data")
-        ContainerDb(production_services, "cloud.gov production services", "AWS RDS, S3, etc", "Stores backup apps persistent data")
-        Boundary(atob, "ATO boundary") {
-            Deployment_Node(organization, "data.gov organization") {
-                Deployment_Node(staging_space, "staging space") {
-					System_Ext(staging_app, "application", "data.gov component")
+Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
+    System_Ext(cloudgov_loggregator, "cloud.gov logging system", "Loggregator")
+    System_Ext(cloudgov_logs, "logs.fr.cloud.gov", "ELK")
+    Boundary(atob, "ATO boundary") {
+        Deployment_Node(organization, "data.gov organization") {
+            Boundary(ms_staging_boundary, "management testing area") {
+                Deployment_Node(ms_space, "management-staging space") {
+                    System(ms_dumper, "backup service", "data.gov component")
+                    System(ms_drain, "log shipper", "Fluent Bit")
+                    ContainerDb(ms_es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
+                    ContainerDb(ms_services, "stand-in services", "AWS RDS, S3, etc", "Stores (stand-in) data for apps")
+                    ContainerDb(ms_backups, "stand-in backup repository", "AWS S3", "Stores backups of stand-in services' persistent data")
                 }
+            }
+            Boundary(ms_prod_boundary, "live spaces") {
                 Deployment_Node(management_space, "management space") {
-					System(management_app, "management application", "data.gov component")
+                    System(management_dumper, "backup service", "data.gov component")
+                    ContainerDb(manangement_backups, "backup repository", "AWS S3", "Stores backups of target services' persistent data")
+                    System(management_drain, "log shipper", "Fluent Bit")
+                    ContainerDb(es_logs, "Log Storage", "AWS ES", "Stores, monitors, and alerts on logs")
                 }
-                Deployment_Node(production_space, "production space") {
-					System_Ext(production_app, "application", "data.gov component")
+                Deployment_Node(target_space, "target space") {
+                    System_Ext(target_app, "application", "data.gov component")
+                    ContainerDb_Ext(target_services, "target services", "AWS RDS, S3, etc", "Stores persistent data for apps")
                 }
             }
         }
     }
+}
+
+' app->service usage
+Rel(target_app, target_services, "reads/writes data", "data protocols")
+
 ' Backups flow
-Rel(staging_app, staging_services, "reads/writes data", "data protocols")
-Rel(management_app, manangement_services, "reads/writes backups", "S3 protocol")
-Rel(management_app, production_services, "make/restore backups", "data protocols")
-Rel(management_app, staging_services, "restore backups", "data protocols")
-Rel(production_app, production_services, "reads/writes data", "data protocols")
-' Logs and monitoring flow
-Rel(management_app, cloudgov_logdrain, "monitors logs and events", "stdout/stderr")
-Rel(management_app, staging_app, "monitors app environment", "CF API")
-Rel(management_app, production_app, "monitors app environment", "CF API")
+Rel(ms_dumper, ms_backups, "reads/writes backups", "S3 protocol")
+Rel(ms_dumper, ms_services, "make/restore backups", "data protocols")
+Rel(management_dumper, manangement_backups, "reads/writes backups", "S3 protocol")
+Rel(management_dumper, target_services, "make/restore backups", "data protocols")
+
+' Logging
+Rel_Up(management_dumper, cloudgov_loggregator, "drain logs", "stdout/stderr")
+Rel_Up(target_app, cloudgov_loggregator, "log", "stdout/stderr")
+Rel_Up(ms_dumper, cloudgov_loggregator, "log", "stdout/stderr")
+
+' The drains themselves also log, but this just gets confusing if we show it
+'Rel_Up(management_drain, cloudgov_loggregator, "log", "stdout/stderr")
+'Rel_Up(ms_drain, cloudgov_loggregator, "log", "stdout/stderr")
+
+'Log draining
+Rel_Down(cloudgov_loggregator, management_drain, "drain logs")
+Rel_Down(cloudgov_loggregator, ms_drain, "drain logs")
+Rel_Right(cloudgov_loggregator, cloudgov_logs, "drain logs")
+
+'Log shipping
+Rel(management_drain, es_logs, "ship logs", "stdout/stderr")
+Rel(ms_drain, ms_es_logs, "ship logs", "stdout/stderr")
 @enduml
 ```
