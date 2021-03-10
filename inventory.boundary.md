@@ -1,5 +1,5 @@
 Inventory boundary view
-![inventory.data.gov boundary view](out/inventory/inventory.data.gov%20boundary%20view.svg)
+![inventory.data.gov boundary view](out/inventory.boundary/inventory.data.gov%20boundary%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
