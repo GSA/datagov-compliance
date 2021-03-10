@@ -1,5 +1,4 @@
-## SSB Deployment
-
+# SSB Deployment
 
 Figure 10-1 Deployment Diagram
 ![SSB typical deployment interactions](out/deployment-ssb/SSB%20deployment%20interactions.svg)
@@ -16,27 +15,27 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 
 Deployment_Node(aws, "AWS GovCloud", "Amazon Web Services Region") {
-	Deployment_Node(aws_alb, "Public-facing TLS termination", "AWS ALB") {
+    Deployment_Node(aws_alb, "Public-facing TLS termination", "AWS ALB") {
         Deployment_Node(cloudgov, "cloud.gov", "Cloud Foundry PaaS") {
-        	Deployment_Node(cloudgov_router, "cloud.gov router", "Cloud Foundry service") {
-				Boundary(cloudgov_endpoints, "cloud.gov endpoints") {
-                System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
-                System_Ext(cloudgov_controller, "cloud.gov controller", "Cloud Foundry orchestration")
-                System_Ext(cloudgov_dashboard, "cloud.gov dashboard", "Cloud Foundry web UI")
-                System_Ext(cloudgov_sshproxy, "cloud.gov SSH proxy", "Cloud Foundry application inspection")
-                System_Ext(cloudgov_uaa, "cloud.gov authentication", "Cloud Foundry service")
-				}
-                ContainerDb(cloudgov_services, "cloud.gov data services", "AWS RDS, S3, etc", "Stores persistent data for apps")
+            Deployment_Node(cloudgov_router, "cloud.gov router", "Cloud Foundry service") {
+                Boundary(cloudgov_endpoints, "cloud.gov endpoints") {
+                    System_Ext(cloudgov_logdrain, "logs.fr.cloud.gov", "ELK")
+                    System_Ext(cloudgov_controller, "cloud.gov controller", "Cloud Foundry orchestration")
+                    System_Ext(cloudgov_dashboard, "cloud.gov dashboard", "Cloud Foundry web UI")
+                    System_Ext(cloudgov_sshproxy, "cloud.gov SSH proxy", "Cloud Foundry application inspection")
+                    System_Ext(cloudgov_uaa, "cloud.gov authentication", "Cloud Foundry service")
+                }
                 Boundary(atob, "ATO boundary") {
                     Deployment_Node(organization, "SSB organization") {
                         Deployment_Node(space, "SSB space") {
                             System(app, "application", "SSB component")
+                            ContainerDb(cloudgov_services, "cloud.gov data services", "AWS RDS, S3, etc", "Stores persistent data for apps")
                         }
                     }
                 }
-			}
-		}
-	}
+            }
+        }
+    }
 }
 
 ' Application output (not critical here, so commented out)
@@ -65,17 +64,17 @@ Rel(team, cf_cli, "uses")
 Rel(team, git_cli, "uses")
 
 Boundary(gsa_saas, "GSA-authorized SaaS") { 
-	Deployment_Node(gsuite, "GSA G Suite", "Collaboration SaaS") {
-		System(ggroup, "datagovhelp@gsa.gov", "Google Group")
-	}
+    Deployment_Node(gsuite, "GSA G Suite", "Collaboration SaaS") {
+        System(ggroup, "datagovhelp@gsa.gov", "Google Group")
+    }
     Boundary(deploymentservices, "Deployment services") {
         System_Ext(snyk, "Snyk", "Dependency analysis SaaS")
         Deployment_Node(github, "GitHub", "VCS SaaS"){
             System(github_repo, "GSA/datagov-ssb", "Code repository")
         }
     }
-	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
-	System_Ext(secureauth, "GSA SecureAuth", "SAML Identity Provider")
+    System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+    System_Ext(secureauth, "GSA SecureAuth", "SAML Identity Provider")
 }
 Rel_(cloudgov_uaa, secureauth, "proxies authentication requests", "SAML/https (443)", "..>")
 

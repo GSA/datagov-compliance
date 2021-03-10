@@ -1,5 +1,5 @@
 Inventory boundary view
-![inventory.data.gov boundary view](out/inventory/inventory.data.gov%20boundary%20view.svg)
+![inventory.data.gov boundary view](out/inventory.boundary/inventory.data.gov%20boundary%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
@@ -20,12 +20,12 @@ Boundary(aws, "AWS GovCloud") {
             System_Boundary(inventory, "data.gov Inventory") {
                 Container(inventory_app, "<&layers> Inventory application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
                 Container(datapusher_app, "<&layers> DataPusher application", "Python 3.8.3, CKAN 2.8", "Process uploaded open data for use in DataStore API")
+                ContainerDb(datapusher_db, "DataPusher database", "AWS RDS (PostgreSQL)", "Stores job queue for processing uploaded open data resources for DataStore API")
+                ContainerDb(inventory_db, "Inventory database", "AWS RDS (PostgreSQL)", "Stores agency dataset metadata")
+                ContainerDb(datastore_db, "DataStore database", "AWS RDS (PostgreSQL)", "Stores JSON records of dataset resources uploaded by agency users")
+                ContainerDb(inventory_s3, "Inventory filestore", "S3", "Stores agency uploaded open data resources (PDF, CSV, XSLX, etc)")
             }
         }
-        ContainerDb(datapusher_db, "DataPusher database", "AWS RDS (PostgreSQL)", "Stores job queue for processing uploaded open data resources for DataStore API")
-        ContainerDb(inventory_db, "Inventory database", "AWS RDS (PostgreSQL)", "Stores agency dataset metadata")
-        ContainerDb(datastore_db, "DataStore database", "AWS RDS (PostgreSQL)", "Stores JSON records of dataset resources uploaded by agency users")
-        ContainerDb(inventory_s3, "Inventory filestore", "S3", "Stores agency uploaded open data resources (PDF, CSV, XSLX, etc)")
     }
 }
 System_Ext(Login.gov, "Login.gov", "Authentication As a Service")
