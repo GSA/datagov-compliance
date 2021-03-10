@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1412px" preserveAspectRatio="none" style="width:1047px;height:1412px;" version="1.1" viewBox="0 0 1047 1412" width="1047px" zoomAndPan="magnify"><defs><filter height="300%" id="f1m1xq3rkt5zyb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="327" x="353.5" y="16.708">dashboard.data.gov boundary view</text><!--MD5=[c444070a69c905f8781a2e7d91c12e8c]
+cluster aws--><rect fill="#FFFFFF" height="970" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="639" x="7" y="284.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="260" y="301.8047">AWS GovCloud</text><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><rect fill="#FFFFFF" height="901" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="591" x="31" y="329.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="282" y="346.8047">cloud.gov</text><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><rect fill="#FFFFFF" height="498" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="543" x="55" y="708.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="218" x="217.5" y="725.8047">data.gov ATO boundary</text><!--MD5=[3fa27d43eca854d2331bcae433a9e45d]
+cluster dashboard--><rect fill="#FFFFFF" height="429" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="495" x="79" y="753.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="184" x="234.5" y="770.8047">data.gov dashboard</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="64" x="294.5" y="785.7168">[System]</text><!--MD5=[3ede68323ae97afa94ad3a3236a85126]
+cluster agency--><rect fill="#FFFFFF" height="141" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="238" x="801" y="782.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="201" x="819.5" y="799.8047">Agency ATO boundary</text><!--MD5=[6b3f55f5e25f8d17d2bba6efeb9558e0]
+cluster gsa_saas--><rect fill="#FFFFFF" height="124" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="371" x="670" y="1030.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="192" x="759.5" y="1047.8047">GSA-authorized SaaS</text><!--MD5=[8491cd373228f9b8d27ab5bb08d3a023]
+entity aws_alb--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="144" x="401" y="366.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="425.5" y="391.8047">cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="411" y="410.4297">load-balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="475" y="427.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="442.5" y="443.4951">AWS ALB</text><!--MD5=[520c8806735a893833bdb4d742b17895]
+entity cloudgov_router--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="202.6667" x="340.5" y="545.9531"/><path d="M351.5,559.9115 L351.5,565.2448 L356.8333,565.2448 L356.8333,559.9115 L351.5,559.9115 M358.1667,562.5781 L358.1667,566.5781 L354.1667,566.5781 L354.1667,567.9115 L359.5,567.9115 L359.5,562.5781 L358.1667,562.5781 M360.8333,565.2448 L360.8333,569.2448 L356.8333,569.2448 L356.8333,570.5781 L362.1667,570.5781 L362.1667,565.2448 L360.8333,565.2448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="369.1667" y="570.8047">cloud.gov routers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="443.8333" y="587.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="366.8333" y="603.8701">Cloud Foundry traffic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="416.3333" y="620.167">service</text><!--MD5=[c137edaf7f825140acdb38cca423c4ab]
+entity dashboard_app--><rect fill="#438DD5" height="117.7813" style="stroke:#3C7FC0;stroke-width:1.5;" width="211" x="325.5" y="804.9531"/><path d="M348.6667,818.9115 L348.6667,824.2448 L354,824.2448 L354,818.9115 L348.6667,818.9115 M355.3333,821.5781 L355.3333,825.5781 L351.3333,825.5781 L351.3333,826.9115 L356.6667,826.9115 L356.6667,821.5781 L355.3333,821.5781 M358,824.2448 L358,828.2448 L354,828.2448 L354,829.5781 L359.3333,829.5781 L359.3333,824.2448 L358,824.2448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="148" x="366.3333" y="829.8047">Web Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="191" x="335.5" y="844.7168">[PHP 7.4.3, CodeIgniter 3.1.11]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="433" y="860.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="349.5" y="876.8389">Generates reports and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="340.5" y="893.1357">delivers static HTML/CSS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="395" y="909.4326">and forms</text><!--MD5=[0419e9094acd1d5e723c64996b94840d]
+entity dashboard_db--><path d="M95.5,1058.4531 C95.5,1048.4531 205,1048.4531 205,1048.4531 C205,1048.4531 314.5,1048.4531 314.5,1058.4531 L314.5,1148.9375 C314.5,1158.9375 205,1158.9375 205,1158.9375 C205,1158.9375 95.5,1158.9375 95.5,1148.9375 L95.5,1058.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M95.5,1058.4531 C95.5,1068.4531 205,1068.4531 205,1068.4531 C205,1068.4531 314.5,1068.4531 314.5,1058.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="128.5" y="1087.3047">MySQL Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="171.5" y="1102.2168">[AWS RDS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="207" y="1118.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="109.5" y="1134.3389">Stores agency information</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="163" y="1150.6357">and reports</text><!--MD5=[e059c808289f17a9fa649a20636047f5]
+entity dashboard_s3--><path d="M350,1049.9531 C350,1039.9531 454,1039.9531 454,1039.9531 C454,1039.9531 558,1039.9531 558,1049.9531 L558,1156.7344 C558,1166.7344 454,1166.7344 454,1166.7344 C454,1166.7344 350,1166.7344 350,1156.7344 L350,1049.9531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M350,1049.9531 C350,1059.9531 454,1059.9531 454,1059.9531 C454,1059.9531 558,1059.9531 558,1049.9531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="97" x="405.5" y="1078.8047">Blob Store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="425" y="1093.7168">[AWS S3]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="456" y="1109.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="364" y="1125.8389">Caches crawled data.json</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="367" y="1142.1357">and digitalstrategy.json</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="439" y="1158.4326">files</text><!--MD5=[a9c9bb142db9a1cb23e941b74f751664]
+entity agencysites--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="205" x="817.5" y="819.9531"/><path d="M835.1667,833.9115 L835.1667,839.2448 L840.5,839.2448 L840.5,833.9115 L835.1667,833.9115 M841.8333,836.5781 L841.8333,840.5781 L837.8333,840.5781 L837.8333,841.9115 L843.1667,841.9115 L843.1667,836.5781 L841.8333,836.5781 M844.5,839.2448 L844.5,843.2448 L840.5,843.2448 L840.5,844.5781 L845.8333,844.5781 L845.8333,839.2448 L844.5,839.2448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="852.8333" y="844.8047">Agency websites</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="922" y="861.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="831.5" y="877.8701">Main (public) website for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="834" y="894.167">the monitored agencies</text><!--MD5=[7e02d30a59f5a5ba5200e5b7709d2bfb]
+entity dap--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="164" x="861" y="1067.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="37" x="924.5" y="1092.8047">DAP</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="945" y="1109.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="875" y="1125.8701">Analytics collection</text><!--MD5=[61e0817949b923cdbd4126e8a8a560b5]
+entity newrelic--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="140" x="686" y="1067.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="88" x="712" y="1092.8047">New Relic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="758" y="1109.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="700" y="1125.8701">Monitoring SaaS</text><!--MD5=[06959a3f3cbea176f36acf10396f6fcf]
+entity public--><rect fill="#686868" height="154.1406" style="stroke:#8A8A8A;stroke-width:1.5;" width="219" x="534.5" y="27.9531"/><image height="48" width="48" x="620" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB6ElEQVR4Xu2YLY+EMBCG9+dWr0aj0Wg0Go1Go0+j8Xdv2uTCvv1gpt0ebHKPuhDaeW4605Z9mJvx4AdXUyTUdd08z+u6flmWZRnHsWkafk9DptAwDPu+f0eAYtu2PEaGWuj5fCIZrBAC2eLBAnRCsEkkxmeaJp7iDJ2QMDdHsLg8SxKFEJaAo8lAXnmuOFIhTMpxxKATebo4UiFknuNo4OniSIXQyRxEA3YsnjGCVEjVXD7yLUAqxBGUyPv/Y4W2beMgGuS7kVQIBycH0fD+oi5pezQETxdHKmQKGk1eQEYldK+jw5GxPfZ9z7Mk0Qnhf1W1m3w//EUn5BDmSZsbR44QQLBEqrBHqOrmSKaQAxdnLArCrxZcM7A7ZKs4ioRq8LFC+NpC3WCBJsvpVw5edm9iEXFuyNfxXAgSwfrFQ1c0iNda8AdejvUgnktOtJQQxmcfFzGglc5WVCj7oDgFqU18boeFSs52CUh8LE8BIVQDT1ABrB0HtgSEYlX5doJnCwv9TXocKCaKbnwhdDKPq4lf3SwU3HLq4V/+WYhHVMa/3b4IlfyikAduCkcBc7mQ3/z/Qq/cTuikhkzB12Ae/mcJC9U+Vo8Ej1gWAtgbeGgFsAMHr50BIWOLCbezvhpBFUdY6EJuJ/QDW0XoMX60zZ0AAAAASUVORK5CYII=" y="37.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="562" y="100.8047">Public Dashboard</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="62" x="613" y="119.4297">Viewer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="646" y="136.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="548.5" y="152.4951">A member of the public or</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="580.5" y="168.792">agency personnel</text><path d="M788.5,77.4531 L788.5,132.8516 L1005.5,132.8516 L1005.5,87.4531 L995.5,77.4531 L788.5,77.4531 " fill="#FBFB77" filter="url(#f1m1xq3rkt5zyb)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M995.5,77.4531 L995.5,87.4531 L1005.5,87.4531 L995.5,77.4531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="794.5" y="94.52">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="794.5" y="109.6528">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="794.5" y="124.7856">otherwise noted.</text><!--MD5=[bd207c352bcd91217d9860f8683e7b02]
+link public to dap--><path d="M719.902,182.1131 C726.546,191.6231 732.458,201.6431 737,211.9531 C772.888,293.3781 759,321.9701 759,410.9531 C759,410.9531 759,410.9531 759,864.9531 C759,911.6871 849.159,1009.3681 903.255,1063.7711 " fill="none" id="public-to-dap" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="907.086,1067.6121,903.5635,1058.4147,903.5555,1064.0716,897.8986,1064.0636,907.086,1067.6121" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="760" y="587.5918">reports usage</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="868" y="587.5918"/><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="774" y="601.5605">[https (443)]</text><!--MD5=[6c40528ec6f16f884d4a1891524de78c]
+link dashboard_app to newrelic--><path d="M525.183,923.0271 C537.477,932.3461 549.449,942.4171 560,952.9531 C581.72,974.6431 576.573,988.9941 599,1009.9531 C622.339,1031.7651 651.693,1050.7611 678.686,1065.7701 " fill="none" id="dashboard_app-to-newrelic" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="685.859,1069.6971,680.2833,1063.2232,677.4013,1068.4858,685.859,1069.6971" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="132" x="600" y="979.0918">reports telemetry</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="68" x="632" y="993.0605">[tcp (443)]</text><!--MD5=[5d2f202a4e8631f889aaef2ce021e994]
+link public to aws_alb--><path d="M599.04,182.2331 C593.263,192.2031 587.462,202.3031 582,211.9531 C553.713,261.9131 522.304,319.4901 500.497,359.8161 " fill="none" id="public-to-aws_alb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="496.676,366.8871,503.1182,361.2748,497.8394,358.4227,496.676,366.8871" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="149" x="583" y="224.0918">views static content</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="606.5" y="238.0605">and validates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="605.5" y="252.0293">data.json files</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="586" y="265.998">[https GET/POST (443)]</text><!--MD5=[fb012da969d3c46a1dd0467f85145a85]
+link aws_alb to cloudgov_router--><path d="M465.177,457.3651 C460.872,481.8081 455.51,512.2521 451.028,537.6991 " fill="none" id="aws_alb-to-cloudgov_router" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="449.606,545.7721,453.949,538.4143,448.0401,537.3728,449.606,545.7721" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="470.5" y="499.0918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="461" y="513.0605">[https GET/POST (443)]</text><!--MD5=[c7c6b9b72c42d9fa23e12a73a20e5450]
+link cloudgov_router to dashboard_app--><path d="M440.257,634.0521 C438.49,677.7571 435.731,745.9801 433.684,796.5871 " fill="none" id="cloudgov_router-to-dashboard_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="433.349,804.8681,436.6708,796.9963,430.6758,796.7531,433.349,804.8681" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="449.5" y="676.0918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="440" y="690.0605">[https GET/POST (443)]</text><!--MD5=[6514e3445a992f4c8bc3074ddf203f22]
+link dashboard_app to agencysites--><path d="M536.504,863.9531 C616.851,863.9531 727.187,863.9531 808.887,863.9531 " fill="none" id="dashboard_app-to-agencysites" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="817.201,863.9531,809.201,860.9531,809.201,866.9531,817.201,863.9531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="150" x="602" y="816.0918">crawls data.json and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="144" x="603" y="830.0605">digitalstrategy.json</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="661" y="844.0293">files</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="146" x="604" y="857.998">[https GET/HEAD (443)]</text><!--MD5=[98a051408e6e5b631a3865535d9ac194]
+link dashboard_app to dashboard_db--><path d="M325.355,902.2261 C300.292,915.1191 275.498,931.8041 257,952.9531 C235.667,977.3431 222.954,1010.9811 215.446,1040.1751 " fill="none" id="dashboard_app-to-dashboard_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="213.464,1048.2791,218.2796,1041.2215,212.4516,1039.7953,213.464,1048.2791" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="258" y="965.0918">reads agency info,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="279.5" y="979.0605">reads/writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="60" x="295.5" y="993.0293">reports,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="92" x="281.5" y="1006.998">[mysql (3306)]</text><!--MD5=[86eaec000ac58c6e38704b26615a1196]
+link dashboard_app to dashboard_s3--><path d="M412.189,923.1911 C406.135,949.8201 402.485,981.6671 409,1009.9531 C410.693,1017.3021 413.051,1024.7431 415.81,1032.0461 " fill="none" id="dashboard_app-to-dashboard_s3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="418.948,1039.9051,418.7671,1031.363,413.195,1033.5882,418.948,1039.9051" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="410" y="979.0918">stores crawled files</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="139" x="413" y="993.0605">[https GET/POST(443)]</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="153" x="872" y="1267.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="878" y="1287.9482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="939" y="1287.9482"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1291.25"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="882" y="1304.2451">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1307.5469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="882" y="1320.542">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1323.8438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="882" y="1336.8389">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1340.1406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="882" y="1353.1357">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1356.4375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="882" y="1369.4326">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="878" y="1372.7344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="882" y="1385.7295">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1274.9531" y2="1274.9531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1291.25" y2="1291.25"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1307.5469" y2="1307.5469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1323.8438" y2="1323.8438"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1340.1406" y2="1340.1406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1356.4375" y2="1356.4375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1372.7344" y2="1372.7344"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="1019" y1="1389.0313" y2="1389.0313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="878" x2="878" y1="1274.9531" y2="1389.0313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1019" x2="1019" y1="1274.9531" y2="1389.0313"/><!--MD5=[180c0b46bcfa7745db7784c12da14ada]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+title dashboard.data.gov boundary view
+
+
+Person_Ext(public, "Public Dashboard Viewer", "A member of the public or agency personnel")
+
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+Boundary(aws, "AWS GovCloud") {
+    
+    Boundary(cloudgov, "cloud.gov") {
+    	System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+        Boundary(atob, "data.gov ATO boundary") {
+            System_Boundary(dashboard, "data.gov dashboard") {
+                Container(dashboard_app, "<&layers> Web Application", "PHP 7.4.3, CodeIgniter 3.1.11", "Generates reports and delivers static HTML/CSS and forms")
+                ContainerDb(dashboard_db, "MySQL Database", "AWS RDS", "Stores agency information and reports")
+                ContainerDb(dashboard_s3, "Blob Store", "AWS S3", "Caches crawled data.json and digitalstrategy.json files")
+            }
+        }
+    }
+}
+
+Boundary(agency, "Agency ATO boundary") { 
+	System_Ext(agencysites, "<&layers> Agency websites", "Main (public) website for the monitored agencies")
+}
+
+Boundary(gsa_saas, "GSA-authorized SaaS") { 
+	System_Ext(dap, "DAP", "Analytics collection")
+	System_Ext(newrelic, "New Relic", "Monitoring SaaS")
+}
+
+public -> dap : **reports usage** \n//[https (443)]//
+Rel(dashboard_app, newrelic, "reports telemetry", "tcp (443)")
+
+
+Rel(public, aws_alb, "views static content and validates data.json files", "https GET/POST (443)")
+Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, dashboard_app, "proxies requests", "https GET/POST (443)")
+Rel_Neighbor(dashboard_app, agencysites, "crawls data.json and digitalstrategy.json files", "https GET/HEAD (443)") 
+Rel(dashboard_app, dashboard_db, "reads agency info, reads/writes reports, ", "mysql (3306)")
+Rel(dashboard_app, dashboard_s3, "stores crawled files", "https GET/POST(443)")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title dashboard.data.gov boundary view
+
+
+rectangle "<$person>\n==Public Dashboard Viewer\n\n A member of the public or agency personnel" <<external_person>> as public
+
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+rectangle "==AWS GovCloud" <<boundary>> as aws {
+    
+    rectangle "==cloud.gov" <<boundary>> as cloudgov {
+    	rectangle "==cloud.gov load-balancer\n\n AWS ALB" <<external_system>> as aws_alb
+        rectangle "==<&layers> cloud.gov routers\n\n Cloud Foundry traffic service" <<external_system>> as cloudgov_router
+        rectangle "==data.gov ATO boundary" <<boundary>> as atob {
+rectangle "==data.gov dashboard\n<size:12>[System]</size>" <<boundary>> as dashboard {
+                rectangle "==<&layers> Web Application\n//<size:12>[PHP 7.4.3, CodeIgniter 3.1.11]</size>//\n\n Generates reports and delivers static HTML/CSS and forms" <<container>> as dashboard_app
+                database "==MySQL Database\n//<size:12>[AWS RDS]</size>//\n\n Stores agency information and reports" <<container>> as dashboard_db
+                database "==Blob Store\n//<size:12>[AWS S3]</size>//\n\n Caches crawled data.json and digitalstrategy.json files" <<container>> as dashboard_s3
+            }
+        }
+    }
+}
+
+rectangle "==Agency ATO boundary" <<boundary>> as agency { 
+	rectangle "==<&layers> Agency websites\n\n Main (public) website for the monitored agencies" <<external_system>> as agencysites
+}
+
+rectangle "==GSA-authorized SaaS" <<boundary>> as gsa_saas { 
+	rectangle "==DAP\n\n Analytics collection" <<external_system>> as dap
+	rectangle "==New Relic\n\n Monitoring SaaS" <<external_system>> as newrelic
+}
+
+public -> dap : **reports usage** \n//[https (443)]//
+dashboard_app - ->> newrelic : **reports telemetry**\n//<size:12>[tcp (443)]</size>//
+
+
+public - ->> aws_alb : **views static content and validates data.json files**\n//<size:12>[https GET/POST (443)]</size>//
+aws_alb - ->> cloudgov_router : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+cloudgov_router - ->> dashboard_app : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+dashboard_app ->> agencysites : **crawls data.json and digitalstrategy.json files**\n//<size:12>[https GET/HEAD (443)]</size>// 
+dashboard_app - ->> dashboard_db : **reads agency info, reads/writes reports, **\n//<size:12>[mysql (3306)]</size>//
+dashboard_app - ->> dashboard_s3 : **stores crawled files**\n//<size:12>[https GET/POST(443)]</size>//
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
