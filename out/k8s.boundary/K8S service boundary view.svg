@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2349px" preserveAspectRatio="none" style="width:2130px;height:2349px;" version="1.1" viewBox="0 0 2130 2349" width="2130px" zoomAndPan="magnify"><defs><filter height="300%" id="f19fgrjaf3sbc6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="250" x="933.5" y="16.708">K8S service boundary view</text><!--MD5=[aa2f05b2676d7d34ffa7e771fb7634f3]
+cluster client--><rect fill="#FFFFFF" height="565.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="212" x="1447" y="27.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1526.5" y="44.8047">Client</text><!--MD5=[7e50ca78b397c836215282d3fb5faf15]
+cluster external_services--><rect fill="#FFFFFF" height="143" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="686" x="1418" y="1278.4531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="1682.5" y="1295.3047">External Services</text><!--MD5=[dd6272bc7b82fe3b135ddbc083aa29bc]
+cluster aws_west--><rect fill="#FFFFFF" height="1100.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1017" x="377" y="1091.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="137" x="817" y="1108.8047">AWS us-west-2</text><!--MD5=[03deb33551299d7b80d4370a01a89112]
+cluster iaas--><rect fill="#FFFFFF" height="1031.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="969" x="401" y="1136.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="214" x="778.5" y="1153.8047">SSB managed boundary</text><!--MD5=[0a30e9f9ca990b050724e575e680057f]
+cluster eks_instance--><rect fill="#FFFFFF" height="946.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="905" x="433" y="1189.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="827" y="1206.8047">EKS instance</text><!--MD5=[33607ebfc4f246ac645613fc9f22170d]
+cluster vpc--><rect fill="#FFFFFF" height="861.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="833" x="473" y="1242.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="83" x="848" y="1259.8047">AWS VPC</text><!--MD5=[3e837409b9bea95005cfde25c1b0658f]
+cluster aws_fargate--><rect fill="#FFFFFF" height="510" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="769" x="505" y="1562.4531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="118" x="830.5" y="1579.3047">AWS Fargate</text><!--MD5=[01a7cdeec9566801174496f12f63d809]
+cluster aws_public_subnet--><rect fill="#FFFFFF" height="124" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="238" x="977" y="1287.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="171" x="1010.5" y="1304.8047">AWS Public Subnet</text><!--MD5=[e2373e393a1be726fcf9eb7afb9b7efa]
+cluster aws_govcloud--><rect fill="#FFFFFF" height="1064.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="346" x="7" y="414.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="113.5" y="431.8047">AWS GovCloud</text><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><rect fill="#FFFFFF" height="995.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="298" x="31" y="459.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="135.5" y="476.8047">cloud.gov</text><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><rect fill="#FFFFFF" height="564.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="250" x="55" y="866.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="232" x="64" y="883.8047">SSB application boundary</text><!--MD5=[8a719cf39157e20d2641a32c9871f429]
+entity client_team--><rect fill="#08427B" height="86.625" style="stroke:#073B6F;stroke-width:1.5;" width="131" x="1511.5" y="64.9531"/><image height="48" width="48" x="1553" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="74.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="1521.5" y="137.8047">Client Team</text><!--MD5=[15d099bd719a512665c367382b0908f5]
+entity osbapi_client--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="179" x="1463.5" y="254.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1490.5" y="279.8047">OSBAPI Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1555" y="296.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1477.5" y="312.8701">Service orchestration</text><!--MD5=[023e6b6f257adf975edb1ab3cdbf5d6e]
+entity k8s_client--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="139" x="1468.5" y="506.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1493" y="531.3047">k8s Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1540" y="548.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="1482.5" y="564.3701">Manages cluster</text><!--MD5=[7d959ff103776c21c083f82202b84930]
+entity docker_notary--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="193" x="1676.5" y="1324.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="173" x="1686.5" y="1349.8047">Docker Hub Notary</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1775" y="1366.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="1691" y="1382.8701">Store trust information</text><!--MD5=[4fd748eb7c1f707b50a0d84c344262e6]
+entity docker_official_images--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="207" x="1434.5" y="1315.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1467" y="1340.3047">Docker Official</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="65" x="1505.5" y="1358.9297">Images</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1540" y="1375.6982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="1448.5" y="1391.9951">verified upstream images</text><!--MD5=[cc6c684794c473941d5e51c2e867b944]
+entity github_container_registry--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="183" x="1904.5" y="1315.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="1914.5" y="1340.3047">GitHub Container</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="76" x="1958" y="1358.9297">Registry</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1998" y="1375.6982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1939" y="1391.9951">bespoke images</text><!--MD5=[1f4dc62f1916b12ab1fcce51469ca5b3]
+entity aws_eks--><rect fill="#999999" height="38.625" style="stroke:#8A8A8A;stroke-width:1.5;" width="181" x="504.5" y="1340.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="514.5" y="1365.8047">EKS control plane</text><!--MD5=[2c363f3a01dca2019459fc4cc948520f]
+entity aws_ecr--><rect fill="#999999" height="75.875" style="stroke:#8A8A8A;stroke-width:1.5;" width="198" x="760" y="1322.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="107" x="802.5" y="1347.3047">AWS Elastic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="770" y="1365.9297">Container Registry</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="48" x="835" y="1384.5547">(ECR)</text><!--MD5=[ec1d7b2963221ec44547f9db57a0c817]
+entity solr_operator--><rect fill="#438DD5" height="101.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="1032.5" y="1608.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="1078" y="1633.8047">Solr Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="1102.5" y="1648.7168">[k8s service]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1143" y="1664.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1046.5" y="1680.8389">manages custom SolrCloud</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1106.5" y="1697.1357">resources</text><!--MD5=[65e83196b9cfcb11242147e5621f5bbe]
+entity admission_controller--><rect fill="#438DD5" height="85.1875" style="stroke:#3C7FC0;stroke-width:1.5;" width="212" x="785" y="1616.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="192" x="795" y="1641.8047">Admission Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="852.5" y="1656.7168">[k8s service]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="893" y="1672.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="805.5" y="1688.8389">pulls and verifies images</text><!--MD5=[51833175432dbe1ab494f0402f83134c]
+entity alb_ingress--><rect fill="#438DD5" height="103.8125" style="stroke:#3C7FC0;stroke-width:1.5;" width="202" x="548" y="1607.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="176" x="558" y="1632.3047">AWS Load Balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="602.5" y="1650.9297">Controller</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="610.5" y="1665.8418">[k8s service]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="651" y="1681.667"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="603" y="1697.9639">manages ALB</text><!--MD5=[015c707bf8bde5eff7805f825727e128]
+entity sys_eks_nginx_ingress--><rect fill="#1168BD" height="87.5156" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="548" y="1800.4531"/><path d="M620.6667,1814.4115 L620.6667,1819.7448 L626,1819.7448 L626,1814.4115 L620.6667,1814.4115 M627.3333,1817.0781 L627.3333,1821.0781 L623.3333,1821.0781 L623.3333,1822.4115 L628.6667,1822.4115 L628.6667,1817.0781 L627.3333,1817.0781 M630,1819.7448 L630,1823.7448 L626,1823.7448 L626,1825.0781 L631.3333,1825.0781 L631.3333,1819.7448 L630,1819.7448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="48" x="638.3333" y="1825.3047">nginx</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="655" y="1842.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="562" y="1858.3701">Kubernetes nginx ingress</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="617.5" y="1874.667">controller</text><!--MD5=[113b663891664af2f6bc715133d91b89]
+entity client_app--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="196.6667" x="554.5" y="1977.4531"/><path d="M565.5,1991.4115 L565.5,1996.7448 L570.8333,1996.7448 L570.8333,1991.4115 L565.5,1991.4115 M572.1667,1994.0781 L572.1667,1998.0781 L568.1667,1998.0781 L568.1667,1999.4115 L573.5,1999.4115 L573.5,1994.0781 L572.1667,1994.0781 M574.8333,1996.7448 L574.8333,2000.7448 L570.8333,2000.7448 L570.8333,2002.0781 L576.1667,2002.0781 L576.1667,1996.7448 L574.8333,1996.7448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="583.1667" y="2002.3047">client application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="654.8333" y="2019.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="615.3333" y="2035.3701">k8s service</text><!--MD5=[4941fd8af3cd57c2e328f8bca1885418]
+entity aws_eks_alb--><rect fill="#999999" height="71.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="205" x="993.5" y="1324.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="73" x="1059.5" y="1349.8047">EKS ALB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1098" y="1366.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="1007.5" y="1382.8701">application load balancer</text><!--MD5=[5305ec58f867991ed01797c9b1705e00]
+entity aws_cg_alb--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="144" x="132" y="496.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="156.5" y="521.8047">cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="142" y="540.4297">load-balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="206" y="557.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="173.5" y="573.4951">AWS ALB</text><!--MD5=[520c8806735a893833bdb4d742b17895]
+entity cloudgov_router--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="202.6667" x="66.5" y="689.9531"/><path d="M77.5,703.9115 L77.5,709.2448 L82.8333,709.2448 L82.8333,703.9115 L77.5,703.9115 M84.1667,706.5781 L84.1667,710.5781 L80.1667,710.5781 L80.1667,711.9115 L85.5,711.9115 L85.5,706.5781 L84.1667,706.5781 M86.8333,709.2448 L86.8333,713.2448 L82.8333,713.2448 L82.8333,714.5781 L88.1667,714.5781 L88.1667,709.2448 L86.8333,709.2448 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="95.1667" y="714.8047">cloud.gov routers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="169.8333" y="731.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="92.8333" y="747.8701">Cloud Foundry traffic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="142.3333" y="764.167">service</text><!--MD5=[ef90974b829ec75453a2714125f34658]
+entity eks_app--><rect fill="#438DD5" height="99.1563" style="stroke:#3C7FC0;stroke-width:1.5;" width="203" x="72.5" y="903.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="124.5" y="928.8047">EKS broker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="179" x="82.5" y="943.7168">[Open Service Broker API, Go,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="142" y="957.6855">Terraform]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="176" y="973.5107"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="89" y="989.8076">Brokers EKS as a service</text><!--MD5=[e29cd2f19e14bf61efc513f149a4517e]
+entity eks_app_db--><path d="M71.5,1315.4531 C71.5,1305.4531 180,1305.4531 180,1305.4531 C180,1305.4531 288.5,1305.4531 288.5,1315.4531 L288.5,1405.9375 C288.5,1415.9375 180,1415.9375 180,1415.9375 C180,1415.9375 71.5,1415.9375 71.5,1405.9375 L71.5,1315.4531 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M71.5,1315.4531 C71.5,1325.4531 180,1325.4531 180,1325.4531 C180,1325.4531 288.5,1325.4531 288.5,1315.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="118" x="121" y="1344.3047">Broker State</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="154.5" y="1359.2168">[MySQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="182" y="1375.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="85.5" y="1391.3389">Store state of provisioned</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="145.5" y="1407.6357">resources</text><path d="M1213.5,80.9531 L1213.5,136.3516 L1430.5,136.3516 L1430.5,90.9531 L1420.5,80.9531 L1213.5,80.9531 " fill="#FBFB77" filter="url(#f19fgrjaf3sbc6)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1420.5,80.9531 L1420.5,90.9531 L1430.5,90.9531 L1420.5,80.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="1219.5" y="98.02">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="1219.5" y="113.1528">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="1219.5" y="128.2856">otherwise noted.</text><!--MD5=[0524b45fb460eca608883ed633db927a]
+link osbapi_client to k8s_client--><path d="M1550.91,326.1431 C1548.21,371.0831 1543.5,449.3931 1540.58,498.0231 " fill="none" id="osbapi_client-to-k8s_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1540.09,506.1531,1543.5562,498.3438,1537.5667,497.9902,1540.09,506.1531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1549" y="368.0918">provide k8s</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="1551.5" y="382.0605">credentials</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="32" x="1577" y="396.0293">[any]</text><!--MD5=[0a1a1d75500637dbc8f2e8dd94e5dc5a]
+link client_team to osbapi_client--><path d="M1569.52,152.3331 C1567.93,162.0531 1566.33,172.3531 1565,181.9531 C1562.07,203.1131 1559.37,226.6931 1557.28,246.3631 " fill="none" id="client_team-to-osbapi_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1556.43,254.5331,1560.2424,246.8869,1554.2747,246.2654,1556.43,254.5331" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1587.5" y="194.0918">request EKS</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="1566" y="208.0605">instance for client</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="32" x="1617.5" y="222.0293">[any]</text><!--MD5=[44183cdba0583cbfe1abf2b927801563]
+link eks_app to eks_instance--><path d="M266.224,1003.1631 C278.199,1012.0131 289.561,1021.9731 299,1032.9531 C349.776,1092.0081 384.9688,1172.0251 407.6175,1238.0636 C418.9419,1271.0829 427.1303,1300.6075 432.5625,1322.2699 C432.6474,1322.6084 432.7316,1322.945 432.8152,1323.2796 " fill="none" id="eks_app-to-eks_instance" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="432.8152,1323.2796,433.7882,1314.7912,427.9668,1316.2444,432.8152,1323.2796" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="359.5" y="1045.0918">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="130" x="330" y="1059.0605">[Terraform (AWS, k8s</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="364" y="1073.0293">providers)]</text><!--MD5=[a57739a3103e4fa986b4616a684e8592]
+link osbapi_client to aws_cg_alb--><path d="M1463.44,308.0131 C1215.14,353.9431 520.694,482.3831 284.118,526.1331 " fill="none" id="osbapi_client-to-aws_cg_alb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="276.235,527.5931,284.6472,529.0883,283.556,523.1883,276.235,527.5931" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="79" x="1223" y="368.0918">broker EKS</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="1196" y="382.0605">instances (OSBAPI)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1193" y="396.0293">[https GET/POST (443)]</text><!--MD5=[4ce174d1a9e01dc3e10890565860666d]
+link aws_cg_alb to cloudgov_router--><path d="M195.65,587.0231 C190.296,615.2731 183.325,652.0731 177.722,681.6431 " fill="none" id="aws_cg_alb-to-cloudgov_router" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="176.18,689.7831,180.6137,682.4795,174.7181,681.3651,176.18,689.7831" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="200.5" y="636.0918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="191" y="650.0605">[https GET/POST (443)]</text><!--MD5=[e867d05f37badce9990cabb9482f71d0]
+link cloudgov_router to eks_app--><path d="M169.193,778.1831 C170.12,811.8131 171.416,858.7731 172.428,895.4731 " fill="none" id="cloudgov_router-to-eks_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="172.653,903.6131,175.4376,895.5356,169.4398,895.6964,172.653,903.6131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="182.5" y="827.0918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="173" y="841.0605">[https GET/POST (443)]</text><!--MD5=[edd64b84f436b6f1b7f14f19c11c24d0]
+link eks_app to eks_app_db--><path d="M174.724,1003.3031 C175.815,1076.9331 177.879,1216.3151 179.077,1297.1531 " fill="none" id="eks_app-to-eks_app_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="179.197,1305.2701,182.0781,1297.2265,176.0787,1297.3155,179.197,1305.2701" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="177" y="1045.0918">store and read</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="40" x="213.5" y="1059.0605">state</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="193" y="1073.0293">[port (3306)]</text><!--MD5=[0f3d9a3235e47e1824b88fc57ee58bc2]
+link k8s_client to aws_eks--><path d="M1468.27,575.6431 C1318.82,648.5731 963.26,837.7031 742,1083.9531 C671.493,1162.4231 623.24,1280.7771 604.147,1333.0451 " fill="none" id="k8s_client-to-aws_eks" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="601.334,1340.8501,606.8688,1334.3412,601.2242,1332.3068,601.334,1340.8501" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="110" x="1081.5" y="820.0918">manipulate k8s</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="52" x="1112.5" y="834.0605">cluster</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="145" x="1066" y="848.0293">[http GET/POST (8193)]</text><!--MD5=[ed227bdd94edf0ca8883611f6f557acd]
+link aws_eks_alb to alb_ingress--><path d="M1077.73,1396.1171 C1059.67,1426.3411 1028.97,1468.2601 989,1487.4531 C960.943,1500.9251 734.271,1477.2851 709,1495.4531 C676.108,1519.1001 661.215,1562.8161 654.487,1599.0251 " fill="none" id="aws_eks_alb-to-alb_ingress" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="653.097,1607.1001,657.4106,1599.725,651.4976,1598.7072,653.097,1607.1001" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="719.5" y="1514.5918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="710" y="1528.5605">[https GET/POST (443)]</text><!--MD5=[ae7e682967d1f9c6d0decd9b76a3a40c]
+link alb_ingress to sys_eks_nginx_ingress--><path d="M650.125,1711.9161 C650.673,1736.9901 651.33,1767.0621 651.878,1792.1191 " fill="none" id="alb_ingress-to-sys_eks_nginx_ingress" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="652.059,1800.4101,654.884,1792.3467,648.8854,1792.4774,652.059,1800.4101" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="662.5" y="1753.5918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="653" y="1767.5605">[https GET/POST (443)]</text><!--MD5=[39c6ba19655d358c9db3c9f20c03288d]
+link sys_eks_nginx_ingress to client_app--><path d="M653,1888.7641 C653,1913.5231 653,1944.4571 653,1969.1331 " fill="none" id="sys_eks_nginx_ingress-to-client_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="653,1977.2441,656,1969.2441,650,1969.2441,653,1977.2441" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="663.5" y="1930.5918">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="654" y="1944.5605">[https GET/POST (443)]</text><!--MD5=[debb01ac56543f2d165ac5f1c1dd1e99]
+link aws_eks to aws_fargate--><path d="M580.976,1380.1991 C563.282,1405.0531 533.637,1450.9721 521,1495.4531 C516.122,1512.6234 513.1604,1531.2143 511.4673,1549.4867 C511.2557,1551.7707 511.0639,1554.0498 510.8907,1556.3205 C510.804,1557.4559 510.722,1558.5891 510.6445,1559.7199 C510.6058,1560.2852 510.5682,1560.85 510.5316,1561.414 C510.5134,1561.6961 510.4954,1561.9779 510.4776,1562.2596 " fill="none" id="aws_eks-to-aws_fargate" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="510.4776,1562.2596,513.974,1554.4637,507.9858,1554.087,510.4776,1562.2596" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="543" y="1507.5918">orchestrates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="556.5" y="1521.5605">workloads</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="522" y="1535.5293">[https GET/POST (443)]</text><!--MD5=[ed1b0f8384368606cc94b813e15461f3]
+reverse link docker_official_images to admission_controller--><path d="M1482.92,1411.0481 C1431.66,1453.7491 1351.03,1512.4721 1269,1538.4531 C1215.16,1555.5041 1067.38,1525.3471 1015,1546.4531 C978.676,1561.0901 946.179,1591.4351 923.574,1616.8521 " fill="none" id="docker_official_images-backto-admission_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1489.34,1405.6601,1481.284,1408.5064,1485.142,1413.1017,1489.34,1405.6601" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1386" y="1514.5918">pulls images</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1359" y="1528.5605">[https GET/POST (443)]</text><!--MD5=[be39792ddcee8ffae7e5cc32e799dd32]
+reverse link github_container_registry to admission_controller--><path d="M1961.27,1412.0591 C1926.34,1457.3691 1867.76,1519.4991 1798,1538.4531 C1756.02,1549.8591 1055.52,1530.6241 1015,1546.4531 C978.387,1560.7551 945.793,1591.2951 923.221,1616.8761 " fill="none" id="github_container_registry-backto-admission_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1966.25,1405.5031,1959.0225,1410.0598,1963.8008,1413.6886,1966.25,1405.5031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1907" y="1514.5918">pulls images</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1880" y="1528.5605">[https GET/POST (443)]</text><!--MD5=[59d3fa1c96c4bacc1d4b114b81fa786b]
+reverse link docker_notary to admission_controller--><path d="M1744.5,1402.5471 C1723.62,1429.9551 1693.07,1464.9551 1659,1487.4531 C1600.94,1525.7911 1579.52,1526.4091 1511,1538.4531 C1483.86,1543.2241 1040.64,1536.3501 1015,1546.4531 C978.429,1560.8631 945.833,1591.3961 923.249,1616.9481 " fill="none" id="docker_notary-backto-admission_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1749.33,1396.1121,1742.1287,1400.7101,1746.9277,1404.3114,1749.33,1396.1121" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="1662" y="1514.5918">verifies images</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1646" y="1528.5605">[https GET/POST (443)]</text><!--MD5=[43f87c6c136f24f547097b970ce3470f]
+link client_team to github_container_registry--><path d="M1642.77,110.2431 C1756.53,115.4631 1978,144.2731 1978,289.4531 C1978,289.4531 1978,289.4531 1978,954.4531 C1978,1081.2731 1986.92,1230.2051 1992.2,1307.2971 " fill="none" id="client_team-to-github_container_registry" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1992.76,1315.4331,1995.2008,1307.2452,1989.2151,1307.6592,1992.76,1315.4331" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="1997" y="636.0918">pushes images</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1979" y="650.0605">[https GET/POST (443)]</text><!--MD5=[3a39ad4da930b40685b1824db837ab59]
+link client_team to docker_notary--><path d="M1642.77,132.9531 C1666.01,144.3531 1690.25,160.3731 1706,181.9531 C1734.74,221.3531 1728,240.6831 1728,289.4531 C1728,289.4531 1728,289.4531 1728,954.4531 C1728,1087.2831 1752.21,1243.1371 1765.11,1316.7821 " fill="none" id="client_team-to-docker_notary" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1766.55,1324.9241,1768.1128,1316.5243,1762.2042,1317.5679,1766.55,1324.9241" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="94" x="1751.5" y="629.0918">pushes trust</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="86" x="1757.5" y="643.0605">information</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="1729" y="657.0293">[https GET/POST (443)]</text><!--MD5=[c0b193d7585629c2c14a26e5f6a4043f]
+reverse link aws_ecr to admission_controller--><path d="M863.863,1406.5871 C870.014,1463.6761 880.522,1561.2061 886.497,1616.6611 " fill="none" id="aws_ecr-backto-admission_controller" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="862.988,1398.4681,860.8624,1406.7435,866.8278,1406.1007,862.988,1398.4681" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="892" y="1507.5918">pushes verified</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="51" x="925" y="1521.5605">images</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="879" y="1535.5293">[https GET/POST (443)]</text><!--MD5=[6d4c301459521995ec44a2b4d2a65577]
+link k8s_client to docker_official_images--><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="153" x="1955" y="2205.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1961" y="2225.4482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2022" y="2225.4482"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2228.75"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1965" y="2241.7451">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2245.0469"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1965" y="2258.042">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2261.3438"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1965" y="2274.3389">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2277.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1965" y="2290.6357">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2293.9375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1965" y="2306.9326">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="1961" y="2310.2344"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1965" y="2323.2295">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2212.4531" y2="2212.4531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2228.75" y2="2228.75"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2245.0469" y2="2245.0469"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2261.3438" y2="2261.3438"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2277.6406" y2="2277.6406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2293.9375" y2="2293.9375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2310.2344" y2="2310.2344"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="2102" y1="2326.5313" y2="2326.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1961" x2="1961" y1="2212.4531" y2="2326.5313"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="2102" x2="2102" y1="2212.4531" y2="2326.5313"/><!--MD5=[fd6940c7c8c917cc9c3a069b89d14c77]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title K8S service boundary view
+Boundary(client, "Client") {
+  Person(client_team, "Client Team")
+  System_Ext(osbapi_client, "OSBAPI Client", "Service orchestration")
+  System_Ext(k8s_client, "k8s Client", "Manages cluster")
+  Rel(osbapi_client, k8s_client, "provide k8s credentials", "any")
+  Rel(client_team, osbapi_client, "request EKS instance for client", "any")
+}
+Boundary(external_services, "External Services") {
+  System_Ext(docker_notary, "Docker Hub Notary ", "Store trust information")
+  System_Ext(docker_official_images, "Docker Official Images", "verified upstream images")
+  System_Ext(github_container_registry, "GitHub Container Registry", "bespoke images")
+}
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Boundary(aws_west, "AWS us-west-2") {
+  Boundary(iaas, "SSB managed boundary") {
+    Boundary(eks_instance, "EKS instance") {
+      Boundary(vpc, "AWS VPC") {
+        System_Ext(aws_eks, "EKS control plane")
+        System_Ext(aws_ecr, "AWS Elastic Container Registry (ECR)")
+        Boundary(aws_fargate, "AWS Fargate") {
+          Container(solr_operator, "Solr Operator", "k8s service", "manages custom SolrCloud resources")
+          Container(admission_controller, "Admission Controller", "k8s service", "pulls and verifies images")
+          Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
+          System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
+          System_Ext(client_app, "<&layers> client application", "k8s service")    
+        }
+        Boundary(aws_public_subnet, "AWS Public Subnet") {
+          System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
+        }
+      }
+    }
+  }
+}
+Boundary(aws_govcloud, "AWS GovCloud") {
+  Boundary(cloudgov, "cloud.gov") {
+      System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+      System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+      Boundary(atob, "SSB application boundary") {
+        Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
+      	ContainerDb(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+      }
+    }
+}
+Rel(eks_app, eks_instance, "provisions", "Terraform (AWS, k8s providers)")
+Rel(osbapi_client, aws_cg_alb, "broker EKS instances (OSBAPI)", "https GET/POST (443)")
+Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, eks_app, "proxies requests", "https GET/POST (443)")
+Rel(eks_app, eks_app_db, "store and read state", "port (3306)")
+Rel(k8s_client, aws_eks, "manipulate k8s cluster", "http GET/POST (8193)")
+Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
+Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
+Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
+Rel(aws_eks, aws_fargate, "orchestrates workloads", "https GET/POST (443)")
+Rel_Up(admission_controller, docker_official_images, "pulls images", "https GET/POST (443)")
+Rel_Up(admission_controller, github_container_registry, "pulls images", "https GET/POST (443)")
+Rel_Up(admission_controller, docker_notary, "verifies images", "https GET/POST (443)")
+Rel(client_team, github_container_registry, "pushes images", "https GET/POST (443)")
+Rel(client_team, docker_notary, "pushes trust information", "https GET/POST (443)")
+Rel_Up(admission_controller, aws_ecr, "pushes verified images", "https GET/POST (443)")
+
+' The following hidden line constrains the "External Services" boundary below the "Client" boundary, narrowing the 
+' diagram
+k8s_client -[hidden]- docker_official_images
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontStyle plain
+    BackgroundColor #FFFFFF
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor #FFFFFF
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title K8S service boundary view
+rectangle "==Client" <<boundary>> as client {
+  rectangle "<$person>\n==Client Team" <<person>> as client_team
+  rectangle "==OSBAPI Client\n\n Service orchestration" <<external_system>> as osbapi_client
+  rectangle "==k8s Client\n\n Manages cluster" <<external_system>> as k8s_client
+osbapi_client - ->> k8s_client : **provide k8s credentials**\n//<size:12>[any]</size>//
+client_team - ->> osbapi_client : **request EKS instance for client**\n//<size:12>[any]</size>//
+}
+rectangle "==External Services" <<boundary>> as external_services {
+  rectangle "==Docker Hub Notary \n\n Store trust information" <<external_system>> as docker_notary
+  rectangle "==Docker Official Images\n\n verified upstream images" <<external_system>> as docker_official_images
+  rectangle "==GitHub Container Registry\n\n bespoke images" <<external_system>> as github_container_registry
+}
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+rectangle "==AWS us-west-2" <<boundary>> as aws_west {
+  rectangle "==SSB managed boundary" <<boundary>> as iaas {
+    rectangle "==EKS instance" <<boundary>> as eks_instance {
+      rectangle "==AWS VPC" <<boundary>> as vpc {
+        rectangle "==EKS control plane" <<external_system>> as aws_eks
+        rectangle "==AWS Elastic Container Registry (ECR)" <<external_system>> as aws_ecr
+        rectangle "==AWS Fargate" <<boundary>> as aws_fargate {
+          rectangle "==Solr Operator\n//<size:12>[k8s service]</size>//\n\n manages custom SolrCloud resources" <<container>> as solr_operator
+          rectangle "==Admission Controller\n//<size:12>[k8s service]</size>//\n\n pulls and verifies images" <<container>> as admission_controller
+          rectangle "==AWS Load Balancer Controller\n//<size:12>[k8s service]</size>//\n\n manages ALB" <<container>> as alb_ingress
+          rectangle "==<&layers> nginx\n\n Kubernetes nginx ingress controller" <<system>> as sys_eks_nginx_ingress
+          rectangle "==<&layers> client application\n\n k8s service" <<external_system>> as client_app    
+        }
+        rectangle "==AWS Public Subnet" <<boundary>> as aws_public_subnet {
+          rectangle "==EKS ALB\n\n application load balancer" <<external_system>> as aws_eks_alb
+        }
+      }
+    }
+  }
+}
+rectangle "==AWS GovCloud" <<boundary>> as aws_govcloud {
+  rectangle "==cloud.gov" <<boundary>> as cloudgov {
+      rectangle "==cloud.gov load-balancer\n\n AWS ALB" <<external_system>> as aws_cg_alb
+      rectangle "==<&layers> cloud.gov routers\n\n Cloud Foundry traffic service" <<external_system>> as cloudgov_router
+      rectangle "==SSB application boundary" <<boundary>> as atob {
+        rectangle "==EKS broker\n//<size:12>[Open Service Broker API, Go, Terraform]</size>//\n\n Brokers EKS as a service" <<container>> as eks_app
+      	database "==Broker State\n//<size:12>[MySQL]</size>//\n\n Store state of provisioned resources" <<container>> as eks_app_db
+      }
+    }
+}
+eks_app - ->> eks_instance : **provisions**\n//<size:12>[Terraform (AWS, k8s providers)]</size>//
+osbapi_client - ->> aws_cg_alb : **broker EKS instances (OSBAPI)**\n//<size:12>[https GET/POST (443)]</size>//
+aws_cg_alb - ->> cloudgov_router : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+cloudgov_router - ->> eks_app : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+eks_app - ->> eks_app_db : **store and read state**\n//<size:12>[port (3306)]</size>//
+k8s_client - ->> aws_eks : **manipulate k8s cluster**\n//<size:12>[http GET/POST (8193)]</size>//
+aws_eks_alb - ->> alb_ingress : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+alb_ingress - ->> sys_eks_nginx_ingress : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+sys_eks_nginx_ingress - ->> client_app : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+aws_eks - ->> aws_fargate : **orchestrates workloads**\n//<size:12>[https GET/POST (443)]</size>//
+admission_controller -UP->> docker_official_images : **pulls images**\n//<size:12>[https GET/POST (443)]</size>//
+admission_controller -UP->> github_container_registry : **pulls images**\n//<size:12>[https GET/POST (443)]</size>//
+admission_controller -UP->> docker_notary : **verifies images**\n//<size:12>[https GET/POST (443)]</size>//
+client_team - ->> github_container_registry : **pushes images**\n//<size:12>[https GET/POST (443)]</size>//
+client_team - ->> docker_notary : **pushes trust information**\n//<size:12>[https GET/POST (443)]</size>//
+admission_controller -UP->> aws_ecr : **pushes verified images**\n//<size:12>[https GET/POST (443)]</size>//
+
+k8s_client -[hidden]- docker_official_images
+@enduml
+
+PlantUML version 1.2021.5beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,9 +1,13 @@
+
+![SMTP Service boundary view](out/ssb-service-scratchpad/SMTP%20Service%20boundary%20view.svg)
+
+```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
-title AWS Service boundary view
+title SMTP Service boundary view
 Boundary(client, "Client") {
   Person(client_team, "Client Team")
   System_Ext(osbapi_client, "OSBAPI Client", "Service orchestration")
@@ -23,9 +27,9 @@ Boundary(aws_govcloud, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
         System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
-        Boundary(atob, "SSB appliation boundary") {
-            System(ssb_app, "AWS broker", "Open Service Broker API, Go+Terraform")
-	    ContainerDb(ssb_db, "Broker State", "MySQL", "Store state of provisioned instances")
+        Boundary(atob, "SSB application boundary") {
+            System(ssb_app, "SMTP broker", "Open Service Broker API, Go+Terraform")
+            ContainerDb(ssb_db, "Broker State", "MySQL", "Store state of provisioned instances")
         }
     }
 }
@@ -34,5 +38,6 @@ Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/P
 Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, ssb_app, "proxies requests", "https GET/POST (443)")
 Rel(ssb_app, ssb_db, "store and read state", " port (3306)")
-Rel(service_client, aws_ses, "use service instance", "SMTPS (587)")
+Rel(service_client, aws_ses, "send mail", "SMTP+STARTTLS (587)")
 @enduml
+```
