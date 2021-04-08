@@ -39,7 +39,9 @@ Boundary(client, "Client") {
   Rel(client_team, osbapi_client, "request EKS instance for client", "any")
 }
 Boundary(external_services, "External Services") {
+  System_Ext(docker_notary, "Docker Hub Notary ", "Store trust information")
   System_Ext(docker_official_images, "Docker Official Images", "verified upstream images")
+  System_Ext(github_container_registry, "GitHub Container Registry", "bespoke images")
 }
 note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
@@ -84,8 +86,11 @@ Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
 Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
 Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
 Rel(aws_eks, aws_fargate, "orchestrates workloads", "https GET/POST (443)")
-Rel_Up(admission_controller, docker_official_images, "pulls images/verifies signatures", "https GET/POST (443)")
-Rel(client_team, docker_official_images, "pushes images", "https GET/POST (443)")
+Rel_Up(admission_controller, docker_official_images, "pulls images", "https GET/POST (443)")
+Rel_Up(admission_controller, github_container_registry, "pulls images", "https GET/POST (443)")
+Rel_Up(admission_controller, docker_notary, "verifies images", "https GET/POST (443)")
+Rel(client_team, github_container_registry, "pushes images", "https GET/POST (443)")
+Rel(client_team, docker_notary, "pushes trust information", "https GET/POST (443)")
 Rel_Up(admission_controller, aws_ecr, "pushes verified images", "https GET/POST (443)")
 
 ' The following hidden line constrains the "External Services" boundary below the "Client" boundary, narrowing the 
