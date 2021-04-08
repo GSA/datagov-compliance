@@ -70,8 +70,8 @@ Boundary(aws_govcloud, "AWS GovCloud") {
       System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
       Boundary(atob, "SSB application boundary") {
         Container(eks_app, "EKS broker", "Open Service Broker API, Go, Terraform", "Brokers EKS as a service")
+      	ContainerDb(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
       }
-	ContainerDb_Ext(eks_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
     }
 }
 Rel(eks_app, eks_instance, "provisions", "Terraform (AWS, k8s providers)")
