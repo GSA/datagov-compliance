@@ -139,8 +139,8 @@ Boundary(aws_govcloud, "AWS GovCloud") {
     System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
     Boundary(atob, "SSB application boundary") {
       Container(solr_app, "Solr broker", "Open Service Broker API, Go, Terraform, Helm", "Brokers SolrCloud as a service for applications")
+      ContainerDb(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
     }
-    ContainerDb_Ext(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
   }
 }
 Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")

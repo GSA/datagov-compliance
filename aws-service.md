@@ -25,7 +25,7 @@ Boundary(aws_govcloud, "AWS GovCloud") {
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "SSB appliation boundary") {
             System(ssb_app, "AWS broker", "Open Service Broker API, Go+Terraform")
-	    ContainerDb_Ext(ssb_db, "Broker State", "MySQL", "Store state of provisioned instances")
+	    ContainerDb(ssb_db, "Broker State", "MySQL", "Store state of provisioned instances")
         }
     }
 }
