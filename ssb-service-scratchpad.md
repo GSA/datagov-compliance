@@ -44,7 +44,7 @@ Boundary(external_services, "External Services") {
 note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
-Boundary(aws_east, "AWS us-east-1") {
+Boundary(aws_west, "AWS us-west-2") {
   Boundary(iaas, "SSB managed boundary") {
     Boundary(eks_instance, "EKS instance") {
       Boundary(vpc, "AWS VPC") {
@@ -114,7 +114,7 @@ note as EncryptionNote
   All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 
-Boundary(aws_east, "AWS us-east-1") {
+Boundary(aws_west, "AWS us-west-2") {
   Boundary(iaas, "SSB managed boundary") {
     Boundary(eks, "EKS service instance") {
       System_Ext(solr_operator, "Solr Operator", "manages custom SolrCloud resources")
