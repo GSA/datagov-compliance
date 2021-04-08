@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1370px" preserveAspectRatio="none" style="width:1051px;height:1370px;" version="1.1" viewBox="0 0 1051 1370" width="1051px" zoomAndPan="magnify"><defs><filter height="300%" id="fmf2feel6wj4x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="234" x="402.25" y="17.4023">AWS Service boundary view</text><!--MD5=[aa2f05b2676d7d34ffa7e771fb7634f3]
+cluster client--><rect fill="#FFFFFF" height="560" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="224" x="237.5" y="28.1992"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="326" y="45.668">Client</text><!--MD5=[c444070a69c905f8781a2e7d91c12e8c]
+cluster aws--><rect fill="#FFFFFF" height="794" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="560" x="485.5" y="418.1992"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="129" x="701" y="435.668">AWS us-west-2</text><!--MD5=[03deb33551299d7b80d4370a01a89112]
+cluster iaas--><rect fill="#FFFFFF" height="141" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="212" x="509.5" y="1029.1992"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="193" x="519" y="1046.668">SSB managed boundary</text><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><rect fill="#FFFFFF" height="725" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="276" x="745.5" y="463.1992"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="843.5" y="480.668">cloud.gov</text><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><rect fill="#FFFFFF" height="336" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="228" x="769.5" y="828.1992"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="199" x="784" y="845.668">SSB appliation boundary</text><!--MD5=[8a719cf39157e20d2641a32c9871f429]
+entity client_team--><rect fill="#08427B" height="86.8438" style="stroke:#073B6F;stroke-width:1.5;" width="117" x="254" y="65.1992"/><image height="48" width="48" x="288.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="75.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="264" y="138.668">Client Team</text><!--MD5=[15d099bd719a512665c367382b0908f5]
+entity osbapi_client--><rect fill="#999999" height="71.8203" style="stroke:#8A8A8A;stroke-width:1.5;" width="168" x="261.5" y="256.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="111" x="290" y="281.668">OSBAPI Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="347.5" y="298.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="275.5" y="315.0664">Service orchestration</text><!--MD5=[31a44061be845ff1aca12fadc59e22bc]
+entity service_client--><rect fill="#999999" height="71.8203" style="stroke:#8A8A8A;stroke-width:1.5;" width="192" x="253.5" y="500.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="109" x="295" y="525.668">Service Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="351.5" y="542.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="267.5" y="559.0664">Use provisioned services</text><!--MD5=[1c4d19daa973cfc325b139e945214269]
+entity aws_ses--><rect fill="#999999" height="88.3086" style="stroke:#8A8A8A;stroke-width:1.5;" width="180" x="525.5" y="1066.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="581.5" y="1091.668">AWS SES</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="617.5" y="1108.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="539.5" y="1125.0664">SMTP email send-only</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="592" y="1141.5547">service</text><!--MD5=[5305ec58f867991ed01797c9b1705e00]
+entity aws_cg_alb--><rect fill="#999999" height="71.8203" style="stroke:#8A8A8A;stroke-width:1.5;" width="220" x="761.5" y="500.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="200" x="771.5" y="525.668">cloud.gov load-balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="873.5" y="542.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="844" y="559.0664">AWS ALB</text><!--MD5=[520c8806735a893833bdb4d742b17895]
+entity cloudgov_router--><rect fill="#999999" height="88.3086" style="stroke:#8A8A8A;stroke-width:1.5;" width="181.6667" x="775.5" y="664.1992"/><path d="M786.5,678.3763 L786.5,683.7096 L791.8333,683.7096 L791.8333,678.3763 L786.5,678.3763 M793.1667,681.043 L793.1667,685.043 L789.1667,685.043 L789.1667,686.3763 L794.5,686.3763 L794.5,681.043 L793.1667,681.043 M795.8333,683.7096 L795.8333,687.7096 L791.8333,687.7096 L791.8333,689.043 L797.1667,689.043 L797.1667,683.7096 L795.8333,683.7096 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="803.1667" y="689.668">cloud.gov routers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="868.3333" y="706.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="793.3333" y="723.0664">Cloud Foundry traffic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="842.8333" y="739.5547">service</text><!--MD5=[cd2858456d32626b78f85d0979865af1]
+entity ssb_app--><rect fill="#1168BD" height="88.3086" style="stroke:#3C7FC0;stroke-width:1.5;" width="196" x="785.5" y="865.1992"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="836.5" y="890.668">AWS broker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="885.5" y="907.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="168" x="799.5" y="924.0664">Open Service Broker API,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="833.5" y="940.5547">Go+Terraform</text><!--MD5=[282c173afdbd808156677153b9254984]
+entity ssb_db--><path d="M786,1082.1992 C786,1072.1992 873.5,1072.1992 873.5,1072.1992 C873.5,1072.1992 961,1072.1992 961,1082.1992 L961,1138.3086 C961,1148.3086 873.5,1148.3086 873.5,1148.3086 C873.5,1148.3086 786,1148.3086 786,1138.3086 L786,1082.1992 " fill="#B3B3B3" style="stroke:#A6A6A6;stroke-width:1.5;"/><path d="M786,1082.1992 C786,1092.1992 873.5,1092.1992 873.5,1092.1992 C873.5,1092.1992 961,1092.1992 961,1082.1992 " fill="none" style="stroke:#A6A6A6;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="825" y="1111.668">Broker State</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="151" x="796" y="1126.6445">[Store state of provisioned</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="845" y="1140.7773">instances]</text><path d="M6,80.6992 L6,136.6309 L219,136.6309 L219,90.6992 L209,80.6992 L6,80.6992 " fill="#FBFB77" filter="url(#fmf2feel6wj4x)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M209,80.6992 L209,90.6992 L219,90.6992 L209,80.6992 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="12" y="98.2676">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="188" x="12" y="113.5781">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="105" x="12" y="128.8887">otherwise noted.</text><!--MD5=[c03ac7e724b163d6a86942459601793a]
+link osbapi_client to service_client--><path d="M346.08,328.3892 C346.8,371.6692 348.01,445.1392 348.78,491.8492 " fill="none" id="osbapi_client-to-service_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="348.92,499.9692,351.7764,491.9168,345.7774,492.0242,348.92,499.9692" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="348.5" y="370.8008">provide service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="363.5" y="384.9336">credentials</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="383.5" y="399.0664">[any]</text><!--MD5=[0a1a1d75500637dbc8f2e8dd94e5dc5a]
+link client_team to osbapi_client--><path d="M320.24,152.2492 C325.48,181.0792 332.38,219.0492 337.65,248.0092 " fill="none" id="client_team-to-osbapi_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="339.09,255.9192,340.6132,247.5121,334.7096,248.5835,339.09,255.9192" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="334.5" y="194.8008">request service instance</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="103" x="358" y="208.9336">for service client</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="28" x="395.5" y="223.0664">[any]</text><!--MD5=[70e42617ae70d5dc6a4637fac0d30eb1]
+link ssb_app to aws_ses--><path d="M825.35,953.3792 C782.5,985.1892 724.23,1028.4592 679.96,1061.3292 " fill="none" id="ssb_app-to-aws_ses" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="673.54,1066.0992,681.7494,1063.7315,678.1683,1058.9174,673.54,1066.0992" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="781.5" y="995.8008">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="787.5" y="1009.9336">[AWS API]</text><!--MD5=[a57739a3103e4fa986b4616a684e8592]
+link osbapi_client to aws_cg_alb--><path d="M421.7,328.2592 C519.06,373.0492 687,450.3192 787.82,496.6992 " fill="none" id="osbapi_client-to-aws_cg_alb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="795.26,500.1192,789.2489,494.0474,786.7387,499.497,795.26,500.1192" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="600" y="370.8008">broker service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="588" y="384.9336">instances (OSBAPI)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="577.5" y="399.0664">[https GET/POST (443)]</text><!--MD5=[4ce174d1a9e01dc3e10890565860666d]
+link aws_cg_alb to cloudgov_router--><path d="M870.46,572.4192 C869.75,596.5692 868.8,628.9992 868.01,655.9892 " fill="none" id="aws_cg_alb-to-cloudgov_router" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="867.77,664.1792,871.0114,656.2739,865.0141,656.0919,867.77,664.1792" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="886" y="616.8008">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="869.5" y="630.9336">[https GET/POST (443)]</text><!--MD5=[7dd72c37e8f7fedf98debfca91cea29d]
+link cloudgov_router to ssb_app--><path d="M870.19,752.3792 C872.82,783.1492 876.36,824.6392 879.13,857.0692 " fill="none" id="cloudgov_router-to-ssb_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="879.82,865.0992,882.1233,856.8715,876.1454,857.3858,879.82,865.0992" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="892" y="794.8008">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="137" x="875.5" y="808.9336">[https GET/POST (443)]</text><!--MD5=[134c2df3bdb1ef422dec8aeb66c7f24a]
+link ssb_app to ssb_db--><path d="M881.33,953.3792 C879.69,986.0492 877.44,1030.7892 875.77,1063.9592 " fill="none" id="ssb_app-to-ssb_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="875.36,1072.1192,878.7565,1064.2793,872.764,1063.9792,875.36,1072.1192" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="880.5" y="995.8008">store and read state</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="903" y="1009.9336">[ port (3306)]</text><!--MD5=[3a1eec74cf9f2a2a1d49d72614129e46]
+link service_client to aws_ses--><path d="M365.94,572.5492 C411.44,670.3892 539.15,945.0192 592.07,1058.8192 " fill="none" id="service_client-to-aws_ses" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="595.45,1066.0792,594.7799,1057.5615,589.3445,1060.1024,595.45,1066.0792" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="477.5" y="794.8008">use service instance</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="499.5" y="808.9336">[SMTPS (587)]</text><rect fill="#FFFFFF" height="129.418" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="146" x="883.5" y="1225.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="889.5" y="1245.7344">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="944.5" y="1245.7344"/><rect fill="#08427B" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1248.6875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="893.5" y="1262.2227">person</text><rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1265.1758"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="893.5" y="1278.7109">system</text><rect fill="#438DD5" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1281.6641"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="65" x="893.5" y="1295.1992">container</text><rect fill="#686868" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1298.1523"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="893.5" y="1311.6875">external person</text><rect fill="#999999" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1314.6406"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="108" x="893.5" y="1328.1758">external system</text><rect fill="#B3B3B3" height="16.4883" style="stroke:none;stroke-width:1.0;" width="134" x="889.5" y="1331.1289"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="893.5" y="1344.6641">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1232.1992" y2="1232.1992"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1248.6875" y2="1248.6875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1265.1758" y2="1265.1758"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1281.6641" y2="1281.6641"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1298.1523" y2="1298.1523"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1314.6406" y2="1314.6406"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1331.1289" y2="1331.1289"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="1023.5" y1="1347.6172" y2="1347.6172"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="889.5" x2="889.5" y1="1232.1992" y2="1347.6172"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1023.5" x2="1023.5" y1="1232.1992" y2="1347.6172"/><!--MD5=[fa50c7d72e6544e871f7b335b10e1b05]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title AWS Service boundary view
+Boundary(client, "Client") {
+  Person(client_team, "Client Team")
+  System_Ext(osbapi_client, "OSBAPI Client", "Service orchestration")
+  System_Ext(service_client, "Service Client", "Use provisioned services")
+  Rel(osbapi_client, service_client, "provide service credentials", "any")
+  Rel(client_team, osbapi_client, "request service instance for service client", "any")
+}
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+Boundary(aws, "AWS us-west-2") {
+    Boundary(iaas, "SSB managed boundary") {
+        System_Ext(aws_ses, "AWS SES", "SMTP email send-only service")
+    }
+    Boundary(cloudgov, "cloud.gov") {
+        System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+        System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+        Boundary(atob, "SSB appliation boundary") {
+            System(ssb_app, "AWS broker", "Open Service Broker API, Go+Terraform")
+	    ContainerDb_Ext(ssb_db, "Broker State", "Store state of provisioned instances")
+        }
+    }
+}
+Rel(ssb_app, aws_ses, "provisions", "AWS API")
+Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")
+Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, ssb_app, "proxies requests", "https GET/POST (443)")
+Rel(ssb_app, ssb_db, "store and read state", " port (3306)")
+Rel(service_client, aws_ses, "use service instance", "SMTPS (587)")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontStyle plain
+    BackgroundColor #FFFFFF
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor #FFFFFF
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor #FFFFFF
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title AWS Service boundary view
+rectangle "==Client" <<boundary>> as client {
+  rectangle "<$person>\n==Client Team" <<person>> as client_team
+  rectangle "==OSBAPI Client\n\n Service orchestration" <<external_system>> as osbapi_client
+  rectangle "==Service Client\n\n Use provisioned services" <<external_system>> as service_client
+osbapi_client - ->> service_client : **provide service credentials**\n//<size:12>[any]</size>//
+client_team - ->> osbapi_client : **request service instance for service client**\n//<size:12>[any]</size>//
+}
+note as EncryptionNote
+All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+rectangle "==AWS us-west-2" <<boundary>> as aws {
+    rectangle "==SSB managed boundary" <<boundary>> as iaas {
+        rectangle "==AWS SES\n\n SMTP email send-only service" <<external_system>> as aws_ses
+    }
+    rectangle "==cloud.gov" <<boundary>> as cloudgov {
+        rectangle "==cloud.gov load-balancer\n\n AWS ALB" <<external_system>> as aws_cg_alb
+        rectangle "==<&layers> cloud.gov routers\n\n Cloud Foundry traffic service" <<external_system>> as cloudgov_router
+        rectangle "==SSB appliation boundary" <<boundary>> as atob {
+            rectangle "==AWS broker\n\n Open Service Broker API, Go+Terraform" <<system>> as ssb_app
+	    database "==Broker State\n//<size:12>[Store state of provisioned instances]</size>//" <<external_container>> as ssb_db
+        }
+    }
+}
+ssb_app - ->> aws_ses : **provisions**\n//<size:12>[AWS API]</size>//
+osbapi_client - ->> aws_cg_alb : **broker service instances (OSBAPI)**\n//<size:12>[https GET/POST (443)]</size>//
+aws_cg_alb - ->> cloudgov_router : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+cloudgov_router - ->> ssb_app : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+ssb_app - ->> ssb_db : **store and read state**\n//<size:12>[ port (3306)]</size>//
+service_client - ->> aws_ses : **use service instance**\n//<size:12>[SMTPS (587)]</size>//
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 01:36:27 PST 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
