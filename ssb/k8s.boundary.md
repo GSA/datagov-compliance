@@ -1,6 +1,6 @@
 ## K8S Service Boundary View
 
-![K8S service boundary view](../out/ssb/k8s.boundary/K8S%20ervice%20boundary%20view.svg)
+![K8S service boundary view](../out/ssb/k8s.boundary/K8S%20service%20boundary%20view.svg)
 
 ```plantuml
 @startuml
