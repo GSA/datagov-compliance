@@ -1,6 +1,6 @@
 ## Solr Service Boundary View
 
-![Solr Service boundary view](out/ssb-service-scratchpad/Solr%20Service%20boundary%20view.svg)
+![Solr Service boundary view](../out/solr.boundary/Solr%20Service%20boundary%20view.svg)
 
 ```plantuml
 @startuml

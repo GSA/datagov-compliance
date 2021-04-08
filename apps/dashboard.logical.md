@@ -1,7 +1,7 @@
 dashboard.data.gov logical view
-![dashboard.data.gov logical view](http://www.plantuml.com/plantuml/png/RP51ZzCm48Nl_XL3BxJIabuuxMdBjeALkhiLj498IDKadhI6YIVOutGhn7_7QMXLfCqf7i_CU-_pNLGCcXe6Yuh5JZfWsRaA6Jf71_F6-OgJ9TYhjl5sEWruA7PEzwbCaK8bNibhKKapHHiS-evJcwRtxz-j6Brk7fTJHgMekRIzxxjVj6YpdZ7BsRVdpNhxzM7zQRjSV5mypSSJeqwPm6BSbuB15g-xCYiAKVnsyQBZDfNigXiOhKu_C3_FmYOR7EMB6JJKb1H0Qj0zmJ014W1tvAiZjATjddWqCUQj5oLWgZNtdtjluS733-pm1gYZS8IACSRlFgSXRsDUwoA8fyAO3vAynN0SeqhPgw-VeVnN6qtWju7yVJb6fMPyoPdxBaalnTxxtCMMyHZXLq9sceNtLFq4vsi93QeJ3_qWr44Qw30uIN68vIWMCECea0sxEXyXjIneoKBjED_cj7-C6QoSK0uuebEAlV41pe7AKwLtyuZEdmkG7PnmDkATIY1xqUqnVYQ-FCrrpFxzpjm3jH8qQwL8sJmxEoJgi_LByexj4xbT7WxNhFxtMGKyS0HfQM1n3IS3DtVaRMhuBm00)
+![dashboard.data.gov logical view](../out/apps/dashboard.logical/dashboard.data.gov%20logical%20view.svg)
 ```plantuml
-@startuml data.gov logical view
+@startuml dashboard.data.gov logical view
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 LAYOUT_WITH_LEGEND()

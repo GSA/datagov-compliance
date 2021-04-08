@@ -1,5 +1,5 @@
 WordPress boundary view
-![www.data.gov boundary view](out/wordpress.boundary/www.data.gov%20boundary%20view.svg)
+![www.data.gov boundary view](../out/apps/wordpress.boundary/www.data.gov%20boundary%20view.svg)
 
 ```plantuml
 @startuml

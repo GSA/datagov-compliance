@@ -1,6 +1,6 @@
 ## Solr Service Logical View
 
-![Solr Service logical view](out/ssb-service-scratchpad/Solr%20Service%20logical%20view.svg)
+![Solr Service logical view](../out/ssb/solr.logical/Solr%20Service%20logical%20view.svg)
 
 
 ```plantuml

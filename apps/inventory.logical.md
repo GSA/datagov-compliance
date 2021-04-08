@@ -1,5 +1,5 @@
 inventory.data.gov logical view
-![inventory.data.gov logical view](out/inventory.logical/inventory.data.gov%20logical%20view.svg)
+![inventory.data.gov logical view](../out/apps/inventory.logical/inventory.data.gov%20logical%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
