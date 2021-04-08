@@ -1,4 +1,4 @@
-![PlantUML diagram of management app interactions](out/management-space/data.gov%20management%20space%20interactions.svg)
+![PlantUML diagram of management app interactions](../out/generic/management-space/data.gov%20management%20space%20interactions.svg)
 
 ```plantuml
 @startuml

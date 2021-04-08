@@ -1,5 +1,5 @@
 Catalog boundary view
-![catalog.data.gov boundary view](out/catalog.boundary/catalog.data.gov%20boundary%20view.svg)
+![catalog.data.gov boundary view](../out/apps/catalog.boundary/catalog.data.gov%20boundary%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml

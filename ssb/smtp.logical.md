@@ -1,6 +1,6 @@
 ## SMTP Service Logical View
 
-![SMTP Service logical view](out/ssb-service-scratchpad/SMTP%20Service%20logical%20view.svg)
+![SMTP Service logical view](../out/smtp.logical/SMTP%20Service%20logical%20view.svg)
 
 
 ```plantuml

@@ -2,7 +2,7 @@
 
 The following interactions make a change happen in the production environment. A narrative explanation follows the diagram.
 
-![CI/CD process](out/deployment-change/deployment-change.svg)
+![CI/CD process](../out/generic/deployment-change/deployment-change.svg)
 
 ```plantuml
 @startuml

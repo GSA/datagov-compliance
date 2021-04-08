@@ -1,5 +1,5 @@
 
-![SMTP Service boundary view](out/ssb-service-scratchpad/SMTP%20Service%20boundary%20view.svg)
+![SMTP Service boundary view](../out/smtp.boundary/SMTP%20Service%20boundary%20view.svg)
 
 ```plantuml
 @startuml

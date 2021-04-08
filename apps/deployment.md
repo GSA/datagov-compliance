@@ -3,7 +3,7 @@
 Configuration management and deployment for every data.gov component follows the pattern described unless otherwise specified.
 
 Figure 10-1 Deployment Diagram
-![data.gov typical deployment interactions](out/deployment/data.gov%20typical%20deployment%20interactions.svg)
+![data.gov typical deployment interactions](../out/generic/deployment/data.gov%20typical%20deployment%20interactions.svg)
 
 ```plantuml
 @startuml

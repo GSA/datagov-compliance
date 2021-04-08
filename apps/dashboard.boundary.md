@@ -1,5 +1,5 @@
 dashboard.data.gov boundary view
-![dashboard.data.gov boundary view](out/dashboard.boundary/dashboard.data.gov%20boundary%20view.svg)
+![dashboard.data.gov boundary view](../out/apps/dashboard.boundary/dashboard.data.gov%20boundary%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml

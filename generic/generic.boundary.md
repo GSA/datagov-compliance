@@ -1,7 +1,7 @@
 
 ### Boundaries, components, and user interactions
 Every data.gov component follows the pattern described below with variance only in the application or data services in use unless otherwise specified.
-![data.gov typical application interactions](out/generic.boundary/data.gov%20typical%20application%20interactions.svg)
+![data.gov typical application interactions](../out/generic/generic.boundary/data.gov%20typical%20application%20interactions.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
