@@ -16,14 +16,16 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS us-west-2") {
     Boundary(iaas, "SSB managed boundary") {
-        System_Ext(aws_ses, "AWS SES", "SMTP email send-only service")
+        System(aws_ses, "AWS SES", "SMTP email send-only service")
     }
+}
+Boundary(aws_govcloud, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
         System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "SSB appliation boundary") {
             System(ssb_app, "AWS broker", "Open Service Broker API, Go+Terraform")
-	    ContainerDb_Ext(ssb_db, "Broker State", "Store state of provisioned instances")
+	    ContainerDb_Ext(ssb_db, "Broker State", "MySQL", "Store state of provisioned instances")
         }
     }
 }
