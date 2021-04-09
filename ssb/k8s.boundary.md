@@ -35,7 +35,12 @@ Boundary(aws_west, "AWS us-west-2") {
           Container(admission_controller, "Admission Controller", "k8s service", "pulls and verifies images")
           Container(alb_ingress, "AWS Load Balancer Controller", "k8s service", "manages ALB")
           System(sys_eks_nginx_ingress, "<&layers> nginx", "Kubernetes nginx ingress controller")
-          System_Ext(client_app, "<&layers> client application", "k8s service")    
+          System(solr_service, "<&layers> managed Solr instances", "k8s service")    
+          System_Ext(client_app, "<&layers> other client applications", "k8s service")
+          note as ServiceNote
+            The Solr instances are here to illustrate how we use the K8S service ourselves to implement the Solr broker. Client k8s services do not actually reside in the same EKS cluster.
+          end note
+
         }
         Boundary(aws_public_subnet, "AWS Public Subnet") {
           System_Ext(aws_eks_alb, "EKS ALB", "application load balancer")
@@ -63,6 +68,7 @@ Rel(k8s_client, aws_eks, "manipulate k8s cluster", "http GET/POST (8193)")
 Rel(aws_eks_alb, alb_ingress, "proxies requests", "https GET/POST (443)")
 Rel(alb_ingress, sys_eks_nginx_ingress, "proxies requests", "https GET/POST (443)")
 Rel(sys_eks_nginx_ingress, client_app, "proxies requests", "https GET/POST (443)")
+Rel(sys_eks_nginx_ingress, solr_service, "proxies requests", "https GET/POST (443)")
 Rel(aws_eks, aws_fargate, "orchestrates workloads", "https GET/POST (443)")
 Rel_Up(admission_controller, docker_official_images, "pulls images", "https GET/POST (443)")
 Rel_Up(admission_controller, github_container_registry, "pulls images", "https GET/POST (443)")
