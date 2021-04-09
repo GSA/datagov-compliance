@@ -71,10 +71,14 @@ end
 
 == Deploying the change ==
 github ->> githubactions: deployment branch changed
-
+activate githubactions
 participant "application in staging" as stagingapp
+create awsapi
+githubactions -> awsapi: push config to AWS API
+create awsstaging
+awsapi -> awsstaging: push config to staging account
 create capi
-githubactions -> capi: push code to staging
+githubactions -> capi: push code to staging space
 create stagingapp
 capi -> stagingapp: stage
 capi -> stagingapp: start
@@ -93,7 +97,10 @@ alt smoke tests fail
     author <<-- githubactions: report problems
 else smoke tests pass
     participant "application in production" as app
-    githubactions -> capi: push code to production
+    githubactions -> awsapi: push config to AWS API
+    create awsproduction
+    awsapi -> awsproduction: push config to production account
+    githubactions -> capi: push code to production space
     create app
     capi -> app: stage 
     capi -> app: start
@@ -108,6 +115,8 @@ else smoke tests pass
     end
     deactivate app
 end
+deactivate githubactions
+
 
 box "Deployment SaaS" #LightGreen
 	participant github
@@ -119,6 +128,12 @@ box "cloud.gov" #Green
 	participant "cloud.gov controller" as capi
     participant stagingapp
     participant app
+end box
+
+box "AWS US-West" #YellowGreen
+    participant "AWS API" as awsapi
+    participant awsstaging
+    participant awsproduction
 end box
 
 @enduml
