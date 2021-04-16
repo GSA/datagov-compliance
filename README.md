@@ -2,13 +2,20 @@
 
 ## What is this?
 
-In order to maintain and revise data.gov's compliance materials with minimal fuss, we store all artifacts as text (eg Markdown, PlantUML, OSCAL) and generate materials for consumption by downstream entities in the assessment and authorization process. 
+In order to maintain and revise data.gov's compliance materials with minimal fuss, we store all artifacts as text (eg Markdown, PlantUML, OSCAL) and generate materials for consumption by downstream entities in the assessment and authorization process.
 
 This repository initially contains overall system architecture descriptions and diagrams corresponding to sections 1-12 of a typical System Security Plan (SSP) document. See [the index](index.md) for instructions.
 
 The source for other things (OSCAL for control descriptions, evidence generation scripts, etc) will appear here over time.
 
 
+## Development
+
+These plugins may be helpful for editing diagrams.
+
+- (vscode) https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+- (vim) https://github.com/weirongxu/plantuml-previewer.vim
+- (vim) https://github.com/aklt/plantuml-syntax
 
 
 ## Contributing
