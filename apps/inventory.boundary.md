@@ -19,8 +19,6 @@ Boundary(aws, "AWS GovCloud") {
         Boundary(atob, "data.gov ATO boundary") {
             System_Boundary(inventory, "data.gov Inventory") {
                 Container(inventory_app, "<&layers> Inventory application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
-                Container(datapusher_app, "<&layers> DataPusher application", "Python 3.8.3, CKAN 2.8", "Process uploaded open data for use in DataStore API")
-                ContainerDb(datapusher_db, "DataPusher database", "AWS RDS (PostgreSQL)", "Stores job queue for processing uploaded open data resources for DataStore API")
                 ContainerDb(inventory_db, "Inventory database", "AWS RDS (PostgreSQL)", "Stores agency dataset metadata")
                 ContainerDb(datastore_db, "DataStore database", "AWS RDS (PostgreSQL)", "Stores JSON records of dataset resources uploaded by agency users")
                 ContainerDb(inventory_s3, "Inventory filestore", "S3", "Stores agency uploaded open data resources (PDF, CSV, XSLX, etc)")
@@ -35,8 +33,6 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
-Rel(inventory_app, datapusher_app, "queues datastore upload", "http (80)")
-Rel(datapusher_app, inventory_app, "inserts data for datastore", "https (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
 Rel(harvester, aws_alb, "ingest metadata", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
@@ -47,7 +43,6 @@ Rel(personnel, Login.gov, "verify identity", "https GET/POST (443)")
 Rel(inventory_app, inventory_db, "reads/writes dataset metadata", "psql (5432)")
 Rel(inventory_app, datastore_db, "reads/writes JSON dataset records", "psql (5432)")
 Rel(inventory_app, inventory_s3, "reads/writes dataset resources", "https (443)")
-Rel(datapusher_app, datapusher_db, "reads/writes job tasks", "psql (5432)")
 Boundary(solrb, "Solr Service Boundary") {
     ContainerDb(solr, "Solr", "indexed search provider")
 }
