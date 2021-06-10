@@ -25,7 +25,7 @@ Boundary(aws, "AWS GovCloud") {
         }
     }
 }
-System_Ext(OMB, "OMB MAX", "Authentication As a Service")
+System_Ext(login, "login.gov", "Authentication As a Service")
 Boundary(gsa_saas, "GSA-authorized SaaS") {
     System_Ext(dap, "DAP", "Analytics collection")
     System_Ext(newrelic, "New Relic", "Monitoring SaaS")
@@ -37,8 +37,8 @@ Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
 Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, catalog_app, "proxies requests", "https GET/POST (443)")
-catalog_app <-> OMB : **authenticates** \n//[SAML 2.0]//
-Rel(personnel, OMB, "verify identity", "https GET/POST (443)")
+catalog_app <-> login : **authenticates** \n//[SAML 2.0]//
+Rel(personnel, login, "verify identity", "https GET/POST (443)")
 Rel(catalog_app, catalog_db, "reads/writes local dataset records", "psql (5432)")
 Rel(catalog_app, catalog_s3, "reads/writes data content", "psql (5432)")
 Boundary(solrb, "Solr Service Boundary") {
