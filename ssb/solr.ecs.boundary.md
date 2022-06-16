@@ -1,5 +1,7 @@
 # SOLR Service on ECS Boundary View
 
+![Solr ECS Service boundary view](../out/ssb/solr.boundary/Solr%20ECS%20Service%20boundary%20view.svg)
+
 ```
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
