@@ -1,6 +1,6 @@
 ## K8S Service Logical View
 
-![K8S Service logical view](../out/k8s.logical/K8S%20Service%20logical%20view.svg)
+![K8S Service logical view](../out/ssb/k8s.logical/K8S%20Service%20logical%20view.svg)
 
 
 ```plantuml

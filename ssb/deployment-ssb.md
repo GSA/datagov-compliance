@@ -1,7 +1,7 @@
 # SSB Deployment
 
 Figure 10-1 Deployment Diagram
-![SSB typical deployment interactions](../out/deployment-ssb/SSB%20deployment%20interactions.svg)
+![SSB typical deployment interactions](../out/ssb/deployment-ssb/SSB%20deployment%20interactions.svg)
 
 ```plantuml
 @startuml

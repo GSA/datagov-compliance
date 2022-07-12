@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2032px" preserveAspectRatio="none" style="width:1167px;height:2032px;background:#FFFFFF;" version="1.1" viewBox="0 0 1167 2032" width="1167px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="227" x="463" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="217" x="468" y="22.9951">Solr Service boundary view</text><!--MD5=[aa2f05b2676d7d34ffa7e771fb7634f3]
+cluster client--><g id="cluster_client"><rect height="579.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="232" x="249" y="44.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="53" x="338.5" y="61.1484">Client</text></g><!--MD5=[dd6272bc7b82fe3b135ddbc083aa29bc]
+cluster aws_west--><g id="cluster_aws_west"><rect height="735.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="698" x="7" y="1138.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="137" x="287.5" y="1155.1484">AWS us-west-2</text></g><!--MD5=[03deb33551299d7b80d4370a01a89112]
+cluster iaas--><g id="cluster_iaas"><rect height="666.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="650" x="31" y="1183.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="214" x="249" y="1200.1484">SSB managed boundary</text></g><!--MD5=[33607ebfc4f246ac645613fc9f22170d]
+cluster vpc--><g id="cluster_vpc"><rect height="597.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="602" x="55" y="1228.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="183" x="264.5" y="1245.1484">VPC for Solr service</text></g><!--MD5=[b526a272651d63b4ba4398fb1561ad60]
+cluster b_solrcloud--><g id="cluster_b_solrcloud"><rect height="390.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="250" x="383" y="1273.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="33" x="491.5" y="1290.1484">ECS</text></g><!--MD5=[e2373e393a1be726fcf9eb7afb9b7efa]
+cluster aws_govcloud--><g id="cluster_aws_govcloud"><rect height="1026.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="344" x="817" y="445.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="922.5" y="462.1484">AWS GovCloud</text></g><!--MD5=[1882a77a351c382316da64f5bec32f3f]
+cluster cloudgov--><g id="cluster_cloudgov"><rect height="957.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="296" x="841" y="490.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="944.5" y="507.1484">cloud.gov</text></g><!--MD5=[bfe4f767bb11f22a1eaa0d90d17cf673]
+cluster atob--><g id="cluster_atob"><rect height="526.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="248" x="865" y="897.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="232" x="873" y="914.1484">SSB application boundary</text></g><!--MD5=[8a719cf39157e20d2641a32c9871f429]
+entity client_team--><g id="elem_client_team"><rect fill="#08427B" height="86.625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="131" x="265.5" y="81.2969"/><image height="48" width="48" x="307" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="91.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="275.5" y="154.1484">Client Team</text></g><!--MD5=[15d099bd719a512665c367382b0908f5]
+entity osbapi_client--><g id="elem_osbapi_client"><rect fill="#999999" height="71.2188" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="179" x="265.5" y="285.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="125" x="292.5" y="310.1484">OSBAPI Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="353" y="326.917"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="279.5" y="343.2139">Service orchestration</text></g><!--MD5=[28086182ac95c60572e8f48101c7bfde]
+entity solr_client--><g id="elem_solr_client"><rect fill="#999999" height="71.2188" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="199" x="265.5" y="536.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="317.5" y="561.6484">Solr Client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="363" y="578.417"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="279.5" y="594.7139">Use provisioned services</text></g><!--MD5=[4123e6fc011c5f21e309f00172a09dfd]
+entity solr_ingress--><g id="elem_solr_ingress"><rect fill="#1168BD" height="71.2188" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="295" x="71.5" y="1317.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="275" x="81.5" y="1342.1484">solr-&lt;instance&gt;.ssb.data.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="217" y="1358.917"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="152.5" y="1375.2139">AWS Load Balancer</text></g><!--MD5=[a98a29e161deb863c2d97a83f6ceb50f]
+entity solr_efs--><g id="elem_solr_efs"><rect fill="#1168BD" height="71.2188" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="169" x="459.5" y="1738.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="469.5" y="1763.6484">Solr-&lt;instance&gt;</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="542" y="1780.417"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="513" y="1796.7139">EFS drive</text></g><!--MD5=[809064e71bd24209f000a0e384402c26]
+entity solr_instance--><g id="elem_solr_instance"><rect fill="#438DD5" height="101.4844" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="399.5" y="1546.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="120" x="448" y="1571.6484">Solr instance</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="467" y="1586.5605">[Apache Solr]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="506" y="1602.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="419" y="1618.6826">open-source distributed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="409.5" y="1634.9795">enterprise-search platform</text></g><!--MD5=[a1796564b05f18338109015695f95d5e]
+entity solr_admin_init_service--><g id="elem_solr_admin_init_service"><rect fill="#438DD5" height="85.1875" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="159" x="401.5" y="1310.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="411.5" y="1335.1484">Solr admin init</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="65" x="448.5" y="1353.7734">service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="127" x="415.5" y="1368.6855">[Username password</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="133" x="414.5" y="1382.6543">management for Solr]</text></g><!--MD5=[5305ec58f867991ed01797c9b1705e00]
+entity aws_cg_alb--><g id="elem_aws_cg_alb"><rect fill="#999999" height="89.8438" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="144" x="872" y="527.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="896.5" y="552.1484">cloud.gov</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="882" y="570.7734">load-balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="942" y="587.542"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="913.5" y="603.8389">AWS ALB</text></g><!--MD5=[520c8806735a893833bdb4d742b17895]
+entity cloudgov_router--><g id="elem_cloudgov_router"><rect fill="#999999" height="87.5156" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="202.6667" x="865.5" y="706.2969"/><path d="M876.5,720.2552 L876.5,725.5885 L881.8333,725.5885 L881.8333,720.2552 L876.5,720.2552 M883.1667,722.9219 L883.1667,726.9219 L879.1667,726.9219 L879.1667,728.2552 L884.5,728.2552 L884.5,722.9219 L883.1667,722.9219 M885.8333,725.5885 L885.8333,729.5885 L881.8333,729.5885 L881.8333,730.9219 L887.1667,730.9219 L887.1667,725.5885 L885.8333,725.5885 " fill="#FFFFFF" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="164" x="894.1667" y="731.1484">cloud.gov routers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="964.8333" y="747.917"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="891.8333" y="764.2139">Cloud Foundry traffic</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="941.3333" y="780.5107">service</text></g><!--MD5=[ff23ef213edd9ee0f740d6cbc6ede895]
+entity solr_app--><g id="elem_solr_app"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="203" x="882.5" y="934.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="933" y="959.1484">Solr broker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="179" x="892.5" y="974.0605">[Open Service Broker API, Go,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="103" x="932.5" y="988.0293">Terraform, Helm]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="982" y="1003.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="902.5" y="1020.1514">Brokers SolrCloud as a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="900" y="1036.4482">service for applications</text></g><!--MD5=[7295f9b7678547b5f0ffeeef33e9abb0]
+entity solr_app_db--><g id="elem_solr_app_db"><path d="M882.5,1307.7969 C882.5,1297.7969 989,1297.7969 989,1297.7969 C989,1297.7969 1095.5,1297.7969 1095.5,1307.7969 L1095.5,1398.2813 C1095.5,1408.2813 989,1408.2813 989,1408.2813 C989,1408.2813 882.5,1408.2813 882.5,1398.2813 L882.5,1307.7969 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M882.5,1307.7969 C882.5,1317.7969 989,1317.7969 989,1317.7969 C989,1317.7969 1095.5,1317.7969 1095.5,1307.7969 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="118" x="930" y="1336.6484">Broker State</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="963.5" y="1351.5605">[MySQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="987" y="1367.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="892.5" y="1383.6826">Store state of provisioned</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="954.5" y="1399.9795">resources</text></g><g id="elem_EncryptionNote"><path d="M13.5,97.2969 L13.5,152.6953 L230.5,152.6953 L230.5,107.2969 L220.5,97.2969 L13.5,97.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M220.5,97.2969 L220.5,107.2969 L230.5,107.2969 L220.5,97.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="25.5" y="114.3638">All connections depicted are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="19.5" y="129.4966">encrypted with TLS 1.2 unless</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="63.5" y="144.6294">otherwise noted.</text></g><!--MD5=[b3bd77e232900fec002ae8b4691c767c]
+link osbapi_client to solr_client--><g id="link_osbapi_client_solr_client"><path d="M356.39,356.4869 C358.191,401.4269 361.33,479.7369 363.279,528.3669 " fill="none" id="osbapi_client-to-solr_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="363.605,536.4969,366.2884,528.3852,360.293,528.6209,363.605,536.4969" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="361" y="398.4355">provide service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="377.5" y="412.4043">credentials</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="32" x="403" y="426.373">[any]</text></g><!--MD5=[0a1a1d75500637dbc8f2e8dd94e5dc5a]
+link client_team to osbapi_client--><g id="link_client_team_osbapi_client"><path d="M336.267,168.3669 C340.261,200.6569 345.727,244.8369 349.723,277.1469 " fill="none" id="client_team-to-osbapi_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="350.706,285.0869,352.7123,276.7818,346.7567,277.5104,350.706,285.0869" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="115" x="362" y="210.4355">request service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="348" y="224.4043">instance for service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="41" x="401" y="238.373">client</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="32" x="405.5" y="252.3418">[any]</text></g><!--MD5=[a57739a3103e4fa986b4616a684e8592]
+link osbapi_client to aws_cg_alb--><g id="link_osbapi_client_aws_cg_alb"><path d="M436.589,356.3569 C549.589,404.2269 752.434,490.1469 864.38,537.5669 " fill="none" id="osbapi_client-to-aws_cg_alb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="871.951,540.7769,865.754,534.8949,863.4145,540.42,871.951,540.7769" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="106" x="614.5" y="398.4355">broker service</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="601" y="412.4043">instances (OSBAPI)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="598" y="426.373">[https GET/POST (443)]</text></g><!--MD5=[4ce174d1a9e01dc3e10890565860666d]
+link aws_cg_alb to cloudgov_router--><g id="link_aws_cg_alb_cloudgov_router"><path d="M949.804,617.7069 C952.998,642.1469 956.977,672.5969 960.302,698.0469 " fill="none" id="aws_cg_alb-to-cloudgov_router" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="961.357,706.1169,963.2887,697.7941,957.3399,698.5761,961.357,706.1169" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="966.5" y="659.4355">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="957" y="673.4043">[https GET/POST (443)]</text></g><!--MD5=[e17fa57e05d4a3cf68e9f40ad93fdbeb]
+link cloudgov_router to solr_app--><g id="link_cloudgov_router_solr_app"><path d="M970.059,794.3869 C972.658,831.0069 976.428,884.1169 979.392,925.8779 " fill="none" id="cloudgov_router-to-solr_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="979.974,934.0709,982.4008,925.8788,976.4158,926.303,979.974,934.0709" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="986.5" y="850.4355">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="977" y="864.4043">[https GET/POST (443)]</text></g><!--MD5=[34f7ed07991caf7103df9d71d6c0d461]
+link solr_app to solr_app_db--><g id="link_solr_app_solr_app_db"><path d="M984.792,1049.6819 C985.703,1115.0379 987.191,1221.9349 988.132,1289.4909 " fill="none" id="solr_app-to-solr_app_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="988.244,1297.5289,991.1323,1289.4879,985.1329,1289.5714,988.244,1297.5289" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="986" y="1091.4355">store and read</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1022.5" y="1105.4043">state</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="1002" y="1119.373">[port (3306)]</text></g><!--MD5=[922ce7184c32a4e3c5df040627ff3315]
+link solr_client to solr_ingress--><g id="link_solr_client_solr_ingress"><path d="M354.901,607.9169 C331.548,689.3469 273.554,899.7099 244,1079.2969 C230.746,1159.8359 224.022,1255.0079 221.033,1308.8969 " fill="none" id="solr_client-to-solr_ingress" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="220.585,1317.1819,224.0121,1309.3553,218.0208,1309.0317,220.585,1317.1819" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="298.5" y="836.4355">use SolrCloud</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="318.5" y="850.4043">instance</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="100" x="298" y="864.373">[https GET/POST</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="326.5" y="878.3418">(8193)]</text></g><!--MD5=[1d2d3e1643427c14dd6e548d1de2b52a]
+link solr_ingress to solr_instance--><g id="link_solr_ingress_solr_instance"><path d="M228.817,1388.6279 C240.768,1425.1559 264.298,1481.9909 303,1516.7969 C328.094,1539.3649 360.306,1555.8269 391.727,1567.7089 " fill="none" id="solr_ingress-to-solr_instance" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="399.264,1570.4789,392.7899,1564.9034,390.7202,1570.5351,399.264,1570.4789" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="314.5" y="1499.9355">proxies requests</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="145" x="304" y="1513.9043">[http GET/POST (8983)]</text></g><!--MD5=[14754267200e072700ff675f53e7e475]
+link solr_admin_init_service to solr_instance--><g id="link_solr_admin_init_service_solr_instance"><path d="M467.605,1395.6259 C458.965,1428.9319 451.178,1476.4859 462,1516.7969 C464.047,1524.4199 467.021,1532.0679 470.489,1539.4449 " fill="none" id="solr_admin_init_service-to-solr_instance" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="474.105,1546.7219,473.2316,1538.2226,467.8584,1540.8926,474.105,1546.7219" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="463" y="1499.9355">config initialization</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="117" x="475" y="1513.9043">[http POST (8983)]</text></g><!--MD5=[23af61e1d0127a4cfc5689355c507daf]
+link solr_app to solr_instance--><g id="link_solr_app_solr_instance"><path d="M882.482,1008.1669 C808.254,1025.0049 711.544,1059.6989 658,1130.2969 C553.365,1268.2579 694.288,1366.1059 609,1516.7969 C604.191,1525.2929 598.076,1533.2079 591.242,1540.4909 " fill="none" id="solr_app-to-solr_instance" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="585.345,1546.4589,593.1021,1542.8772,588.8343,1538.6599,585.345,1546.4589" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="693" y="1350.4355">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="659" y="1364.4043">[https GET/POST (443)]</text></g><!--MD5=[946d0504dc240da413454f9e91b4b2ca]
+link solr_app to solr_ingress--><g id="link_solr_app_solr_ingress"><path d="M882.481,998.9889 C699.17,1011.0849 327.779,1040.1349 284,1079.2969 C218.913,1137.5199 213.152,1248.1239 215.515,1308.9879 " fill="none" id="solr_app-to-solr_ingress" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="215.897,1317.2349,218.5238,1309.1047,212.5302,1309.3822,215.897,1317.2349" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="319" y="1098.4355">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="285" y="1112.4043">[https GET/POST (443)]</text></g><!--MD5=[73817d2557c23fabc866dc73c4a5925b]
+link solr_app to solr_admin_init_service--><g id="link_solr_app_solr_admin_init_service"><path d="M882.493,994.5669 C745.685,999.3469 513.091,1016.7239 460,1079.2969 C407.304,1141.4049 434.72,1242.7429 458.504,1302.7759 " fill="none" id="solr_app-to-solr_admin_init_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="461.53,1310.2459,461.3081,1301.7048,455.7467,1303.9567,461.53,1310.2459" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="495" y="1098.4355">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="461" y="1112.4043">[https GET/POST (443)]</text></g><!--MD5=[796e2f6d18a3eb262308167a08d12584]
+link solr_app to solr_efs--><g id="link_solr_app_solr_efs"><path d="M922.408,1049.5569 C900.995,1072.5829 878.886,1100.7189 865,1130.2969 C798.086,1272.8289 875.141,1337.8469 807,1479.7969 C756.046,1585.9429 654.751,1682.0099 593.821,1733.5829 " fill="none" id="solr_app-to-solr_efs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="587.69,1738.7369,595.7441,1735.8854,591.8833,1731.2926,587.69,1738.7369" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="837" y="1499.9355">provisions</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="803" y="1513.9043">[https GET/POST (443)]</text></g><!--MD5=[4ddce1b1ebc61aae75dc4e92cdbd61f4]
+link solr_instance to solr_efs--><g id="link_solr_instance_solr_efs"><path d="M518.22,1647.9769 C523.603,1674.1459 530.136,1705.9039 535.279,1730.9019 " fill="none" id="solr_instance-to-solr_efs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="536.896,1738.7649,538.223,1730.3246,532.346,1731.5332,536.896,1738.7649" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="54" x="532" y="1691.9355">mounts</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="28" x="545" y="1705.9043">[nfs]</text></g><rect height="130.0781" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="153" x="992" y="1886.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="998" y="1907.792">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1055" y="1907.792"> </text><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1911.0938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1002" y="1924.0889">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1927.3906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1002" y="1940.3857">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1943.6875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="1002" y="1956.6826">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1959.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1002" y="1972.9795">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1976.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1002" y="1989.2764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="141" x="998" y="1992.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1002" y="2005.5732">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1894.7969" y2="1894.7969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1911.0938" y2="1911.0938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1927.3906" y2="1927.3906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1943.6875" y2="1943.6875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1959.9844" y2="1959.9844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1976.2813" y2="1976.2813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="1992.5781" y2="1992.5781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="1139" y1="2008.875" y2="2008.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="998" x2="998" y1="1894.7969" y2="2008.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1139" x2="1139" y1="1894.7969" y2="2008.875"/><!--MD5=[8b75a3357ae9807edff66928e0d68ff5]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title Solr Service boundary view
+Boundary(client, "Client") {
+  Person(client_team, "Client Team")
+  System_Ext(osbapi_client, "OSBAPI Client", "Service orchestration")
+  System_Ext(solr_client, "Solr Client", "Use provisioned services")
+  Rel(osbapi_client, solr_client, "provide service credentials", "any")
+  Rel(client_team, osbapi_client, "request service instance for service client", "any")
+}
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+Boundary(aws_west, "AWS us-west-2") {
+  Boundary(iaas, "SSB managed boundary") {
+    Boundary(vpc, "VPC for Solr service") {
+      System(solr_ingress, "solr-<instance>.ssb.data.gov", "AWS Load Balancer")
+      System(solr_efs, "Solr-<instance>", "EFS drive")
+      Boundary(b_solrcloud, "ECS") {
+        Container(solr_instance, "Solr instance", "Apache Solr", "open-source distributed enterprise-search platform")
+        Container(solr_admin_init_service, "Solr admin init service", "Username password management for Solr", "")
+      }
+    }
+  }
+}
+Boundary(aws_govcloud, "AWS GovCloud") {
+  Boundary(cloudgov, "cloud.gov") {
+    System_Ext(aws_cg_alb, "cloud.gov load-balancer", "AWS ALB")
+    System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
+    Boundary(atob, "SSB application boundary") {
+      Container(solr_app, "Solr broker", "Open Service Broker API, Go, Terraform, Helm", "Brokers SolrCloud as a service for applications")
+      ContainerDb(solr_app_db, "Broker State", "MySQL", "Store state of provisioned resources")
+    }
+  }
+}
+Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/POST (443)")
+Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
+Rel(cloudgov_router, solr_app, "proxies requests", "https GET/POST (443)")
+Rel(solr_app, solr_app_db, "store and read state", "port (3306)")
+Rel(solr_client, solr_ingress, "use SolrCloud instance", "https GET/POST (8193)")
+Rel(solr_ingress, solr_instance, "proxies requests", "http GET/POST (8983)")
+Rel(solr_admin_init_service, solr_instance, "config initialization", "http POST (8983)")
+Rel(solr_app, solr_instance, "provisions", "https GET/POST (443)")
+Rel(solr_app, solr_ingress, "provisions", "https GET/POST (443)")
+Rel(solr_app, solr_admin_init_service, "provisions", "https GET/POST (443)")
+Rel(solr_app, solr_efs, "provisions", "https GET/POST (443)")
+Rel(solr_instance, solr_efs, "mounts", "nfs")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+title Solr Service boundary view
+rectangle "==Client" <<boundary>> as client  {
+  rectangle "<$person>\n==Client Team" <<person>> as client_team 
+  rectangle "==OSBAPI Client\n\n Service orchestration" <<external_system>> as osbapi_client 
+  rectangle "==Solr Client\n\n Use provisioned services" <<external_system>> as solr_client 
+  osbapi_client - ->> solr_client : **provide service credentials**\n//<size:12>[any]</size>//
+  client_team - ->> osbapi_client : **request service instance for service client**\n//<size:12>[any]</size>//
+}
+note as EncryptionNote
+  All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
+end note
+
+rectangle "==AWS us-west-2" <<boundary>> as aws_west  {
+  rectangle "==SSB managed boundary" <<boundary>> as iaas  {
+    rectangle "==VPC for Solr service" <<boundary>> as vpc  {
+      rectangle "==solr-<instance>.ssb.data.gov\n\n AWS Load Balancer" <<system>> as solr_ingress 
+      rectangle "==Solr-<instance>\n\n EFS drive" <<system>> as solr_efs 
+      rectangle "==ECS" <<boundary>> as b_solrcloud  {
+        rectangle "==Solr instance\n//<size:12>[Apache Solr]</size>//\n\nopen-source distributed enterprise-search platform" <<container>> as solr_instance 
+        rectangle "==Solr admin init service\n//<size:12>[Username password management for Solr]</size>//" <<container>> as solr_admin_init_service 
+      }
+    }
+  }
+}
+rectangle "==AWS GovCloud" <<boundary>> as aws_govcloud  {
+  rectangle "==cloud.gov" <<boundary>> as cloudgov  {
+    rectangle "==cloud.gov load-balancer\n\n AWS ALB" <<external_system>> as aws_cg_alb 
+    rectangle "==<&layers> cloud.gov routers\n\n Cloud Foundry traffic service" <<external_system>> as cloudgov_router 
+    rectangle "==SSB application boundary" <<boundary>> as atob  {
+      rectangle "==Solr broker\n//<size:12>[Open Service Broker API, Go, Terraform, Helm]</size>//\n\nBrokers SolrCloud as a service for applications" <<container>> as solr_app 
+      database "==Broker State\n//<size:12>[MySQL]</size>//\n\nStore state of provisioned resources" <<container>> as solr_app_db 
+    }
+  }
+}
+osbapi_client - ->> aws_cg_alb : **broker service instances (OSBAPI)**\n//<size:12>[https GET/POST (443)]</size>//
+aws_cg_alb - ->> cloudgov_router : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+cloudgov_router - ->> solr_app : **proxies requests**\n//<size:12>[https GET/POST (443)]</size>//
+solr_app - ->> solr_app_db : **store and read state**\n//<size:12>[port (3306)]</size>//
+solr_client - ->> solr_ingress : **use SolrCloud instance**\n//<size:12>[https GET/POST (8193)]</size>//
+solr_ingress - ->> solr_instance : **proxies requests**\n//<size:12>[http GET/POST (8983)]</size>//
+solr_admin_init_service - ->> solr_instance : **config initialization**\n//<size:12>[http POST (8983)]</size>//
+solr_app - ->> solr_instance : **provisions**\n//<size:12>[https GET/POST (443)]</size>//
+solr_app - ->> solr_ingress : **provisions**\n//<size:12>[https GET/POST (443)]</size>//
+solr_app - ->> solr_admin_init_service : **provisions**\n//<size:12>[https GET/POST (443)]</size>//
+solr_app - ->> solr_efs : **provisions**\n//<size:12>[https GET/POST (443)]</size>//
+solr_instance - ->> solr_efs : **mounts**\n//<size:12>[nfs]</size>//
+@enduml
+
+PlantUML version 1.2022.6beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
