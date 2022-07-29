@@ -55,7 +55,7 @@ Rel(solr_app, solr_leader, "provisions", "https GET/POST (443)")
 Rel(solr_app, solr_ingress, "provisions", "https GET/POST (443)")
 Rel(solr_app, solr_admin_init_service, "provisions", "https GET/POST (443)")
 Rel(solr_app, solr_efs, "provisions", "https GET/POST (443)")
-Rel(solr_leader, solr_followers, "distributes updates", "http POST (8983)")
+Rel(solr_leader, solr_followers, "distributes updates", "https POST (443)")
 Rel(solr_leader, solr_efs, "mounts", "nfs")
 Rel(solr_followers, solr_efs, "mounts", "nfs")
 @enduml
