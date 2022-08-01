@@ -23,12 +23,13 @@ end note
 Boundary(aws_west, "AWS us-west-2") {
   Boundary(iaas, "SSB managed boundary") {
     Boundary(vpc, "VPC for Solr service") {
-      System(solr_ingress, "solr-<instance>.ssb.data.gov", "AWS Load Balancer")
+      System(solr_leader_ingress, "leader.solr-<instance>.ssb.data.gov", "AWS Load Balancer")
+      System(solr_follower_ingress, "follower.solr-<instance>.ssb.data.gov", "AWS Load Balancer")
       System(solr_efs, "Solr-<instance>", "EFS drive")
       Boundary(b_solrcloud, "ECS") {
         Container(solr_leader, "Solr leader", "Apache Solr", "open-source distributed enterprise-search platform")
         Container(solr_followers, "Solr follower <&layers>", "Apache Solr", "open-source distributed enterprise-search platform")
-        Container(solr_admin_init_service, "Solr admin init service", "Username password management for Solr", "")
+        Container(solr_admin_init_service, "Solr admin init service", "Credential management for Solr", "")
       }
     }
   }
@@ -47,16 +48,15 @@ Rel(osbapi_client, aws_cg_alb, "broker service instances (OSBAPI)", "https GET/P
 Rel(aws_cg_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, solr_app, "proxies requests", "https GET/POST (443)")
 Rel(solr_app, solr_app_db, "store and read state", "port (3306)")
-Rel(solr_client, solr_ingress, "use SolrCloud instance", "https GET/POST (8193)")
-Rel(solr_ingress, solr_leader, "proxies requests", "http POST (8983)")
-Rel(solr_ingress, solr_followers, "proxies requests", "http GET (8983)")
+Rel(solr_client, solr_leader_ingress, "update SolrCloud instance", "https POST (8983)")
+Rel(solr_client, solr_follower_ingress, "query SolrCloud instance", "https GET (8983)")
+Rel(solr_leader_ingress, solr_leader, "proxies requests", "http POST (8983)")
+Rel(solr_follower_ingress, solr_followers, "proxies requests", "http GET (8983)")
 Rel(solr_admin_init_service, solr_leader, "config initialization", "http POST (8983)")
-Rel(solr_app, solr_leader, "provisions", "https GET/POST (443)")
-Rel(solr_app, solr_ingress, "provisions", "https GET/POST (443)")
-Rel(solr_app, solr_admin_init_service, "provisions", "https GET/POST (443)")
-Rel(solr_app, solr_efs, "provisions", "https GET/POST (443)")
-Rel(solr_leader, solr_followers, "distributes updates", "http POST (8983)")
+Rel(solr_followers, solr_leader_ingress, "retrieves updates", "http GET (8983)")
 Rel(solr_leader, solr_efs, "mounts", "nfs")
 Rel(solr_followers, solr_efs, "mounts", "nfs")
+
+Rel(solr_app, vpc, "provisions", "https GET/POST (443)")
 @enduml
 ```
