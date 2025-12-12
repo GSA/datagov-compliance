@@ -20,7 +20,6 @@ Boundary(aws, "AWS GovCloud") {
             System_Boundary(catalog, "data.gov Catalog") {
                 Container(catalog_app, "<&layers> Catalog Application", "Python 3.8.3, CKAN 2.8", "Presents a search engine for metadata about government open data. Schedules and runs through a queue of harvesting jobs to refresh records of known datasets")
                 ContainerDb(catalog_db, "PostgreSQL Database", "AWS RDS", "Holds the records of known datasets")
-                ContainerDb(catalog_s3, "Redis Queue", "AWS RDS", "Holds the state of the queue of harvest jobs for the main application")
                 ContainerDb(opensearch, "OpenSearch", "indexed search provider")
             }
         }
@@ -28,7 +27,7 @@ Boundary(aws, "AWS GovCloud") {
 }
 System_Ext(login, "login.gov", "Authentication As a Service")
 Boundary(gsa_saas, "GSA-authorized SaaS") {
-    System_Ext(dap, "DAP", "Analytics collection")
+    System_Ext(dap, "DAP & Datagov GA", "Analytics collection")
     System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
@@ -41,7 +40,7 @@ Rel(cloudgov_router, catalog_app, "proxies requests", "https GET/POST (443)")
 catalog_app <-> login : **authenticates** \n//[SAML 2.0]//
 Rel(personnel, login, "verify identity", "https GET/POST (443)")
 Rel(catalog_app, catalog_db, "reads/writes local dataset records", "psql (5432)")
-Rel(catalog_app, catalog_s3, "reads/writes data content", "psql (5432)")
+
 
 Rel(catalog_app, opensearch, "loads indexes, runs searches", "https (443)")
 @enduml
