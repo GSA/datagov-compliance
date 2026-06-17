@@ -1,14 +1,13 @@
 Inventory boundary view
 ![inventory.data.gov boundary view](../out/apps/inventory.boundary/inventory.data.gov%20boundary%20view.svg)
 ```plantuml
-@startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
 title inventory.data.gov boundary view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
-Person_Ext(harvester, "catalog Harvester", "catalog.data.gov")
+Person_Ext(public_user, "Public Data Viewer", "Data Download only")
 note as EncryptionNote
 All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
@@ -34,7 +33,7 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
-Rel(harvester, aws_alb, "ingest metadata", "https GET/POST (443)")
+Rel(public_user, aws_alb, "ingest data (no browsing)", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, inventory_app, "proxies requests", "https GET/POST (443)")
 inventory_app <-> Login.gov : **authenticates** \n//[SAML 2.0]//
@@ -43,9 +42,5 @@ Rel(personnel, Login.gov, "verify identity", "https GET/POST (443)")
 Rel(inventory_app, inventory_db, "reads/writes dataset metadata", "psql (5432)")
 Rel(inventory_app, datastore_db, "reads/writes JSON dataset records", "psql (5432)")
 Rel(inventory_app, inventory_s3, "reads/writes dataset resources", "https (443)")
-Boundary(solrb, "Solr Service Boundary") {
-    ContainerDb(solr, "Solr", "indexed search provider")
-}
-Rel(inventory_app, solr, "loads indexes, runs searches")
 @enduml
 ```
