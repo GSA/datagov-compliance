@@ -9,7 +9,7 @@ Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
 Person_Ext(public, "Public", "Member of the public")
 'note left of personnel : In java, every class\nextends this one.
 Boundary(atob, "ATO boundary") {
-    System(catalog, "Catalog.data.gov", "Schedules harvests and stores records of known datasets")
+    System(catalog, "Catalog.data.gov", "Serves metadata of data sources/systems loaded from harvest.data.gov")
 }
 Rel(personnel, catalog, "manages harvests settings for own agency")
 Rel(public, catalog, "search, review and download open data")

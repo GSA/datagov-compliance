@@ -18,32 +18,25 @@ Boundary(aws, "AWS GovCloud") {
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
             System_Boundary(catalog, "data.gov Catalog") {
-                Container(catalog_app, "<&layers> Catalog Application", "Python 3.8.3, CKAN 2.8", "Presents a search engine for metadata about government open data. Schedules and runs through a queue of harvesting jobs to refresh records of known datasets")
+                Container(catalog_proxy, "<&layers> Catalog Proxy", "NGINX", "NGINX proxy protecting catalog application")
+                Container(catalog_app, "<&layers> Catalog Application", "Python 3", "Presents a search engine for metadata about government open data.")
                 ContainerDb(catalog_db, "PostgreSQL Database", "AWS RDS", "Holds the records of known datasets")
-                ContainerDb(catalog_s3, "Redis Queue", "AWS RDS", "Holds the state of the queue of harvest jobs for the main application")
+                ContainerDb(catalog_openSearch, "AWS OpenSearch", "AWS RDS", "Holds the metadata from harvest jobs for the catalog search")
             }
         }
     }
 }
-System_Ext(login, "login.gov", "Authentication As a Service")
 Boundary(gsa_saas, "GSA-authorized SaaS") {
-    System_Ext(dap, "DAP", "Analytics collection")
     System_Ext(newrelic, "New Relic", "Monitoring SaaS")
 }
-personnel -> dap : **reports usage** \n//[https (443)]//
-public -> dap : **reports usage** \n//[https (443)]//
 Rel(catalog_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
 Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
-Rel(cloudgov_router, catalog_app, "proxies requests", "https GET/POST (443)")
-catalog_app <-> login : **authenticates** \n//[SAML 2.0]//
-Rel(personnel, login, "verify identity", "https GET/POST (443)")
+Rel(cloudgov_router, catalog_proxy, "proxies requests", "https GET/POST (443)")
+Rel(catalog_proxy, catalog_app, "proxies requests", "https GET/POST (443)")
 Rel(catalog_app, catalog_db, "reads/writes local dataset records", "psql (5432)")
-Rel(catalog_app, catalog_s3, "reads/writes data content", "psql (5432)")
-Boundary(solrb, "Solr Service Boundary") {
-  ContainerDb(solr, "Solr", "indexed search provider")
-}
-Rel(catalog_app, solr, "loads indexes, runs searches", "https (443)")
+Rel(catalog_app, catalog_openSearch, "reads/writes data content", "psql (5432)")
+
 @enduml
 ```
