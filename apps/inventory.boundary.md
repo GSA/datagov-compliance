@@ -1,6 +1,7 @@
 Inventory boundary view
 ![inventory.data.gov boundary view](../out/apps/inventory.boundary/inventory.data.gov%20boundary%20view.svg)
 ```plantuml
+@startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
@@ -17,7 +18,7 @@ Boundary(aws, "AWS GovCloud") {
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
             System_Boundary(inventory, "data.gov Inventory") {
-                Container(inventory_app, "<&layers> Inventory application", "Python 3.8.3, CKAN 2.8", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
+                Container(inventory_app, "<&layers> Inventory application", "Python 3, CKAN 2", "Presents a UX for agency users to publish government open data and add metadata. Presents a harvest target for the catalog app to query")
                 ContainerDb(inventory_db, "Inventory database", "AWS RDS (PostgreSQL)", "Stores agency dataset metadata")
                 ContainerDb(datastore_db, "DataStore database", "AWS RDS (PostgreSQL)", "Stores JSON records of dataset resources uploaded by agency users")
                 ContainerDb(inventory_s3, "Inventory filestore", "S3", "Stores agency uploaded open data resources (PDF, CSV, XSLX, etc)")
@@ -33,7 +34,7 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
-Rel(public_user, aws_alb, "ingest data (no browsing)", "https GET/POST (443)")
+Rel(public_user, aws_alb, "ingest data files (no browsing)", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, inventory_app, "proxies requests", "https GET/POST (443)")
 inventory_app <-> Login.gov : **authenticates** \n//[SAML 2.0]//

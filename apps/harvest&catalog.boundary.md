@@ -1,12 +1,12 @@
-Catalog boundary view
-![catalog.data.gov boundary view](../out/apps/harvest&catalog.boundary/harvest&catalog%20boundary%20view.svg)
+Catalog & Harvest boundary view
+![catalog.data.gov & harvest.data.gov boundary view](../out/apps/harvest&catalog.boundary/harvest&catalog%20boundary%20view.svg)
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
-title catalog & harvest boundary view
+title Catalog & Harvest Boundary View
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
 Person_Ext(public, "Public", "Member of the public")
 note as EncryptionNote
@@ -14,6 +14,7 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
+        System_Ext(cloudfront, "cloud.gov CloudFront", "AWS CloudFront")
         System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
@@ -37,8 +38,9 @@ harvest_app <-> login : **authenticates** \n//[SAML 2.0]//
 Rel(personnel, login, "verify identity", "https GET/POST (443)")
 Rel(harvest_app, newrelic, "reports telemetry", "tcp (443)")
 Rel(catalog_app, newrelic, "reports telemetry", "tcp (443)")
-Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
-Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
+Rel(personnel, cloudfront, "manage data harvest sources", "https GET/POST (443)")
+Rel(public, cloudfront, "search and download federal open data", "https GET/POST (443)")
+Rel(cloudfront, aws_alb, "Cache and direct traffic", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, harvest_proxy, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, catalog_proxy, "proxies requests", "https GET/POST (443)")

@@ -12,6 +12,6 @@ Boundary(atob, "ATO boundary") {
     System(inventory, "Inventory.data.gov", "Publish open data and manages metadata")
 }
 Rel(personnel, inventory, "records of datasets, uploaded data content from agencies")
-Rel(public_user, inventory, "ingest data (no browsing)", "https GET/POST (443)")
+Rel(public_user, inventory, "ingest data files (no browsing)", "https GET/POST (443)")
 @enduml
 ```

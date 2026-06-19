@@ -1,4 +1,4 @@
-Catalog boundary view
+Harvest boundary view
 ![catalog.data.gov boundary view](../out/apps/harvester.boundary/harvester%20boundary%20view.svg)
 ```plantuml
 @startuml
@@ -6,7 +6,7 @@ Catalog boundary view
 ' uncomment the following line and comment the first to use locally
 ' !include C4_Container.puml
 LAYOUT_WITH_LEGEND()
-title catalog.data.gov boundary view
+title harvest.data.gov boundary view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
 Person_Ext(public, "Public", "Member of the public")
 note as EncryptionNote
@@ -14,6 +14,7 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
+        System_Ext(cloudfront, "cloud.gov CloudFront", "AWS CloudFront")
         System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
@@ -34,8 +35,9 @@ System_Ext(login, "login.gov", "Authentication As a Service")
 harvest_app <-> login : **authenticates** \n//[SAML 2.0]//
 Rel(personnel, login, "verify identity", "https GET/POST (443)")
 Rel(harvest_app, newrelic, "reports telemetry", "tcp (443)")
-Rel(personnel, aws_alb, "manage data harvest sources", "https GET/POST (443)")
-Rel(public, aws_alb, "search and download federal open data", "https GET/POST (443)")
+Rel(cloudfront, aws_alb, "Cache and direct traffic", "https GET/POST (443)")
+Rel(personnel, cloudfront, "manage data harvest sources", "https GET/POST (443)")
+Rel(public, cloudfront, "search and download federal open data", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, harvest_proxy, "proxies requests", "https GET/POST (443)")
 Rel(harvest_proxy, harvest_app, "proxies requests", "https GET/POST (443)")
