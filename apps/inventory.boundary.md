@@ -14,6 +14,7 @@ All connections depicted are encrypted with TLS 1.2 unless otherwise noted.
 end note
 Boundary(aws, "AWS GovCloud") {
     Boundary(cloudgov, "cloud.gov") {
+        System_Ext(cloudfront, "cloud.gov CloudFront", "AWS CloudFront")
         System_Ext(aws_alb, "cloud.gov load-balancer", "AWS ALB")
         System_Ext(cloudgov_router, "<&layers> cloud.gov routers", "Cloud Foundry traffic service")
         Boundary(atob, "data.gov ATO boundary") {
@@ -33,8 +34,9 @@ Boundary(gsa_saas, "GSA-authorized SaaS") {
 }
 personnel -> dap : **reports usage** \n//[https (443)]//
 Rel(inventory_app, newrelic, "reports telemetry", "tcp (443)")
-Rel(personnel, aws_alb, "publish open data and manage metadata", "https GET/POST (443)")
-Rel(public_user, aws_alb, "ingest data files (no browsing)", "https GET/POST (443)")
+Rel(personnel, cloudfront, "publish open data and manage metadata", "https GET/POST (443)")
+Rel(public_user, cloudfront, "ingest data files (no browsing)", "https GET/POST (443)")
+Rel(cloudfront, aws_alb, "Cache and direct traffic", "https GET/POST (443)")
 Rel(aws_alb, cloudgov_router, "proxies requests", "https GET/POST (443)")
 Rel(cloudgov_router, inventory_app, "proxies requests", "https GET/POST (443)")
 inventory_app <-> Login.gov : **authenticates** \n//[SAML 2.0]//
