@@ -6,12 +6,12 @@ inventory.data.gov logical view
 LAYOUT_WITH_LEGEND()
 title inventory.data.gov logical view
 Person_Ext(personnel, "Agency Personnel", "A federal employee/contractor")
-Person_Ext(harvester, "catalog Harvester", "catalog.data.gov")
+Person_Ext(public_user, "Public Data Viewer", "Data Download only")
 'note left of personnel : In java, every class\nextends this one.
 Boundary(atob, "ATO boundary") {
     System(inventory, "Inventory.data.gov", "Publish open data and manages metadata")
 }
 Rel(personnel, inventory, "records of datasets, uploaded data content from agencies")
-Rel(harvester, inventory, "ingest metadata", "https GET/POST (443)")
+Rel(public_user, inventory, "ingest data files (no browsing)", "https GET/POST (443)")
 @enduml
 ```
