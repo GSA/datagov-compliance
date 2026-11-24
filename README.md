@@ -10,7 +10,7 @@ The source for other things (OSCAL for control descriptions, evidence generation
 
 ## Developer AI access supplements
 
-- [Section 9 developer boundary and egress diagram](generic/developer-ai-boundary.md)
+- [Figure 9-1-d: Developer AI Access Boundary and Egress Diagram](generic/developer-ai-boundary.md)
 - [Section 10 developer AI data flow and DevSecOps gate diagrams](generic/developer-ai-data-flow.md)
 
 These are review drafts. Confirm the actual ATO figure mapping and configured controls before incorporating them into an authorization package.
