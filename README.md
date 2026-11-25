@@ -8,6 +8,13 @@ This repository initially contains overall system architecture descriptions and 
 
 The source for other things (OSCAL for control descriptions, evidence generation scripts, etc) will appear here over time.
 
+## Developer AI access supplements
+
+- [Figure 9-1-d: Developer AI Access Boundary and Egress Diagram](generic/developer-ai-boundary.md)
+- [Section 10 developer AI data flow and DevSecOps gate diagrams](generic/developer-ai-data-flow.md)
+
+These are review drafts. Confirm the actual ATO figure mapping and configured controls before incorporating them into an authorization package.
+
 
 ## Development
 
