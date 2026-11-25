@@ -44,8 +44,8 @@ Rel(gfe, bedrock, "inference request / response", "HTTPS (443); TLS 1.3 target")
 Rel(gfe, vertex, "inference request / response", "HTTPS (443); TLS 1.3 target")
 Rel(bedrock, cloudtrail, "records API audit events")
 Rel(vertex, gcp_logs, "records API audit events, where enabled")
-Rel(cloudtrail, siem, "forwards logs, if configured")
-Rel(gcp_logs, siem, "forwards logs, if configured")
+Rel(cloudtrail, siem, "forwards audit logs to GSA SecOps SIEM")
+Rel(gcp_logs, siem, "forwards audit logs to GSA SecOps SIEM")
 
 @enduml
 ```
